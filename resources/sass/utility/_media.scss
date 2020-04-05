@@ -1,0 +1,60 @@
+
+@mixin display_media_min {
+  //min 基準
+  .u-sm {
+    display: none;
+    @include u-media-sm {
+      display: block;
+    }
+  }
+  .u-md {
+    display: none;
+    @include u-media-md {
+      display: block;
+    }
+  }
+
+  .u-lg {
+    display: none;
+    @include u-media-lg {
+      display: block;
+    }
+  }
+  .u-xl {
+    display: none;
+    @include u-media-xl {
+      display: block;
+    }
+  }
+}
+@mixin display_media_max {
+  //max 基準
+  .u-xlx {
+    @include u-media-xl {
+      display: none;
+    }
+  }
+  .u-lgx{
+    @include u-media-lg {
+      display: none;
+    }
+  }
+  .u-mdx {
+    @include u-media-md {
+      display: none;
+    }
+  }
+  .u-smx {
+    @include u-media-sm {
+      display: none;
+    }
+  }
+}
+//優先度変える
+@if ($v_bp_std == "min") {
+  @include display_media_max;
+  @include display_media_min;
+} @else if ("max") {
+  @include display_media_max;
+  @include display_media_min;
+}

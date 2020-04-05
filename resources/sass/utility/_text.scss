@@ -1,0 +1,57 @@
+.u-txt--center {
+  text-align: center;
+}
+.u-txt--l {
+  text-align: left;
+}
+.u-txt--r {
+  text-align: right;
+}
+
+.u-text--bold {
+	font-weight: bold;
+}
+
+.u-indent, .u-indent-top {
+  position: relative;
+  padding-left: 1.5em;
+  display: block;
+}
+
+
+.u-indent:before {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  margin: auto;
+}
+.u-indent-top:before {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  margin: auto;
+}
+
+.has-asta:before {
+  content: "※";
+
+}
+
+.has-Q:before {
+  content: "Q";
+  color: $v_black2;
+}
+.has-A:before {
+  content: "A";
+  color: red;
+}
+
+@for $i from 1 through 10 {
+  .has-Num#{$i}:before {
+    content: "#{$i}.";
+  }
+}

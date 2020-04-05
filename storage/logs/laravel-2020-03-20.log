@@ -1,0 +1,451 @@
+)  
+[2020-03-20 22:50:35] local.DEBUG: FavoriteStart start  
+[2020-03-20 22:50:35] local.DEBUG: アニメ   
+[2020-03-20 22:50:35] local.DEBUG: 遅延：0  
+[2020-03-20 22:50:35] local.DEBUG: destruct  
+[2020-03-20 22:50:35] local.DEBUG: 325  
+[2020-03-20 22:50:36] local.DEBUG: roop  
+[2020-03-20 22:50:36] local.DEBUG: SearchTweetRoopJob  
+[2020-03-20 22:50:36] local.DEBUG: queu_id : 325  
+[2020-03-20 22:50:36] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-20 22:50:36] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 22:50:36] local.DEBUG: initDailyCounter  
+[2020-03-20 22:50:36] local.DEBUG:   
+[2020-03-20 22:50:36] local.DEBUG: 1  
+[2020-03-20 22:50:36] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 22:50:36] local.DEBUG: 2020/03/16  
+[2020-03-20 22:50:36] local.DEBUG: 1  
+[2020-03-20 22:50:36] local.DEBUG: haveRestricted  
+[2020-03-20 22:50:36] local.DEBUG: checkApi_counter  
+[2020-03-20 22:50:36] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 22:50:36] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 22:50:36] local.DEBUG: 1100224725152743424-6xRpxMbgZUgvNCADoL9kTpJ4XS6qnA  
+[2020-03-20 22:50:36] local.DEBUG: See4JW6aNVaL7l4vvJJ3EAUmxpc4zXXovCugzPL5pxmGW  
+[2020-03-20 22:50:36] local.DEBUG: {"q":"\u30a2\u30cb\u30e1 ","locale":"ja","lang":"ja","result_type":"mixed","count":"100","max_id":"","include_entities":false}  
+[2020-03-20 22:50:37] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 22:50:37] local.DEBUG: Tw_Account  
+[2020-03-20 22:50:37] local.DEBUG:  id :1  
+[2020-03-20 22:50:42] local.DEBUG: checkApi  
+[2020-03-20 22:50:42] local.DEBUG: search_tweets  
+[2020-03-20 22:50:42] local.DEBUG: 制限状態：1  
+[2020-03-20 22:50:42] local.DEBUG: 使用状態：1  
+[2020-03-20 22:50:42] local.DEBUG: 自動機能完了：favorite  
+[2020-03-20 22:50:42] local.DEBUG: api status initialized  
+[2020-03-20 22:50:42] local.DEBUG: mail set  
+[2020-03-20 22:51:45] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 22:51:45] local.DEBUG: Tw_Account  
+[2020-03-20 22:51:45] local.DEBUG:  id :1  
+[2020-03-20 22:51:47] local.DEBUG: 特にやることなし  
+[2020-03-20 22:51:49] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-20 22:51:49] local.DEBUG: Key_Pattern  
+[2020-03-20 22:51:49] local.DEBUG:  id :1  
+[2020-03-20 22:51:49] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 22:51:49] local.DEBUG: Tw_Account  
+[2020-03-20 22:51:50] local.DEBUG:  id :1  
+[2020-03-20 22:51:50] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 22:51:50] local.DEBUG: Tw_Account  
+[2020-03-20 22:51:51] local.DEBUG:  id :1  
+[2020-03-20 22:51:51] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-20 22:51:51] local.DEBUG: Tw_Target_Account  
+[2020-03-20 22:51:51] local.DEBUG:  id :1  
+[2020-03-20 22:51:51] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-20 22:51:51] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-20 22:51:52] local.DEBUG:  id :1  
+[2020-03-20 22:51:52] local.DEBUG: {"column":"tw_account_id","value":"2","model_name":"Tw_Auto_Tweet"}  
+[2020-03-20 22:51:52] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-20 22:51:52] local.DEBUG: key name : id  
+[2020-03-20 22:52:32] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 2,
+)  
+[2020-03-20 22:52:32] local.DEBUG: FavoriteStart start  
+[2020-03-20 22:52:32] local.DEBUG: アニメ   
+[2020-03-20 22:52:32] local.DEBUG: 遅延：0  
+[2020-03-20 22:52:32] local.DEBUG: destruct  
+[2020-03-20 22:52:32] local.DEBUG: 327  
+[2020-03-20 22:52:33] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 22:52:33] local.DEBUG: Tw_Account  
+[2020-03-20 22:52:33] local.DEBUG:  id :1  
+[2020-03-20 22:52:37] local.DEBUG: roop  
+[2020-03-20 22:52:37] local.DEBUG: SearchTweetRoopJob  
+[2020-03-20 22:52:37] local.DEBUG: queu_id : 327  
+[2020-03-20 22:52:37] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-20 22:52:37] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 22:52:37] local.DEBUG: initDailyCounter  
+[2020-03-20 22:52:37] local.DEBUG:   
+[2020-03-20 22:52:37] local.DEBUG: 1  
+[2020-03-20 22:52:37] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 22:52:37] local.DEBUG: 2020/03/16  
+[2020-03-20 22:52:37] local.DEBUG: 1  
+[2020-03-20 22:52:37] local.DEBUG: haveRestricted  
+[2020-03-20 22:52:37] local.DEBUG: checkApi_counter  
+[2020-03-20 22:52:37] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 22:52:37] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 22:52:37] local.DEBUG: 1100224725152743424-6xRpxMbgZUgvNCADoL9kTpJ4XS6qnA  
+[2020-03-20 22:52:37] local.DEBUG: See4JW6aNVaL7l4vvJJ3EAUmxpc4zXXovCugzPL5pxmGW  
+[2020-03-20 22:52:37] local.DEBUG: {"q":"\u30a2\u30cb\u30e1 ","locale":"ja","lang":"ja","result_type":"mixed","count":"100","max_id":"","include_entities":false}  
+[2020-03-20 22:52:38] local.DEBUG: checkApi  
+[2020-03-20 22:52:38] local.DEBUG: search_tweets  
+[2020-03-20 22:52:38] local.DEBUG: 制限状態：1  
+[2020-03-20 22:52:38] local.DEBUG: 使用状態：1  
+[2020-03-20 22:52:38] local.DEBUG: ツイート数：100  
+[2020-03-20 22:52:38] local.DEBUG: next id：?max_id=1240534389227802624&q=%E3%82%A2%E3%83%8B%E3%83%A1&lang=ja&count=100&result_type=mixed  
+[2020-03-20 22:52:38] local.DEBUG: env : 100  
+[2020-03-20 22:52:38] local.DEBUG: 次のサーチはあり  
+[2020-03-20 22:52:38] local.DEBUG: next max_id : 1240999629266644995  
+[2020-03-20 22:52:38] local.DEBUG: destruct  
+[2020-03-20 22:52:38] local.DEBUG: 328  
+[2020-03-20 22:56:38] local.DEBUG: roop  
+[2020-03-20 22:56:38] local.DEBUG: FavoriteCreateRoopJob  
+[2020-03-20 22:56:38] local.DEBUG: queue_id : 328  
+[2020-03-20 22:56:38] local.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+[2020-03-20 22:56:38] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 22:56:38] local.DEBUG: initDailyCounter  
+[2020-03-20 22:56:38] local.DEBUG: 1  
+[2020-03-20 22:56:38] local.DEBUG: 1  
+[2020-03-20 22:56:38] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 22:56:38] local.DEBUG: 2020/03/16  
+[2020-03-20 22:56:38] local.DEBUG: 1  
+[2020-03-20 22:56:38] local.DEBUG: coutner 初期化します  
+[2020-03-20 22:56:38] local.DEBUG: haveRestricted  
+[2020-03-20 22:56:38] local.DEBUG: checkApi_counter  
+[2020-03-20 22:56:38] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 22:56:38] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 22:56:38] local.DEBUG: 2020-03-20 22:56:38  
+[2020-03-20 22:56:38] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 22:56:38] local.DEBUG: 1100224725152743424-6xRpxMbgZUgvNCADoL9kTpJ4XS6qnA  
+[2020-03-20 22:56:38] local.DEBUG: See4JW6aNVaL7l4vvJJ3EAUmxpc4zXXovCugzPL5pxmGW  
+[2020-03-20 22:56:38] local.DEBUG: {"id":1240534389227802625}  
+[2020-03-20 22:56:39] local.DEBUG: checkApi  
+[2020-03-20 22:56:39] local.DEBUG: favorites_create  
+[2020-03-20 22:56:39] local.DEBUG: 制限状態：1  
+[2020-03-20 22:56:39] local.DEBUG: 使用状態：1  
+[2020-03-20 22:56:39] local.DEBUG: next いいね：  
+[2020-03-20 22:56:39] local.DEBUG: tweet_id_listの数 : 100  
+[2020-03-20 22:56:39] local.ALERT: 次のいいねへ。  
+[2020-03-20 22:56:39] local.DEBUG: destruct  
+[2020-03-20 22:56:39] local.DEBUG: 329  
+[2020-03-20 22:56:39] local.DEBUG: いいねJob発行:ループ開始  
+[2020-03-20 23:00:44] local.DEBUG: roop  
+[2020-03-20 23:00:44] local.DEBUG: FavoriteCreateRoopJob  
+[2020-03-20 23:00:44] local.DEBUG: queue_id : 329  
+[2020-03-20 23:00:44] local.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+[2020-03-20 23:00:44] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 23:00:44] local.DEBUG: initDailyCounter  
+[2020-03-20 23:00:44] local.DEBUG: 1  
+[2020-03-20 23:00:44] local.DEBUG: 1  
+[2020-03-20 23:00:44] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:00:44] local.DEBUG: 2020/03/20  
+[2020-03-20 23:00:44] local.DEBUG:   
+[2020-03-20 23:00:44] local.DEBUG: haveRestricted  
+[2020-03-20 23:00:44] local.DEBUG: checkApi_counter  
+[2020-03-20 23:00:44] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 23:00:44] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:00:44] local.DEBUG: 2020-03-20 23:00:44  
+[2020-03-20 23:00:44] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 23:00:44] local.DEBUG: 1100224725152743424-6xRpxMbgZUgvNCADoL9kTpJ4XS6qnA  
+[2020-03-20 23:00:44] local.DEBUG: See4JW6aNVaL7l4vvJJ3EAUmxpc4zXXovCugzPL5pxmGW  
+[2020-03-20 23:00:44] local.DEBUG: {"id":1240571253447987201}  
+[2020-03-20 23:00:45] local.DEBUG: checkApi  
+[2020-03-20 23:00:45] local.DEBUG: favorites_create  
+[2020-03-20 23:00:45] local.DEBUG: 制限状態：1  
+[2020-03-20 23:00:45] local.DEBUG: 使用状態：1  
+[2020-03-20 23:00:45] local.DEBUG: next いいね：  
+[2020-03-20 23:00:45] local.DEBUG: tweet_id_listの数 : 100  
+[2020-03-20 23:00:45] local.ALERT: 次のいいねへ。  
+[2020-03-20 23:00:45] local.DEBUG: destruct  
+[2020-03-20 23:00:45] local.DEBUG: 330  
+[2020-03-20 23:00:45] local.DEBUG: いいねJob発行:ループ開始  
+[2020-03-20 23:04:46] local.DEBUG: roop  
+[2020-03-20 23:04:46] local.DEBUG: FavoriteCreateRoopJob  
+[2020-03-20 23:04:46] local.DEBUG: queue_id : 330  
+[2020-03-20 23:04:46] local.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+[2020-03-20 23:04:46] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 23:04:46] local.DEBUG: initDailyCounter  
+[2020-03-20 23:04:46] local.DEBUG: 1  
+[2020-03-20 23:04:46] local.DEBUG: 1  
+[2020-03-20 23:04:46] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:04:46] local.DEBUG: 2020/03/20  
+[2020-03-20 23:04:46] local.DEBUG:   
+[2020-03-20 23:04:46] local.DEBUG: haveRestricted  
+[2020-03-20 23:04:46] local.DEBUG: checkApi_counter  
+[2020-03-20 23:04:46] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 23:04:46] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:04:46] local.DEBUG: 2020-03-20 23:04:46  
+[2020-03-20 23:04:46] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 23:04:46] local.DEBUG: 1100224725152743424-6xRpxMbgZUgvNCADoL9kTpJ4XS6qnA  
+[2020-03-20 23:04:46] local.DEBUG: See4JW6aNVaL7l4vvJJ3EAUmxpc4zXXovCugzPL5pxmGW  
+[2020-03-20 23:04:46] local.DEBUG: {"id":1240973109966114817}  
+[2020-03-20 23:04:46] local.DEBUG: checkApi  
+[2020-03-20 23:04:46] local.DEBUG: favorites_create  
+[2020-03-20 23:04:46] local.DEBUG: 制限状態：1  
+[2020-03-20 23:04:46] local.DEBUG: 使用状態：1  
+[2020-03-20 23:04:46] local.DEBUG: next いいね：  
+[2020-03-20 23:04:46] local.DEBUG: tweet_id_listの数 : 100  
+[2020-03-20 23:04:46] local.ALERT: 次のいいねへ。  
+[2020-03-20 23:04:46] local.DEBUG: destruct  
+[2020-03-20 23:04:46] local.DEBUG: 331  
+[2020-03-20 23:04:46] local.DEBUG: いいねJob発行:ループ開始  
+[2020-03-20 23:08:47] local.DEBUG: roop  
+[2020-03-20 23:08:47] local.DEBUG: FavoriteCreateRoopJob  
+[2020-03-20 23:08:47] local.DEBUG: queue_id : 331  
+[2020-03-20 23:08:47] local.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+[2020-03-20 23:08:47] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 23:08:47] local.DEBUG: initDailyCounter  
+[2020-03-20 23:08:47] local.DEBUG: 1  
+[2020-03-20 23:08:47] local.DEBUG: 1  
+[2020-03-20 23:08:47] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:08:47] local.DEBUG: 2020/03/20  
+[2020-03-20 23:08:47] local.DEBUG:   
+[2020-03-20 23:08:47] local.DEBUG: haveRestricted  
+[2020-03-20 23:08:47] local.DEBUG: checkApi_counter  
+[2020-03-20 23:08:47] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 23:08:47] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:08:47] local.DEBUG: 2020-03-20 23:08:47  
+[2020-03-20 23:08:47] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 23:08:47] local.DEBUG: 1100224725152743424-6xRpxMbgZUgvNCADoL9kTpJ4XS6qnA  
+[2020-03-20 23:08:47] local.DEBUG: See4JW6aNVaL7l4vvJJ3EAUmxpc4zXXovCugzPL5pxmGW  
+[2020-03-20 23:08:47] local.DEBUG: {"id":1240999687538135040}  
+[2020-03-20 23:08:47] local.DEBUG: checkApi  
+[2020-03-20 23:08:47] local.DEBUG: favorites_create  
+[2020-03-20 23:08:47] local.DEBUG: 制限状態：1  
+[2020-03-20 23:08:47] local.DEBUG: 使用状態：1  
+[2020-03-20 23:08:47] local.DEBUG: next いいね：  
+[2020-03-20 23:08:47] local.DEBUG: tweet_id_listの数 : 100  
+[2020-03-20 23:08:47] local.ALERT: 次のいいねへ。  
+[2020-03-20 23:08:47] local.DEBUG: destruct  
+[2020-03-20 23:08:47] local.DEBUG: 332  
+[2020-03-20 23:08:47] local.DEBUG: いいねJob発行:ループ開始  
+[2020-03-20 23:12:47] local.DEBUG: roop  
+[2020-03-20 23:12:47] local.DEBUG: FavoriteCreateRoopJob  
+[2020-03-20 23:12:47] local.DEBUG: queue_id : 332  
+[2020-03-20 23:12:47] local.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+[2020-03-20 23:12:47] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 23:12:47] local.DEBUG: initDailyCounter  
+[2020-03-20 23:12:47] local.DEBUG: 1  
+[2020-03-20 23:12:47] local.DEBUG: 1  
+[2020-03-20 23:12:47] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:12:47] local.DEBUG: 2020/03/20  
+[2020-03-20 23:12:47] local.DEBUG:   
+[2020-03-20 23:12:47] local.DEBUG: haveRestricted  
+[2020-03-20 23:12:47] local.DEBUG: checkApi_counter  
+[2020-03-20 23:12:47] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 23:12:47] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:12:47] local.DEBUG: 2020-03-20 23:12:47  
+[2020-03-20 23:12:47] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 23:12:47] local.DEBUG: 1100224725152743424-6xRpxMbgZUgvNCADoL9kTpJ4XS6qnA  
+[2020-03-20 23:12:47] local.DEBUG: See4JW6aNVaL7l4vvJJ3EAUmxpc4zXXovCugzPL5pxmGW  
+[2020-03-20 23:12:47] local.DEBUG: {"id":1240999685122183169}  
+[2020-03-20 23:12:48] local.DEBUG: checkApi  
+[2020-03-20 23:12:48] local.DEBUG: favorites_create  
+[2020-03-20 23:12:48] local.DEBUG: 制限状態：1  
+[2020-03-20 23:12:48] local.DEBUG: 使用状態：1  
+[2020-03-20 23:12:48] local.DEBUG: next いいね：  
+[2020-03-20 23:12:48] local.DEBUG: tweet_id_listの数 : 100  
+[2020-03-20 23:12:48] local.ALERT: 次のいいねへ。  
+[2020-03-20 23:12:48] local.DEBUG: destruct  
+[2020-03-20 23:12:48] local.DEBUG: 333  
+[2020-03-20 23:12:48] local.DEBUG: いいねJob発行:ループ開始  
+[2020-03-20 23:16:49] local.DEBUG: roop  
+[2020-03-20 23:16:49] local.DEBUG: FavoriteCreateRoopJob  
+[2020-03-20 23:16:49] local.DEBUG: queue_id : 333  
+[2020-03-20 23:16:49] local.DEBUG: いいね対象カウンター：5  
+[2020-03-20 23:16:49] local.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+[2020-03-20 23:16:49] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 23:16:49] local.DEBUG: initDailyCounter  
+[2020-03-20 23:16:49] local.DEBUG: 1  
+[2020-03-20 23:16:49] local.DEBUG: 1  
+[2020-03-20 23:16:49] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:16:49] local.DEBUG: 2020/03/20  
+[2020-03-20 23:16:49] local.DEBUG:   
+[2020-03-20 23:16:49] local.DEBUG: haveRestricted  
+[2020-03-20 23:16:49] local.DEBUG: checkApi_counter  
+[2020-03-20 23:16:49] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 23:16:49] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:16:49] local.DEBUG: 2020-03-20 23:16:49  
+[2020-03-20 23:16:49] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 23:16:49] local.DEBUG: 1100224725152743424-6xRpxMbgZUgvNCADoL9kTpJ4XS6qnA  
+[2020-03-20 23:16:49] local.DEBUG: See4JW6aNVaL7l4vvJJ3EAUmxpc4zXXovCugzPL5pxmGW  
+[2020-03-20 23:16:49] local.DEBUG: {"id":1240999684363046912}  
+[2020-03-20 23:16:50] local.DEBUG: checkApi  
+[2020-03-20 23:16:50] local.DEBUG: favorites_create  
+[2020-03-20 23:16:50] local.DEBUG: 制限状態：1  
+[2020-03-20 23:16:50] local.DEBUG: 使用状態：1  
+[2020-03-20 23:16:50] local.DEBUG: next いいね：  
+[2020-03-20 23:16:50] local.DEBUG: tweet_id_listの数 : 100  
+[2020-03-20 23:16:50] local.ALERT: 次のいいねへ。  
+[2020-03-20 23:16:50] local.DEBUG: destruct  
+[2020-03-20 23:16:50] local.DEBUG: 334  
+[2020-03-20 23:16:50] local.DEBUG: いいねJob発行:ループ開始  
+[2020-03-20 23:20:54] local.DEBUG: roop  
+[2020-03-20 23:20:54] local.DEBUG: FavoriteCreateRoopJob  
+[2020-03-20 23:20:54] local.DEBUG: queue_id : 334  
+[2020-03-20 23:20:54] local.DEBUG: いいね対象カウンター：6  
+[2020-03-20 23:20:54] local.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+[2020-03-20 23:20:54] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 23:20:54] local.DEBUG: initDailyCounter  
+[2020-03-20 23:20:54] local.DEBUG: 1  
+[2020-03-20 23:20:54] local.DEBUG: 1  
+[2020-03-20 23:20:54] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:20:54] local.DEBUG: 2020/03/20  
+[2020-03-20 23:20:54] local.DEBUG:   
+[2020-03-20 23:20:54] local.DEBUG: haveRestricted  
+[2020-03-20 23:20:54] local.DEBUG: checkApi_counter  
+[2020-03-20 23:20:54] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 23:20:54] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:20:54] local.DEBUG: 2020-03-20 23:20:54  
+[2020-03-20 23:20:54] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 23:20:54] local.DEBUG: 1100224725152743424-6xRpxMbgZUgvNCADoL9kTpJ4XS6qnA  
+[2020-03-20 23:20:54] local.DEBUG: See4JW6aNVaL7l4vvJJ3EAUmxpc4zXXovCugzPL5pxmGW  
+[2020-03-20 23:20:54] local.DEBUG: {"id":1240999682177785857}  
+[2020-03-20 23:20:54] local.DEBUG: checkApi  
+[2020-03-20 23:20:54] local.DEBUG: message  
+[2020-03-20 23:20:54] local.DEBUG: checkapi error   
+[2020-03-20 23:20:54] local.DEBUG: [{"code":139,"message":"You have already favorited this status."}]  
+[2020-03-20 23:20:54] local.DEBUG: 139  
+[2020-03-20 23:20:54] local.DEBUG: favorites_create  
+[2020-03-20 23:20:54] local.DEBUG: 制限状態：1  
+[2020-03-20 23:20:54] local.DEBUG: 使用状態：1  
+[2020-03-20 23:20:54] local.DEBUG: next いいね：  
+[2020-03-20 23:20:54] local.DEBUG: tweet_id_listの数 : 100  
+[2020-03-20 23:20:54] local.ALERT: 次のいいねへ。  
+[2020-03-20 23:20:54] local.DEBUG: destruct  
+[2020-03-20 23:20:54] local.DEBUG: 335  
+[2020-03-20 23:20:54] local.DEBUG: いいねJob発行:ループ開始  
+[2020-03-20 23:21:30] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 23:21:30] local.DEBUG: Tw_Account  
+[2020-03-20 23:21:30] local.DEBUG:  id :1  
+[2020-03-20 23:21:32] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 23:21:32] local.DEBUG: Tw_Account  
+[2020-03-20 23:21:32] local.DEBUG:  id :1  
+[2020-03-20 23:21:33] local.DEBUG: {"column":"tw_account_id","value":"2","model_name":"Tw_Auto_Tweet"}  
+[2020-03-20 23:21:33] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-20 23:21:34] local.DEBUG: key name : id  
+[2020-03-20 23:21:35] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 23:21:35] local.DEBUG: Tw_Account  
+[2020-03-20 23:21:35] local.DEBUG:  id :1  
+[2020-03-20 23:21:37] local.DEBUG: 特にやることなし  
+[2020-03-20 23:21:39] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-20 23:21:39] local.DEBUG: Key_Pattern  
+[2020-03-20 23:21:39] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 23:21:39] local.DEBUG: Tw_Account  
+[2020-03-20 23:21:39] local.DEBUG:  id :1  
+[2020-03-20 23:21:39] local.DEBUG:  id :1  
+[2020-03-20 23:21:40] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 23:21:40] local.DEBUG: Tw_Account  
+[2020-03-20 23:21:40] local.DEBUG:  id :1  
+[2020-03-20 23:21:40] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-20 23:21:40] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-20 23:21:40] local.DEBUG:  id :1  
+[2020-03-20 23:21:40] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-20 23:21:40] local.DEBUG: Tw_Target_Account  
+[2020-03-20 23:21:41] local.DEBUG:  id :1  
+[2020-03-20 23:24:56] local.DEBUG: roop  
+[2020-03-20 23:24:56] local.DEBUG: FavoriteCreateRoopJob  
+[2020-03-20 23:24:56] local.DEBUG: queue_id : 335  
+[2020-03-20 23:24:56] local.DEBUG: いいね対象カウンター：7  
+[2020-03-20 23:24:56] local.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+[2020-03-20 23:24:56] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 23:24:56] local.DEBUG: initDailyCounter  
+[2020-03-20 23:24:56] local.DEBUG: 1  
+[2020-03-20 23:24:56] local.DEBUG: 1  
+[2020-03-20 23:24:56] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:24:56] local.DEBUG: 2020/03/20  
+[2020-03-20 23:24:56] local.DEBUG:   
+[2020-03-20 23:24:56] local.DEBUG: haveRestricted  
+[2020-03-20 23:24:56] local.DEBUG: checkApi_counter  
+[2020-03-20 23:24:56] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 23:24:56] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:24:56] local.DEBUG: 2020-03-20 23:24:56  
+[2020-03-20 23:24:56] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 23:24:56] local.DEBUG: 1100224725152743424-6xRpxMbgZUgvNCADoL9kTpJ4XS6qnA  
+[2020-03-20 23:24:56] local.DEBUG: See4JW6aNVaL7l4vvJJ3EAUmxpc4zXXovCugzPL5pxmGW  
+[2020-03-20 23:24:56] local.DEBUG: {"id":1240999680885964801}  
+[2020-03-20 23:24:57] local.DEBUG: checkApi  
+[2020-03-20 23:24:57] local.DEBUG: favorites_create  
+[2020-03-20 23:24:57] local.DEBUG: 制限状態：1  
+[2020-03-20 23:24:57] local.DEBUG: 使用状態：1  
+[2020-03-20 23:24:57] local.DEBUG: next いいね：  
+[2020-03-20 23:24:57] local.DEBUG: tweet_id_listの数 : 100  
+[2020-03-20 23:24:57] local.ALERT: 次のいいねへ。  
+[2020-03-20 23:24:57] local.DEBUG: destruct  
+[2020-03-20 23:24:57] local.DEBUG: 336  
+[2020-03-20 23:24:57] local.DEBUG: いいねJob発行:ループ開始  
+[2020-03-20 23:29:05] local.DEBUG: roop  
+[2020-03-20 23:29:05] local.DEBUG: FavoriteCreateRoopJob  
+[2020-03-20 23:29:05] local.DEBUG: queue_id : 336  
+[2020-03-20 23:29:05] local.DEBUG: いいね対象カウンター：8  
+[2020-03-20 23:29:05] local.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+[2020-03-20 23:29:05] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 23:29:05] local.DEBUG: initDailyCounter  
+[2020-03-20 23:29:05] local.DEBUG: 1  
+[2020-03-20 23:29:05] local.DEBUG: 1  
+[2020-03-20 23:29:05] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:29:05] local.DEBUG: 2020/03/20  
+[2020-03-20 23:29:05] local.DEBUG:   
+[2020-03-20 23:29:05] local.DEBUG: haveRestricted  
+[2020-03-20 23:29:05] local.DEBUG: checkApi_counter  
+[2020-03-20 23:29:05] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 23:29:05] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 23:29:05] local.DEBUG: 2020-03-20 23:29:05  
+[2020-03-20 23:29:05] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 23:29:05] local.DEBUG: 1100224725152743424-6xRpxMbgZUgvNCADoL9kTpJ4XS6qnA  
+[2020-03-20 23:29:05] local.DEBUG: See4JW6aNVaL7l4vvJJ3EAUmxpc4zXXovCugzPL5pxmGW  
+[2020-03-20 23:29:05] local.DEBUG: {"id":1240999680856559619}  
+[2020-03-20 23:29:06] local.DEBUG: checkApi  
+[2020-03-20 23:29:06] local.DEBUG: favorites_create  
+[2020-03-20 23:29:06] local.DEBUG: 制限状態：1  
+[2020-03-20 23:29:06] local.DEBUG: 使用状態：1  
+[2020-03-20 23:29:06] local.DEBUG: next いいね：  
+[2020-03-20 23:29:06] local.DEBUG: tweet_id_listの数 : 100  
+[2020-03-20 23:29:06] local.ALERT: 次のいいねへ。  
+[2020-03-20 23:29:06] local.DEBUG: destruct  
+[2020-03-20 23:29:06] local.DEBUG: 337  
+[2020-03-20 23:29:06] local.DEBUG: いいねJob発行:ループ開始  
+[2020-03-20 23:52:34] local.ERROR: The process "'/usr/bin/php7.4' 'artisan' 'queue:work' '--once' '--queue==unfollow,favorite,' '--delay=0' '--memory=128' '--sleep=10' '--tries=1'" exceeded the timeout of 960 seconds. {"exception":"[object] (Symfony\\Component\\Process\\Exception\\ProcessTimedOutException(code: 0): The process \"'/usr/bin/php7.4' 'artisan' 'queue:work' '--once' '--queue==unfollow,favorite,' '--delay=0' '--memory=128' '--sleep=10' '--tries=1'\" exceeded the timeout of 960 seconds. at /home/vagrant/code/laravel-mysql/vendor/symfony/process/Process.php:1253)
+[stacktrace]
+#0 /home/vagrant/code/laravel-mysql/vendor/symfony/process/Process.php(417): Symfony\\Component\\Process\\Process->checkTimeout()
+#1 /home/vagrant/code/laravel-mysql/vendor/symfony/process/Process.php(238): Symfony\\Component\\Process\\Process->wait()
+#2 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Listener.php(175): Symfony\\Component\\Process\\Process->run()
+#3 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Listener.php(90): Illuminate\\Queue\\Listener->runProcess()
+#4 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Console/ListenCommand.php(68): Illuminate\\Queue\\Listener->listen()
+#5 [internal function]: Illuminate\\Queue\\Console\\ListenCommand->handle()
+#6 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#7 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#9 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/Container.php(576): Illuminate\\Container\\BoundMethod::call()
+#10 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call()
+#11 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#12 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run()
+#13 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(1011): Illuminate\\Console\\Command->run()
+#14 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+#15 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#16 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#17 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run()
+#18 /home/vagrant/code/laravel-mysql/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#19 {main}
+"} 
+[2020-03-20 23:52:34] local.ERROR: The process "'/usr/bin/php7.4' 'artisan' 'queue:work' '--once' '--queue==default,tweet,follow,' '--delay=0' '--memory=128' '--sleep=10' '--tries=1'" exceeded the timeout of 960 seconds. {"exception":"[object] (Symfony\\Component\\Process\\Exception\\ProcessTimedOutException(code: 0): The process \"'/usr/bin/php7.4' 'artisan' 'queue:work' '--once' '--queue==default,tweet,follow,' '--delay=0' '--memory=128' '--sleep=10' '--tries=1'\" exceeded the timeout of 960 seconds. at /home/vagrant/code/laravel-mysql/vendor/symfony/process/Process.php:1253)
+[stacktrace]
+#0 /home/vagrant/code/laravel-mysql/vendor/symfony/process/Process.php(417): Symfony\\Component\\Process\\Process->checkTimeout()
+#1 /home/vagrant/code/laravel-mysql/vendor/symfony/process/Process.php(238): Symfony\\Component\\Process\\Process->wait()
+#2 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Listener.php(175): Symfony\\Component\\Process\\Process->run()
+#3 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Listener.php(90): Illuminate\\Queue\\Listener->runProcess()
+#4 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Console/ListenCommand.php(68): Illuminate\\Queue\\Listener->listen()
+#5 [internal function]: Illuminate\\Queue\\Console\\ListenCommand->handle()
+#6 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#7 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#9 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/Container.php(576): Illuminate\\Container\\BoundMethod::call()
+#10 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call()
+#11 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#12 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run()
+#13 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(1011): Illuminate\\Console\\Command->run()
+#14 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+#15 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#16 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#17 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run()
+#18 /home/vagrant/code/laravel-mysql/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#19 {main}
+"} 

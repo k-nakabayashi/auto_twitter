@@ -1,0 +1,165 @@
+[2020-03-09 21:33:43] local.DEBUG: array (
+  'tw_account_id' => 1,
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+)  
+[2020-03-09 21:33:43] local.DEBUG: FavoriteStart start  
+[2020-03-09 21:33:43] local.DEBUG: 黒柴さん 一人前   
+[2020-03-09 21:33:43] local.DEBUG: VALUE 1  
+[2020-03-09 21:33:43] local.DEBUG: 遅延：0  
+[2020-03-09 21:33:43] local.DEBUG: destruct  
+[2020-03-09 21:33:43] local.DEBUG: 178  
+[2020-03-09 21:33:44] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-09 21:33:44] local.DEBUG: Tw_Account  
+[2020-03-09 21:33:44] local.DEBUG:  id :1  
+[2020-03-09 21:33:55] local.DEBUG: roop  
+[2020-03-09 21:33:55] local.DEBUG: SearchTweetRoopJob  
+[2020-03-09 21:33:55] local.DEBUG: queu_id : 178  
+[2020-03-09 21:33:55] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-09 21:33:55] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-09 21:33:55] local.DEBUG: initDailyCounter  
+[2020-03-09 21:33:55] local.DEBUG:   
+[2020-03-09 21:33:55] local.DEBUG: 1  
+[2020-03-09 21:33:55] local.DEBUG: 2020-03-09 00:00:00  
+[2020-03-09 21:33:55] local.DEBUG: 2020/03/09  
+[2020-03-09 21:33:55] local.DEBUG:   
+[2020-03-09 21:33:55] local.DEBUG: haveRestricted  
+[2020-03-09 21:33:55] local.DEBUG: checkApi_counter  
+[2020-03-09 21:33:55] local.DEBUG: 日付判定確認 : 1  
+[2020-03-09 21:33:55] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-09 21:33:55] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-09 21:33:55] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-09 21:33:55] local.DEBUG: {"q":"\u9ed2\u67f4\u3055\u3093 \u4e00\u4eba\u524d ","locale":"ja","lang":"ja","result_type":"recent","count":100,"max_id":"","include_entities":false}  
+[2020-03-09 21:33:56] local.DEBUG: checkApi  
+[2020-03-09 21:33:56] local.DEBUG: message  
+[2020-03-09 21:33:56] local.DEBUG: checkapi error   
+[2020-03-09 21:33:56] local.DEBUG: 88  
+[2020-03-09 21:33:56] local.DEBUG:  制限15分: Twiiterにフォロー制限されました。search_tweets  
+[2020-03-09 21:33:56] local.DEBUG: 15分制限  
+[2020-03-09 21:33:56] local.DEBUG: dis  id ;1  
+[2020-03-09 21:33:56] local.DEBUG: VALUE 2  
+[2020-03-09 21:33:56] local.DEBUG: release api delay : 2020-03-09 21:47:56  
+[2020-03-09 21:33:56] local.DEBUG: destruct  
+[2020-03-09 21:33:56] local.DEBUG: 179  
+[2020-03-09 21:33:56] local.DEBUG: mail set  
+[2020-03-09 21:33:56] local.DEBUG: search_tweets  
+[2020-03-09 21:33:56] local.DEBUG: 制限状態：0  
+[2020-03-09 21:33:56] local.DEBUG: 使用状態：2  
+[2020-03-09 21:33:56] local.DEBUG: 制限  
+[2020-03-09 21:33:56] local.DEBUG: 同じJobを発行  
+[2020-03-09 21:33:56] local.DEBUG: here1  
+[2020-03-09 21:33:56] local.DEBUG: destruct  
+[2020-03-09 21:33:56] local.DEBUG: 181  
+
+
+
+-----------------
+
+[2020-03-09 21:35:32] local.DEBUG: restart : search_tweets  
+
+
+-----------------[2020-03-09 21:39:20] local.DEBUG: roop  
+[2020-03-09 21:39:20] local.DEBUG: SearchTweetRoopJob  
+[2020-03-09 21:39:20] local.DEBUG: Job再開：SearchTweetRoopJob  
+[2020-03-09 21:39:20] local.DEBUG: VALUE 1  
+[2020-03-09 21:39:20] local.DEBUG: queu_id : 184  
+[2020-03-09 21:39:20] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-09 21:39:20] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-09 21:39:20] local.DEBUG: initDailyCounter  
+[2020-03-09 21:39:20] local.DEBUG:   
+[2020-03-09 21:39:20] local.DEBUG: 1  
+[2020-03-09 21:39:20] local.DEBUG: 2020-03-09 00:00:00  
+[2020-03-09 21:39:20] local.DEBUG: 2020/03/09  
+[2020-03-09 21:39:20] local.DEBUG:   
+[2020-03-09 21:39:20] local.DEBUG: haveRestricted  
+[2020-03-09 21:39:20] local.DEBUG: checkApi_counter  
+[2020-03-09 21:39:20] local.DEBUG: 日付判定確認 : 1  
+[2020-03-09 21:39:20] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-09 21:39:20] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-09 21:39:20] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-09 21:39:20] local.DEBUG: {"q":"\u9ed2\u67f4\u3055\u3093 \u4e00\u4eba\u524d ","locale":"ja","lang":"ja","result_type":"recent","count":100,"max_id":"","include_entities":false}  
+[2020-03-09 21:39:21] local.DEBUG: checkApi  
+[2020-03-09 21:39:21] local.DEBUG: search_tweets  
+[2020-03-09 21:39:21] local.DEBUG: 制限状態：1  
+[2020-03-09 21:39:21] local.DEBUG: 使用状態：1  
+[2020-03-09 21:39:21] local.DEBUG: next ?max_id=1234429214155104255&q=%E9%BB%92%E6%9F%B4%E3%81%95%E3%82%93%20%E4%B8%80%E4%BA%BA%E5%89%8D&lang=ja&count=100&result_type=recent  
+[2020-03-09 21:39:21] local.DEBUG: next max_id : 1234429214155104255  
+[2020-03-09 21:39:21] local.DEBUG: VALUE 0  
+[2020-03-09 21:39:21] local.DEBUG: VALUE 1  
+[2020-03-09 21:39:21] local.DEBUG: destruct  
+[2020-03-09 21:39:21] local.DEBUG: 185  
+[2020-03-09 21:39:22] local.DEBUG: roop  
+[2020-03-09 21:39:22] local.DEBUG: FavoriteCreateRoopJob  
+[2020-03-09 21:39:22] local.DEBUG: queue_id : 185  
+[2020-03-09 21:39:22] local.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+[2020-03-09 21:39:22] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-09 21:39:22] local.DEBUG: initDailyCounter  
+[2020-03-09 21:39:22] local.DEBUG: 1  
+[2020-03-09 21:39:22] local.DEBUG: 1  
+[2020-03-09 21:39:22] local.DEBUG: 2020-03-09 00:00:00  
+[2020-03-09 21:39:22] local.DEBUG: 2020/03/09  
+[2020-03-09 21:39:22] local.DEBUG:   
+[2020-03-09 21:39:22] local.DEBUG: haveRestricted  
+[2020-03-09 21:39:22] local.DEBUG: checkApi_counter  
+[2020-03-09 21:39:22] local.DEBUG: 日付判定確認 : 1  
+[2020-03-09 21:39:22] local.DEBUG: 2020-03-09 00:00:00  
+[2020-03-09 21:39:22] local.DEBUG: 2020-03-09 21:39:22  
+[2020-03-09 21:39:22] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-09 21:39:22] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-09 21:39:22] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-09 21:39:22] local.DEBUG: {"id":1234429214155104256}  
+[2020-03-09 21:39:22] local.DEBUG: checkApi  
+[2020-03-09 21:39:22] local.DEBUG: message  
+[2020-03-09 21:39:22] local.DEBUG: checkapi error   
+[2020-03-09 21:39:22] local.DEBUG: 139  
+[2020-03-09 21:39:22] local.DEBUG: favorites_create  
+[2020-03-09 21:39:22] local.DEBUG: 制限状態：1  
+[2020-03-09 21:39:22] local.DEBUG: 使用状態：1  
+[2020-03-09 21:39:22] local.DEBUG: VALUE 0  
+[2020-03-09 21:39:22] local.DEBUG: VALUE 1  
+[2020-03-09 21:39:22] local.DEBUG: destruct  
+[2020-03-09 21:39:22] local.DEBUG: 186  
+[2020-03-09 21:39:24] local.DEBUG: roop  
+[2020-03-09 21:39:24] local.DEBUG: SearchTweetRoopJob  
+[2020-03-09 21:39:24] local.DEBUG: queu_id : 186  
+[2020-03-09 21:39:24] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-09 21:39:24] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-09 21:39:24] local.DEBUG: initDailyCounter  
+[2020-03-09 21:39:24] local.DEBUG:   
+[2020-03-09 21:39:24] local.DEBUG: 1  
+[2020-03-09 21:39:24] local.DEBUG: 2020-03-09 00:00:00  
+[2020-03-09 21:39:24] local.DEBUG: 2020/03/09  
+[2020-03-09 21:39:24] local.DEBUG:   
+[2020-03-09 21:39:24] local.DEBUG: haveRestricted  
+[2020-03-09 21:39:24] local.DEBUG: checkApi_counter  
+[2020-03-09 21:39:24] local.DEBUG: 日付判定確認 : 1  
+[2020-03-09 21:39:24] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-09 21:39:24] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-09 21:39:24] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-09 21:39:24] local.DEBUG: {"q":"\u9ed2\u67f4\u3055\u3093 \u4e00\u4eba\u524d ","locale":"ja","lang":"ja","result_type":"recent","count":100,"max_id":1234429214155104255,"include_entities":false}  
+[2020-03-09 21:39:25] local.DEBUG: checkApi  
+[2020-03-09 21:39:25] local.DEBUG: search_tweets  
+[2020-03-09 21:39:25] local.DEBUG: 制限状態：1  
+[2020-03-09 21:39:25] local.DEBUG: 使用状態：1  
+[2020-03-09 21:39:25] local.DEBUG: 自動機能完了：favorite  
+[2020-03-09 21:39:25] local.DEBUG: api status initialized  
+[2020-03-09 21:39:25] local.DEBUG: VALUE 0  
+[2020-03-09 21:39:25] local.DEBUG: VALUE 0  
+[2020-03-09 21:39:25] local.DEBUG: mail set  
+[2020-03-09 21:40:24] local.DEBUG: direct acc  
+[2020-03-09 21:40:24] local.DEBUG: 1  
+[2020-03-09 21:40:26] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-09 21:40:26] local.DEBUG: Tw_Target_Account  
+[2020-03-09 21:40:27] local.DEBUG:  id :1  
+[2020-03-09 21:40:28] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-09 21:40:28] local.DEBUG: Tw_Account  
+[2020-03-09 21:40:28] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-09 21:40:28] local.DEBUG: Key_Pattern  
+[2020-03-09 21:40:28] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-09 21:40:28] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-09 21:40:29] local.DEBUG:  id :1  
+[2020-03-09 21:40:29] local.DEBUG:  id :1  
+[2020-03-09 21:40:29] local.DEBUG:  id :1  
+[2020-03-09 21:40:29] local.DEBUG: {"id":"1","model_name":"Tw_Tweet"}  
+[2020-03-09 21:40:29] local.DEBUG: Tw_Tweet  
+[2020-03-09 21:40:29] local.DEBUG:  id :1  

@@ -1,0 +1,177 @@
+@mixin u_col($i) {
+  -webkit-flex: 0 0 #{$i * 100 / 12 + "%"};
+  -ms-flex: 0 0 #{$i * 100 / 12 + "%"};
+  flex: 0 0 #{$i * 100 / 12 + "%"};
+  max-width: #{$i * 100 / 12 + "%"};
+}
+
+
+//グリッドレイアウト
+//.u-container > .u-row > .u-col-2という具合で使う
+
+.u-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -16px;
+  margin-left: -16px;
+  > * {
+    position: relative;
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+@include u-media-lg {
+  .u-row-lg {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -16px;
+    margin-left: -16px;
+    > * {
+      position: relative;
+      width: 100%;
+      padding-right: 16px;
+      padding-left: 16px;
+    }
+  }
+}
+
+.u-row-center-y {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -16px;
+  margin-left: -16px;
+  align-items: center;
+
+  > * {
+    position: relative;
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+.u-row-center-x {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -16px;
+  margin-left: -16px;
+  justify-content:center;
+
+  > * {
+    position: relative;
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+
+.u-row-center {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -16px;
+  margin-left: -16px;
+  
+  justify-content:center;
+  align-items: center;
+  > * {
+    position: relative;
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+
+.u-row-between {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -16px;
+  margin-left: -16px;
+  
+  justify-content:space-between;
+  > * {
+    position: relative;
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+
+@for $i from 1 through 12 {
+  .u-col-#{$i} {
+    @include u_col($i);
+  }
+}
+@for $i from 1 through 12 {
+  @each $bp in $v_media_list {
+    .u-col-#{$i}-#{$bp} {
+    @if ($bp == "sm") {
+      @include u-media-sm {
+        @include u_col($i);
+      }
+    } @else if ($bp == "md") {
+  
+      @include u-media-md {
+        @include u_col($i);
+      }
+  
+    } @else if ($bp == "lg") {
+  
+      @include u-media-lg {
+        @include u_col($i);
+      }
+  
+    } @else if ($bp == "xl") {
+  
+      @include u-media-xl {
+        @include u_col($i);
+      }
+  
+    } @else if ($bp == "smx") {
+  
+      @include u-media-smx {
+        @include u_col($i);
+      }
+  
+    } @else if ($bp == "mdx") {
+  
+      @include u-media-mdx {
+        @include u_col($i);
+      }
+    } @else if ($bp == "lgx") {
+      @include u-media-lgx {
+        @include u_col($i);
+      }
+    } @else if ($bp == "xlx") {
+      @include u-media-xlx {
+        @include u_col($i);
+      }
+    } 
+  }
+ }
+}
+
+
+.u-fy-center {
+  align-items: center;
+}
+
+.u-fx-center {
+  justify-content:center;
+}
+
+.u-f-center {
+  justify-content:center;
+  align-items: center;
+}

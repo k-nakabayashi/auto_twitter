@@ -1,0 +1,73 @@
+/*============================================================
+                    クリアフィックス
+============================================================*/
+.u-clearfix {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.u-clearfix-after:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+@mixin u-clearfix {
+  &:after {
+  content: '';
+  display: block;
+  clear: both;
+  }
+}
+/*==================================================
+       　コンテイナー
+==================================================*/
+.u-container {
+  width: 100%;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.u-container-fluid, .u-container-lg, .u-container-md, .u-container-sm, .u-container-xl {
+  width: 100%;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: #{$v_sm}px) {
+.u-container {
+    max-width: 540px;
+}}
+@media (min-width: #{$v_md}px) {
+.u-container {
+    max-width: 720px;
+}}
+@media (min-width: #{$v_lg}px) {
+.u-container {
+    max-width: 960px;
+}}
+@media (min-width: #{$v_xl}px) {
+.u-container {
+    max-width: 1140px;
+}}
+
+@media (min-width: #{$v_sm}px) {
+.u-container, .u-container-sm {
+    max-width: 540px;
+}}
+@media (min-width: #{$v_md}px) {
+.u-container, .u-container-md, .u-container-sm {
+    max-width: 720px;
+}}
+
+@media (min-width: #{$v_lg}px) {
+.u-container, .u-container-lg, .u-container-md, .u-container-sm {
+    max-width: 960px;
+}}
+@media (min-width: #{$v_xl}px) {
+.u-container, .u-container-lg, .u-container-md, .u-container-sm, .u-container-xl {
+    max-width: 1140px;
+}}

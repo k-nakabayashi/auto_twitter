@@ -1,0 +1,249 @@
+{
+    "id": 4000958293,
+    "id_str": "4000958293",
+    "name": "ライター・さない ちえ",
+    "screen_name": "sanai_w_sanai",
+    "location": "日本 東京",
+    "description": "ライター🌸カジュアル着物愛好家🌼【実績】 ■雑誌 ■グラフィス　『キモノスタイル3』 ■WEB ■コミュニティメディア『着物美人』/コスメ・美容の総合サイト『＠ｃｏｓｍｅ』/資生堂『ワタシプラス』/ビジネスメディア『AMP』/小学館『和樂web』/『着物ノート』",
+    "url": "https://t.co/QNnM0XL150",
+    "entities": {
+        "url": {
+            "urls": [
+                {
+                    "url": "https://t.co/QNnM0XL150",
+                    "expanded_url": "https://note.com/chie_sanai",
+                    "display_url": "note.com/chie_sanai",
+                    "indices": [
+                        0,
+                        23
+                    ]
+                }
+            ]
+        },
+        "description": {
+            "urls": []
+        }
+    },
+    "protected": false,
+    "followers_count": 159,
+    "friends_count": 208,
+    "listed_count": 2,
+    "created_at": "Sat Oct 24 09:39:34 +0000 2015",
+    "favourites_count": 6377,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 4457,
+    "lang": null,
+    "status": {
+        "created_at": "Sun Mar 15 09:53:00 +0000 2020",
+        "id": 1239127449310351362,
+        "id_str": "1239127449310351362",
+        "text": "久々の着物👘\n二枚目の写真は帯揚げをバタフライ結びにしてみました🦋\n\nなんか画像が粗い…💦\n\n#着物コーデ https://t.co/MIqeuZRXmA",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "着物コーデ",
+                    "indices": [
+                        47,
+                        53
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 1239127432789032960,
+                    "id_str": "1239127432789032960",
+                    "indices": [
+                        54,
+                        77
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/ETJD1b7VAAAzRjF.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/ETJD1b7VAAAzRjF.jpg",
+                    "url": "https://t.co/MIqeuZRXmA",
+                    "display_url": "pic.twitter.com/MIqeuZRXmA",
+                    "expanded_url": "https://twitter.com/sanai_w_sanai/status/1239127449310351362/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 559,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1197,
+                            "h": 1456,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 987,
+                            "h": 1200,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1239127432789032960,
+                    "id_str": "1239127432789032960",
+                    "indices": [
+                        54,
+                        77
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/ETJD1b7VAAAzRjF.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/ETJD1b7VAAAzRjF.jpg",
+                    "url": "https://t.co/MIqeuZRXmA",
+                    "display_url": "pic.twitter.com/MIqeuZRXmA",
+                    "expanded_url": "https://twitter.com/sanai_w_sanai/status/1239127449310351362/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 559,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1197,
+                            "h": 1456,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 987,
+                            "h": 1200,
+                            "resize": "fit"
+                        }
+                    }
+                },
+                {
+                    "id": 1239127438161936384,
+                    "id_str": "1239127438161936384",
+                    "indices": [
+                        54,
+                        77
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/ETJD1v8VAAA7ncB.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/ETJD1v8VAAA7ncB.jpg",
+                    "url": "https://t.co/MIqeuZRXmA",
+                    "display_url": "pic.twitter.com/MIqeuZRXmA",
+                    "expanded_url": "https://twitter.com/sanai_w_sanai/status/1239127449310351362/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 597,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 1053,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1184,
+                            "h": 1349,
+                            "resize": "fit"
+                        }
+                    }
+                },
+                {
+                    "id": 1239127444721811458,
+                    "id_str": "1239127444721811458",
+                    "indices": [
+                        54,
+                        77
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/ETJD2IYUwAIDu8O.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/ETJD2IYUwAIDu8O.jpg",
+                    "url": "https://t.co/MIqeuZRXmA",
+                    "display_url": "pic.twitter.com/MIqeuZRXmA",
+                    "expanded_url": "https://twitter.com/sanai_w_sanai/status/1239127449310351362/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1080,
+                            "h": 1080,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1080,
+                            "h": 1080,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 4,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "FF6699",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme11/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme11/bg.gif",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/814166244144185344/TM_V9NSg_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/814166244144185344/TM_V9NSg_normal.jpg",
+    "profile_link_color": "B40B43",
+    "profile_sidebar_border_color": "CC3366",
+    "profile_sidebar_fill_color": "E5507E",
+    "profile_text_color": "362720",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
+    "muting": false,
+    "translator_type": "none"
+}

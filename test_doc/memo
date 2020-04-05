@@ -1,0 +1,51 @@
+Action-Routeテスト
+・リクエストが通ってるか確認→200チェック
+・
+defaultのRESTで対応できる範囲
+
+→あくまで単純なCRUDcのみ
+検索キー
+snsアカウント
+※record追記は、post /route   name(store)
+
+
+・アクションからアクションを呼び出すことはできるか？
+
+
+
+test modeles
+
+//変更内容が反映されない時
+php artisan config:cache
+
+//これ毎回、書き直し必要？めんどい
+.env
+DB_DATABASE=matching_app_test
+
+config/database.php
+'testing' => [],
+
+phpunit.xml
+<env name="DB_DATABASE" value="name">
+
+php artisan make:migration create_people_table
+
+php artisan migrate:refresh --database=testing
+
+//シーダ準備
+php artisan make:seeder UsersTableSeeder
+
+DatabaseSeeder.php
+public function run()
+{
+    $this->call(UsersTableSeeder::class);
+}
+
+php artisan db:seed
+or
+php artisan db:seed --class=ChatsTableseeder --database=testing
+
+//ランダムにテストする場合は、Factory
+php artisan make:factory UserFactory
+
+//ファクトリーの情報を制御するのがstate。stateの呼び出し方がVuexと似てる

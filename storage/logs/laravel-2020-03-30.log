@@ -1,0 +1,18 @@
+[2020-03-30 18:51:16] local.DEBUG:   
+[2020-03-30 18:51:16] local.DEBUG: 特にやることなし  
+[2020-03-30 18:51:17] local.DEBUG: ホームへ  
+[2020-03-30 18:51:17] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-30 18:51:17] local.DEBUG: Key_Pattern  
+[2020-03-30 18:51:17] local.DEBUG:  id :1  
+[2020-03-30 18:51:18] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-30 18:51:18] local.DEBUG: Tw_Account  
+[2020-03-30 18:51:18] local.DEBUG:  id :1  
+[2020-03-30 18:51:19] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-30 18:51:19] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-30 18:51:19] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-30 18:51:19] local.DEBUG: Tw_Account  
+[2020-03-30 18:51:19] local.DEBUG:  id :1  
+[2020-03-30 18:51:19] local.DEBUG:  id :1  
+[2020-03-30 18:51:19] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-30 18:51:19] local.DEBUG: Tw_Target_Account  
+[2020-03-30 18:51:19] local.DEBUG:  id :1  

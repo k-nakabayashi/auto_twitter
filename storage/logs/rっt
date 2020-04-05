@@ -1,0 +1,605 @@
+Mar 20 02:11:20 test-d58 app/web.1 [2020-03-20 18:11:20] development.DEBUG: FavoriteStart start  
+Mar 20 02:11:20 test-d58 app/web.1 [2020-03-20 18:11:20] development.DEBUG: 虚構推理   
+Mar 20 02:11:20 test-d58 app/web.1 [2020-03-20 18:11:20] development.DEBUG: 遅延：2  
+Mar 20 02:11:20 test-d58 app/web.1 [2020-03-20 18:11:20] development.DEBUG: destruct  
+Mar 20 02:11:20 test-d58 app/web.1 [2020-03-20 18:11:20] development.DEBUG: 2  
+Mar 20 02:11:20 test-d58 app/web.1 10.63.54.150 - - [20/Mar/2020:18:11:20 +0900] "POST /startAutoFunction HTTP/1.1" 200 1547 "https://test-d58.herokuapp.com/my_tw_account?id=2" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36
+Mar 20 02:11:20 test-d58 heroku/router at=info method=POST path="/startAutoFunction" host=test-d58.herokuapp.com request_id=59a6d404-aca4-4b52-be10-bdf2991b522b fwd="111.239.165.244" dyno=web.1 connect=1ms service=67ms status=200 bytes=2423 protocol=https
+Mar 20 02:11:21 test-d58 app/web.1 [2020-03-20 18:11:21] development.DEBUG: {"id":"2","model_name":"Tw_Account"}  
+Mar 20 02:11:21 test-d58 heroku/router at=info method=GET path="/RestApi?id=2&model_name=Tw_Account" host=test-d58.herokuapp.com request_id=91af5a39-a929-40f4-809d-19c06c3f622e fwd="111.239.165.244" dyno=web.1 connect=1ms service=53ms status=200 bytes=2423 protocol=https
+Mar 20 02:11:21 test-d58 app/web.1 [2020-03-20 18:11:21] development.DEBUG: Tw_Account  
+Mar 20 02:11:21 test-d58 app/web.1 [2020-03-20 18:11:21] development.DEBUG:  id :2  
+Mar 20 02:11:21 test-d58 app/web.1 10.63.54.150 - - [20/Mar/2020:18:11:21 +0900] "GET /RestApi?id=2&model_name=Tw_Account HTTP/1.1" 200 1549 "https://test-d58.herokuapp.com/my_tw_account?id=2" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29][2] Processing: App\Jobs\favorite\SearchTweetRoopJob
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: roop  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: SearchTweetRoopJob  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: queu_id : 2  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: initDailyCounter  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG:   
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: 1  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: 2020/03/20  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG:   
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: haveRestricted  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: checkApi_counter  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: 日付判定確認 : 1  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:29] development.DEBUG: {"q":"\u865a\u69cb\u63a8\u7406 ","locale":"ja","lang":"ja","result_type":"recent","count":"10","max_id":"","include_entities":false}  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:30] development.DEBUG: checkApi  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:30] development.DEBUG: search_tweets  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:30] development.DEBUG: 制限状態：1  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:30] development.DEBUG: 使用状態：1  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:30] development.DEBUG: ツイート数：9  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:30] development.DEBUG: next id：?max_id=1240926974547128319&q=%E8%99%9A%E6%A7%8B%E6%8E%A8%E7%90%86&lang=ja&count=10&result_type=recent  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:30] development.DEBUG: next max_id : 1240926974547128319  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:30] development.DEBUG: destruct  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:30] development.DEBUG: 12  
+Mar 20 02:13:30 test-d58 app/worker.1 [2020-03-20 18:13:30][2] Processed:  App\Jobs\favorite\SearchTweetRoopJob
+Mar 20 02:19:59 test-d58 heroku/router at=info method=HEAD path="/" host=test-d58.herokuapp.com request_id=2498ecb2-d918-4648-82bb-6ad5bde1c98f fwd="216.245.221.84" dyno=web.1 connect=0ms service=12ms status=200 bytes=848 protocol=http
+Mar 20 02:19:59 test-d58 app/web.1 10.11.254.71 - - [20/Mar/2020:18:19:59 +0900] "HEAD / HTTP/1.1" 200 - "http://test-d58.herokuapp.com/" "Mozilla/5.0+(compatible; UptimeRobo
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31][12] Processing: App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: roop  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: FavoriteCreateRoopJob  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: queue_id : 12  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: initDailyCounter  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: 1  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: 1  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: 2020/03/20  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG:   
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: haveRestricted  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: checkApi_counter  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: 日付判定確認 : 1  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: 2020-03-20 18:21:31  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 02:21:31 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: {"id":1240929110219603968}  
+Mar 20 02:21:32 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: checkApi  
+Mar 20 02:21:32 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: favorites_create  
+Mar 20 02:21:32 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: 制限状態：1  
+Mar 20 02:21:32 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: 使用状態：1  
+Mar 20 02:21:32 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: next いいね：  
+Mar 20 02:21:32 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: tweet_id_listの数 : 9  
+Mar 20 02:21:32 test-d58 app/worker.1 [2020-03-20 18:21:31] development.ALERT: 次のいいねへ。  
+Mar 20 02:21:32 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: destruct  
+Mar 20 02:21:32 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: 22  
+Mar 20 02:21:32 test-d58 app/worker.1 [2020-03-20 18:21:31] development.DEBUG: いいねJob発行:ループ開始  
+Mar 20 02:21:32 test-d58 app/worker.1 [2020-03-20 18:21:32][12] Processed:  App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33][22] Processing: App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: roop  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: FavoriteCreateRoopJob  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: queue_id : 22  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: initDailyCounter  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: 1  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: 1  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: 2020/03/20  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG:   
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: haveRestricted  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: checkApi_counter  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: 日付判定確認 : 1  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: 2020-03-20 18:29:33  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: {"id":1240929038295678977}  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: checkApi  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: favorites_create  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: 制限状態：1  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: 使用状態：1  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: next いいね：  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: tweet_id_listの数 : 9  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.ALERT: 次のいいねへ。  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: destruct  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: 32  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33] development.DEBUG: いいねJob発行:ループ開始  
+Mar 20 02:29:33 test-d58 app/worker.1 [2020-03-20 18:29:33][22] Processed:  App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 02:34:59 test-d58 heroku/router at=info method=HEAD path="/" host=test-d58.herokuapp.com request_id=6446588b-d4b0-49a8-b00a-9ac89c01eb73 fwd="216.245.221.84" dyno=web.1 connect=0ms service=13ms status=200 bytes=842 protocol=http
+Mar 20 02:34:59 test-d58 app/web.1 10.45.68.6 - - [20/Mar/2020:18:34:59 +0900] "HEAD / HTTP/1.1" 200 - "http://test-d58.herokuapp.com/" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34][32] Processing: App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: roop  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: FavoriteCreateRoopJob  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: queue_id : 32  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: initDailyCounter  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: 1  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: 1  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: 2020/03/20  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG:   
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: haveRestricted  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: checkApi_counter  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: 日付判定確認 : 1  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: 2020-03-20 18:37:34  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: {"id":1240928884905799681}  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: checkApi  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: favorites_create  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: 制限状態：1  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: 使用状態：1  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: next いいね：  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: tweet_id_listの数 : 9  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.ALERT: 次のいいねへ。  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: destruct  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: 42  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: いいねJob発行:ループ開始  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34][32] Processed:  App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36][42] Processing: App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: roop  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: FavoriteCreateRoopJob  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: queue_id : 42  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: initDailyCounter  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 1  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 1  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 2020/03/20  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG:   
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: haveRestricted  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: checkApi_counter  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 日付判定確認 : 1  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 2020-03-20 18:45:36  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: {"id":1240928847542943745}  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: checkApi  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: favorites_create  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 制限状態：1  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 使用状態：1  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: next いいね：  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: tweet_id_listの数 : 9  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.ALERT: 次のいいねへ。  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: destruct  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 52  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: いいねJob発行:ループ開始  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36][42] Processed:  App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 02:49:59 test-d58 app/web.1 10.67.225.150 - - [20/Mar/2020:18:49:59 +0900] "HEAD / HTTP/1.1" 200 - "http://test-d58.herokuapp.com/" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)
+Mar 20 02:49:59 test-d58 heroku/router at=info method=HEAD path="/" host=test-d58.herokuapp.com request_id=652c9194-452d-456b-9080-658b047e76e3 fwd="216.245.221.84" dyno=web.1 connect=0ms service=11ms status=200 bytes=844 protocol=http
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37][52] Processing: App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: roop  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: FavoriteCreateRoopJob  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: queue_id : 52  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: initDailyCounter  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 1  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 1  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 2020/03/20  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG:   
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: haveRestricted  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: checkApi_counter  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 日付判定確認 : 1  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 2020-03-20 18:53:37  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: {"id":1240928558425374721}  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: checkApi  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: favorites_create  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 制限状態：1  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 使用状態：1  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: next いいね：  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: tweet_id_listの数 : 9  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.ALERT: 次のいいねへ。  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: destruct  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 62  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: いいねJob発行:ループ開始  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37][52] Processed:  App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38][62] Processing: App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: roop  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: FavoriteCreateRoopJob  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: queue_id : 62  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: initDailyCounter  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 1  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 1  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 2020/03/20  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG:   
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: haveRestricted  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: checkApi_counter  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 日付判定確認 : 1  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 2020-03-20 19:01:38  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: {"id":1240928446072541185}  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: checkApi  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: favorites_create  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: 制限状態：1  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: 使用状態：1  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: next いいね：  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: tweet_id_listの数 : 9  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.ALERT: 次のいいねへ。  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: destruct  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: 72  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: いいねJob発行:ループ開始  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39][62] Processed:  App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:04:59 test-d58 heroku/router at=info method=HEAD path="/" host=test-d58.herokuapp.com request_id=21a54e0a-b168-4134-9b7a-cb050843987a fwd="216.245.221.84" dyno=web.1 connect=8ms service=34ms status=200 bytes=846 protocol=http
+Mar 20 03:04:59 test-d58 app/web.1 10.113.192.240 - - [20/Mar/2020:19:04:59 +0900] "HEAD / HTTP/1.1" 200 - "http://test-d58.herokuapp.com/" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40][72] Processing: App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: roop  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: FavoriteCreateRoopJob  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: queue_id : 72  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: initDailyCounter  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 1  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 1  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 2020/03/20  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG:   
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: haveRestricted  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: checkApi_counter  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 日付判定確認 : 1  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 2020-03-20 19:09:40  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: {"id":1240928363310505985}  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: checkApi  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: favorites_create  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 制限状態：1  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 使用状態：1  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: next いいね：  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: tweet_id_listの数 : 9  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.ALERT: 次のいいねへ。  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: destruct  
+Loading...searched forward to Mar 20 at 3:09:40 AM
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: destruct  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: 42  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34] development.DEBUG: いいねJob発行:ループ開始  
+Mar 20 02:37:35 test-d58 app/worker.1 [2020-03-20 18:37:34][32] Processed:  App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36][42] Processing: App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: roop  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: FavoriteCreateRoopJob  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: queue_id : 42  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: initDailyCounter  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 1  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 1  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 2020/03/20  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG:   
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: haveRestricted  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: checkApi_counter  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 日付判定確認 : 1  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 2020-03-20 18:45:36  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: {"id":1240928847542943745}  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: checkApi  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: favorites_create  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 制限状態：1  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 使用状態：1  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: next いいね：  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: tweet_id_listの数 : 9  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.ALERT: 次のいいねへ。  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: destruct  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: 52  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36] development.DEBUG: いいねJob発行:ループ開始  
+Mar 20 02:45:36 test-d58 app/worker.1 [2020-03-20 18:45:36][42] Processed:  App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 02:49:59 test-d58 app/web.1 10.67.225.150 - - [20/Mar/2020:18:49:59 +0900] "HEAD / HTTP/1.1" 200 - "http://test-d58.herokuapp.com/" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)
+Mar 20 02:49:59 test-d58 heroku/router at=info method=HEAD path="/" host=test-d58.herokuapp.com request_id=652c9194-452d-456b-9080-658b047e76e3 fwd="216.245.221.84" dyno=web.1 connect=0ms service=11ms status=200 bytes=844 protocol=http
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37][52] Processing: App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: roop  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: FavoriteCreateRoopJob  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: queue_id : 52  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: https://api.twitter.com/1.1/favorites/create.jso
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: initDailyCounter  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 1  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 1  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 2020/03/20  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG:   
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: haveRestricted  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: checkApi_counter  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 日付判定確認 : 1  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 2020-03-20 18:53:37  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 02:53:37 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: {"id":1240928558425374721}  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: checkApi  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: favorites_create  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 制限状態：1  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 使用状態：1  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: next いいね：  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: tweet_id_listの数 : 9  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.ALERT: 次のいいねへ。  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: destruct  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: 62  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37] development.DEBUG: いいねJob発行:ループ開始  
+Mar 20 02:53:38 test-d58 app/worker.1 [2020-03-20 18:53:37][52] Processed:  App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38][62] Processing: App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: roop  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: FavoriteCreateRoopJob  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: queue_id : 62  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: initDailyCounter  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 1  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 1  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 2020/03/20  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG:   
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: haveRestricted  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: checkApi_counter  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 日付判定確認 : 1  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 2020-03-20 19:01:38  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:38] development.DEBUG: {"id":1240928446072541185}  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: checkApi  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: favorites_create  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: 制限状態：1  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: 使用状態：1  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: next いいね：  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: tweet_id_listの数 : 9  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.ALERT: 次のいいねへ。  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: destruct  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: 72  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39] development.DEBUG: いいねJob発行:ループ開始  
+Mar 20 03:01:39 test-d58 app/worker.1 [2020-03-20 19:01:39][62] Processed:  App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:04:59 test-d58 heroku/router at=info method=HEAD path="/" host=test-d58.herokuapp.com request_id=21a54e0a-b168-4134-9b7a-cb050843987a fwd="216.245.221.84" dyno=web.1 connect=8ms service=34ms status=200 bytes=846 protocol=http
+Mar 20 03:04:59 test-d58 app/web.1 10.113.192.240 - - [20/Mar/2020:19:04:59 +0900] "HEAD / HTTP/1.1" 200 - "http://test-d58.herokuapp.com/" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40][72] Processing: App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: roop  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: FavoriteCreateRoopJob  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: queue_id : 72  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: initDailyCounter  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 1  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 1  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 2020/03/20  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG:   
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: haveRestricted  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: checkApi_counter  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 日付判定確認 : 1  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 2020-03-20 19:09:40  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: {"id":1240928363310505985}  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: checkApi  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: favorites_create  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 制限状態：1  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 使用状態：1  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: next いいね：  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: tweet_id_listの数 : 9  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.ALERT: 次のいいねへ。  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: destruct  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: 82  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40] development.DEBUG: いいねJob発行:ループ開始  
+Mar 20 03:09:40 test-d58 app/worker.1 [2020-03-20 19:09:40][72] Processed:  App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:17:41 test-d58 app/worker.1 [2020-03-20 19:17:41][82] Processing: App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: roop  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: FavoriteCreateRoopJob  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: queue_id : 82  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: initDailyCounter  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: 1  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: 1  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: 2020/03/20  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG:   
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: haveRestricted  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: checkApi_counter  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: 日付判定確認 : 1  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: 2020-03-20 19:17:41  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: {"id":1240927692230279169}  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: checkApi  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: favorites_create  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: 制限状態：1  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: 使用状態：1  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: next いいね：  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: tweet_id_listの数 : 9  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.ALERT: 次のいいねへ。  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: destruct  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: 92  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41] development.DEBUG: いいねJob発行:ループ開始  
+Mar 20 03:17:42 test-d58 app/worker.1 [2020-03-20 19:17:41][82] Processed:  App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:19:59 test-d58 heroku/router at=info method=HEAD path="/" host=test-d58.herokuapp.com request_id=96e3a208-a2a6-4fa1-91d7-cb5ce45f1fb0 fwd="216.245.221.84" dyno=web.1 connect=1ms service=55ms status=200 bytes=846 protocol=http
+Mar 20 03:19:59 test-d58 app/web.1 10.5.225.117 - - [20/Mar/2020:19:19:59 +0900] "HEAD / HTTP/1.1" 200 - "http://test-d58.herokuapp.com/" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43][92] Processing: App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: roop  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: FavoriteCreateRoopJob  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: queue_id : 92  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: initDailyCounter  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: 1  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: 1  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: 2020/03/20  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG:   
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: haveRestricted  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: checkApi_counter  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: 日付判定確認 : 1  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: 2020-03-20 19:25:43  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: {"id":1240926974547128320}  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: checkApi  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: favorites_create  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: 制限状態：1  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: 使用状態：1  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: next いいね：  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: tweet_id_listの数 : 9  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: destruct  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43] development.DEBUG: 102  
+Mar 20 03:25:43 test-d58 app/worker.1 [2020-03-20 19:25:43][92] Processed:  App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43][102] Processing: App\Jobs\favorite\SearchTweetRoopJob
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: roop  
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: SearchTweetRoopJob  
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: queu_id : 102  
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: initDailyCounter  
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG:   
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: 1  
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: 2020/03/20  
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG:   
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: haveRestricted  
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: checkApi_counter  
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: 日付判定確認 : 1  
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 03:27:43 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: {"q":"\u865a\u69cb\u63a8\u7406 ","locale":"ja","lang":"ja","result_type":"recent","count":"10","max_id":1240926974547128319,"include_entities":false}  
+Mar 20 03:27:44 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: checkApi  
+Mar 20 03:27:44 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: search_tweets  
+Mar 20 03:27:44 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: 制限状態：1  
+Mar 20 03:27:44 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: 使用状態：1  
+Mar 20 03:27:44 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: ツイート数：9  
+Mar 20 03:27:44 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: next id：?max_id=1240926045429096448&q=%E8%99%9A%E6%A7%8B%E6%8E%A8%E7%90%86&lang=ja&count=10&result_type=recent  
+Mar 20 03:27:44 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: next max_id : 1240926045429096448  
+Mar 20 03:27:44 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: destruct  
+Mar 20 03:27:44 test-d58 app/worker.1 [2020-03-20 19:27:43] development.DEBUG: 112  
+Mar 20 03:27:44 test-d58 app/worker.1 [2020-03-20 19:27:43][102] Processed:  App\Jobs\favorite\SearchTweetRoopJob
+Mar 20 03:34:59 test-d58 heroku/router at=info method=HEAD path="/" host=test-d58.herokuapp.com request_id=dfefe200-2306-4061-9def-be08a89642be fwd="216.245.221.84" dyno=web.1 connect=1ms service=20ms status=200 bytes=848 protocol=http
+Mar 20 03:34:59 test-d58 app/web.1 10.45.241.211 - - [20/Mar/2020:19:34:59 +0900] "HEAD / HTTP/1.1" 200 - "http://test-d58.herokuapp.com/" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44][112] Processing: App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG: roop  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG: FavoriteCreateRoopJob  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG: queue_id : 112  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG: initDailyCounter  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG: 1  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG: 1  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG: 2020/03/20  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG:   
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG: haveRestricted  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG: checkApi_counter  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG: 日付判定確認 : 1  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:44] development.DEBUG: 2020-03-20 19:35:44  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:45] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:45] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:45] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:45] development.DEBUG: {"id":1240926611177754627}  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:45] development.DEBUG: checkApi  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:45] development.DEBUG: favorites_create  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:45] development.DEBUG: 制限状態：1  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:45] development.DEBUG: 使用状態：1  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:45] development.DEBUG: next いいね：  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:45] development.DEBUG: tweet_id_listの数 : 9  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:45] development.ALERT: 次のいいねへ。  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:45] development.DEBUG: destruct  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:45] development.DEBUG: 122  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:45] development.DEBUG: いいねJob発行:ループ開始  
+Mar 20 03:35:45 test-d58 app/worker.1 [2020-03-20 19:35:45][112] Processed:  App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46][122] Processing: App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: roop  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: FavoriteCreateRoopJob  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: queue_id : 122  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: initDailyCounter  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: 1  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: 1  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: 2020/03/20  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG:   
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: haveRestricted  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: checkApi_counter  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: 日付判定確認 : 1  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: 2020-03-20 00:00:00  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: 2020-03-20 19:43:46  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: accese: 制限判定を通過しました。  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: 1053251462803779584-BRdGOerk5Wgi4IQKERhDUGcizpOQCr  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: oh7aRuh9t7n8rb03GWJp5LvKbuFm6lWYQis6C4SdZwEGC  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: {"id":1240926572443340800}  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: checkApi  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: favorites_create  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: 制限状態：1  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: 使用状態：1  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: next いいね：  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: tweet_id_listの数 : 9  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.ALERT: 次のいいねへ。  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: destruct  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: 132  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46] development.DEBUG: いいねJob発行:ループ開始  
+Mar 20 03:43:46 test-d58 app/worker.1 [2020-03-20 19:43:46][122] Processed:  App\Jobs\favorite\FavoriteCreateRoopJob
+Mar 20 03:46:58 test-d58 app/worker.1 [2020-03-20 19:46:57] development.ERROR: There is already an active transaction {"exception":"[object] (PDOException(code: 0): There is already an active transaction at /app/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:109)
+Mar 20 03:46:58 test-d58 app/worker.1 [stacktrace]
+Mar 20 03:46:58 test-d58 app/worker.1 #0 /app/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php(109): PDO->beginTransaction()
+Mar 20 03:46:58 test-d58 app/worker.1 #1 /app/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php(93): Illuminate\\Database\\Connection->createTransaction()
+Mar 20 03:46:58 test-d58 app/worker.1 #2 /app/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php(23): Illuminate\\Database\\Connection->beginTransaction()
+Mar 20 03:46:58 test-d58 app/worker.1 #3 /app/vendor/laravel/framework/src/Illuminate/Queue/DatabaseQueue.php(202): Illuminate\\Database\\Connection->transaction()
+Mar 20 03:46:58 test-d58 app/worker.1 #4 /app/vendor/laravel/framework/src/Illuminate/Queue/Worker.php(253): Illuminate\\Queue\\DatabaseQueue->pop()
+Mar 20 03:46:58 test-d58 app/worker.1 #5 /app/vendor/laravel/framework/src/Illuminate/Queue/Worker.php(107): Illuminate\\Queue\\Worker->getNextJob()
+Mar 20 03:46:58 test-d58 app/worker.1 #6 /app/vendor/laravel/framework/src/Illuminate/Queue/Console/WorkCommand.php(103): Illuminate\\Queue\\Worker->daemon()
+Mar 20 03:46:58 test-d58 app/worker.1 #7 /app/vendor/laravel/framework/src/Illuminate/Queue/Console/WorkCommand.php(87): Illuminate\\Queue\\Console\\WorkCommand->runWorker()
+Mar 20 03:46:58 test-d58 app/worker.1 #8 [internal function]: Illuminate\\Queue\\Console\\WorkCommand->handle()
+Mar 20 03:46:58 test-d58 app/worker.1 #9 /app/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+Mar 20 03:46:58 test-d58 app/worker.1 #10 /app/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+Mar 20 03:46:58 test-d58 app/worker.1 #11 /app/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+Mar 20 03:46:58 test-d58 app/worker.1 #12 /app/vendor/laravel/framework/src/Illuminate/Container/Container.php(576): Illuminate\\Container\\BoundMethod::call()
+Mar 20 03:46:58 test-d58 app/worker.1 #13 /app/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call()
+Mar 20 03:46:58 test-d58 app/worker.1 #14 /app/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+Mar 20 03:46:58 test-d58 app/worker.1 #15 /app/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run()
+Mar 20 03:46:58 test-d58 app/worker.1 #16 /app/vendor/symfony/console/Application.php(1011): Illuminate\\Console\\Command->run()
+Mar 20 03:46:58 test-d58 app/worker.1 #17 /app/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+Mar 20 03:46:58 test-d58 app/worker.1 #18 /app/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+Mar 20 03:46:58 test-d58 app/worker.1 #19 /app/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+Mar 20 03:46:58 test-d58 app/worker.1 #20 /app/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run()
+Mar 20 03:46:58 test-d58 app/worker.1 #21 /app/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+Mar 20 03:46:58 test-d58 app/worker.1 #22 {main}
+Mar 20 03:46:58 test-d58 app/worker.1 "} 
+Mar 20 03:47:07 test-d58 app/worker.1 [2020-03-20 19:47:07] development.ERROR: SQLSTATE[42000]: Syntax error or access violation: 1226 User 'b92ffffaec83d9' has exceeded the 'max_questions' resource (current value: 3600) {"exception":"[object] (PDOException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1226 User 'b92ffffaec83d9' has exceeded the 'max_questions' resource (current value: 3600) at /app/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:109)
+Mar 20 03:47:07 test-d58 app/worker.1 [stacktrace]
+Mar 20 03:47:07 test-d58 app/worker.1 #0 /app/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php(109): PDO->beginTransaction()
+Mar 20 03:47:07 test-d58 app/worker.1 #1 /app/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php(93): Illuminate\\Database\\Connection->createTransaction()
+Mar 20 03:47:07 test-d58 app/worker.1 #2 /app/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php(23): Illuminate\\Database\\Connection->beginTransaction()
+Mar 20 03:47:07 test-d58 app/worker.1 #3 /app/vendor/laravel/framework/src/Illuminate/Queue/DatabaseQueue.php(202): Illuminate\\Database\\Connection->transaction()
+Mar 20 03:47:07 test-d58 app/worker.1 #4 /app/vendor/laravel/framework/src/Illuminate/Queue/Worker.php(253): Illuminate\\Queue\\DatabaseQueue->pop()
+Mar 20 03:47:07 test-d58 app/worker.1 #5 /app/vendor/laravel/framework/src/Illuminate/Queue/Worker.php(107): Illuminate\\Queue\\Worker->getNextJob()
+Mar 20 03:47:07 test-d58 app/worker.1 #6 /app/vendor/laravel/framework/src/Illuminate/Queue/Console/WorkCommand.php(103): Illuminate\\Queue\\Worker->daemon()
+Mar 20 03:47:07 test-d58 app/worker.1 #7 /app/vendor/laravel/framework/src/Illuminate/Queue/Console/WorkCommand.php(87): Illuminate\\Queue\\Console\\WorkCommand->runWorker()
+Mar 20 03:47:07 test-d58 app/worker.1 #8 [internal function]: Illuminate\\Queue\\Console\\WorkCommand->handle()
+Mar 20 03:47:07 test-d58 app/worker.1 #9 /app/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+Loading...searched forward to Mar 20 at 3:47:07 AM

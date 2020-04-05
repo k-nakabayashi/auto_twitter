@@ -1,0 +1,175 @@
+[2020-03-19 20:50:25] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-19 20:50:25] local.DEBUG: FavoriteStart start  
+[2020-03-19 20:50:25] local.DEBUG: アニメ 卓球 可愛い   
+[2020-03-19 20:50:25] local.DEBUG: 遅延：1  
+[2020-03-19 20:50:25] local.DEBUG: destruct  
+[2020-03-19 20:50:25] local.DEBUG: 21  
+[2020-03-19 20:50:26] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-19 20:50:26] local.DEBUG: Tw_Account  
+[2020-03-19 20:50:26] local.DEBUG:  id :1  
+[2020-03-19 20:51:32] local.DEBUG: roop  
+[2020-03-19 20:51:32] local.DEBUG: SearchTweetRoopJob  
+[2020-03-19 20:51:32] local.DEBUG: queu_id : 21  
+[2020-03-19 20:51:32] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-19 20:51:32] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-19 20:51:32] local.DEBUG: initDailyCounter  
+[2020-03-19 20:51:32] local.DEBUG:   
+[2020-03-19 20:51:32] local.DEBUG: 1  
+[2020-03-19 20:51:32] local.DEBUG: 2020-03-19 00:00:00  
+[2020-03-19 20:51:32] local.DEBUG: 2020/03/16  
+[2020-03-19 20:51:32] local.DEBUG: 1  
+[2020-03-19 20:51:32] local.DEBUG: haveRestricted  
+[2020-03-19 20:51:32] local.DEBUG: checkApi_counter  
+[2020-03-19 20:51:32] local.DEBUG: 日付判定確認 : 1  
+[2020-03-19 20:51:32] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-19 20:51:32] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-19 20:51:32] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-19 20:51:32] local.DEBUG: {"q":"\u30a2\u30cb\u30e1 \u5353\u7403 \u53ef\u611b\u3044 ","locale":"ja","lang":"ja","result_type":"recent","count":"100","max_id":"","include_entities":false}  
+[2020-03-19 20:51:33] local.DEBUG: checkApi  
+[2020-03-19 20:51:33] local.DEBUG: search_tweets  
+[2020-03-19 20:51:33] local.DEBUG: 制限状態：1  
+[2020-03-19 20:51:33] local.DEBUG: 使用状態：1  
+[2020-03-19 20:51:33] local.DEBUG: ツイート数：2  
+[2020-03-19 20:51:33] local.DEBUG: next id：?max_id=1239189717616189440&q=%E3%82%A2%E3%83%8B%E3%83%A1%20%E5%8D%93%E7%90%83%20%E5%8F%AF%E6%84%9B%E3%81%84&lang=ja&count=100&result_type=recent  
+[2020-03-19 20:51:33] local.DEBUG: next max_id : 1239189717616189440  
+[2020-03-19 20:51:33] local.DEBUG: destruct  
+[2020-03-19 20:51:33] local.DEBUG: 22  
+[2020-03-19 20:55:44] local.DEBUG: roop  
+[2020-03-19 20:55:44] local.DEBUG: FavoriteCreateRoopJob  
+[2020-03-19 20:55:44] local.DEBUG: queue_id : 22  
+[2020-03-19 20:55:44] local.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+[2020-03-19 20:55:44] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-19 20:55:44] local.DEBUG: initDailyCounter  
+[2020-03-19 20:55:44] local.DEBUG: 1  
+[2020-03-19 20:55:44] local.DEBUG: 1  
+[2020-03-19 20:55:44] local.DEBUG: 2020-03-19 00:00:00  
+[2020-03-19 20:55:44] local.DEBUG: 2020/03/18  
+[2020-03-19 20:55:44] local.DEBUG: 1  
+[2020-03-19 20:55:44] local.DEBUG: coutner 初期化します  
+[2020-03-19 20:55:44] local.DEBUG: haveRestricted  
+[2020-03-19 20:55:44] local.DEBUG: checkApi_counter  
+[2020-03-19 20:55:44] local.DEBUG: 日付判定確認 : 1  
+[2020-03-19 20:55:44] local.DEBUG: 2020-03-19 00:00:00  
+[2020-03-19 20:55:44] local.DEBUG: 2020-03-19 20:55:44  
+[2020-03-19 20:55:44] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-19 20:55:44] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-19 20:55:44] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-19 20:55:44] local.DEBUG: {"id":1239292449106739200}  
+[2020-03-19 20:55:44] local.DEBUG: checkApi  
+[2020-03-19 20:55:44] local.DEBUG: favorites_create  
+[2020-03-19 20:55:44] local.DEBUG: 制限状態：1  
+[2020-03-19 20:55:44] local.DEBUG: 使用状態：1  
+[2020-03-19 20:55:44] local.DEBUG: next いいね：  
+[2020-03-19 20:55:44] local.DEBUG: destruct  
+[2020-03-19 20:55:44] local.DEBUG: 23  
+[2020-03-19 20:55:44] local.DEBUG: いいねJob発行:ループ開始  
+[2020-03-19 20:56:44] local.DEBUG: roop  
+[2020-03-19 20:56:44] local.DEBUG: FavoriteCreateRoopJob  
+[2020-03-19 20:56:44] local.DEBUG: queue_id : 23  
+[2020-03-19 20:56:44] local.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+[2020-03-19 20:56:44] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-19 20:56:44] local.DEBUG: initDailyCounter  
+[2020-03-19 20:56:44] local.DEBUG: 1  
+[2020-03-19 20:56:44] local.DEBUG: 1  
+[2020-03-19 20:56:44] local.DEBUG: 2020-03-19 00:00:00  
+[2020-03-19 20:56:44] local.DEBUG: 2020/03/19  
+[2020-03-19 20:56:44] local.DEBUG:   
+[2020-03-19 20:56:44] local.DEBUG: haveRestricted  
+[2020-03-19 20:56:44] local.DEBUG: checkApi_counter  
+[2020-03-19 20:56:44] local.DEBUG: 日付判定確認 : 1  
+[2020-03-19 20:56:44] local.DEBUG: 2020-03-19 00:00:00  
+[2020-03-19 20:56:44] local.DEBUG: 2020-03-19 20:56:44  
+[2020-03-19 20:56:44] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-19 20:56:44] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-19 20:56:44] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-19 20:56:44] local.DEBUG: {"id":1239189717616189441}  
+[2020-03-19 20:56:44] local.DEBUG: checkApi  
+[2020-03-19 20:56:44] local.DEBUG: message  
+[2020-03-19 20:56:44] local.DEBUG: checkapi error   
+[2020-03-19 20:56:44] local.DEBUG: [{"code":139,"message":"You have already favorited this status."}]  
+[2020-03-19 20:56:44] local.DEBUG: 139  
+[2020-03-19 20:56:44] local.DEBUG: favorites_create  
+[2020-03-19 20:56:44] local.DEBUG: 制限状態：1  
+[2020-03-19 20:56:44] local.DEBUG: 使用状態：1  
+[2020-03-19 20:56:44] local.DEBUG: next いいね：  
+[2020-03-19 20:56:44] local.DEBUG: destruct  
+[2020-03-19 20:56:44] local.DEBUG: 24  
+[2020-03-19 20:57:54] local.DEBUG: roop  
+[2020-03-19 20:57:54] local.DEBUG: SearchTweetRoopJob  
+[2020-03-19 20:57:54] local.DEBUG: queu_id : 24  
+[2020-03-19 20:57:54] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-19 20:57:54] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-19 20:57:54] local.DEBUG: initDailyCounter  
+[2020-03-19 20:57:54] local.DEBUG:   
+[2020-03-19 20:57:54] local.DEBUG: 1  
+[2020-03-19 20:57:54] local.DEBUG: 2020-03-19 00:00:00  
+[2020-03-19 20:57:54] local.DEBUG: 2020/03/16  
+[2020-03-19 20:57:54] local.DEBUG: 1  
+[2020-03-19 20:57:54] local.DEBUG: haveRestricted  
+[2020-03-19 20:57:54] local.DEBUG: checkApi_counter  
+[2020-03-19 20:57:54] local.DEBUG: 日付判定確認 : 1  
+[2020-03-19 20:57:54] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-19 20:57:54] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-19 20:57:54] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-19 20:57:54] local.DEBUG: {"q":"\u30a2\u30cb\u30e1 \u5353\u7403 \u53ef\u611b\u3044 ","locale":"ja","lang":"ja","result_type":"recent","count":"100","max_id":1239189717616189440,"include_entities":false}  
+[2020-03-19 20:57:55] local.DEBUG: checkApi  
+[2020-03-19 20:57:55] local.DEBUG: search_tweets  
+[2020-03-19 20:57:55] local.DEBUG: 制限状態：1  
+[2020-03-19 20:57:55] local.DEBUG: 使用状態：1  
+[2020-03-19 20:57:55] local.DEBUG: 自動機能完了：favorite  
+[2020-03-19 20:57:55] local.DEBUG: api status initialized  
+[2020-03-19 20:57:55] local.DEBUG: mail set  
+[2020-03-19 21:07:01] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-19 21:07:01] local.DEBUG: Tw_Account  
+[2020-03-19 21:07:01] local.DEBUG:  id :1  
+[2020-03-19 21:07:04] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-19 21:07:04] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-19 21:07:04] local.DEBUG: key name : id  
+[2020-03-19 21:07:33] local.DEBUG: {"app_id":"1","keyword":["{\"opt\":\"and\",\"txt\":\"\u30a2\u30cb\u30e1\"}"],"model_name":"Favorite_Key_Pattern"}  
+[2020-03-19 21:07:33] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-19 21:07:34] local.DEBUG: 11111  
+[2020-03-19 21:07:34] local.DEBUG: 3333  
+[2020-03-19 21:07:34] local.DEBUG: 4444  
+[2020-03-19 21:07:34] local.DEBUG: 77777  
+[2020-03-19 21:07:34] local.DEBUG: データが重複しているため、レコード作成失敗です  
+[2020-03-19 21:07:55] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-19 21:07:55] local.DEBUG: Tw_Account  
+[2020-03-19 21:07:55] local.DEBUG:  id :1  
+[2020-03-19 21:07:56] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-19 21:07:56] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-19 21:07:57] local.DEBUG: key name : id  
+[2020-03-19 21:08:00] local.DEBUG: {"tw_account_id":"1","favorite_key_pattern_id":"0","model_name":"Tw_Account"}  
+[2020-03-19 21:08:00] local.DEBUG: Tw_Account  
+[2020-03-19 21:08:00] local.DEBUG: {"tw_account_id":1,"app_id":1,"user_id":1053251462803779584,"key_pattern_id":0,"favorite_key_pattern_id":8,"screen_name":"TyrantAaa","oauth_token":"1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs","oauth_token_secret":"dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","name":"tyrant_aaA","description":"\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306fTwitterAPI\u81ea\u52d5\u64cd\u4f5c\u30a2\u30d7\u30ea\u958b\u767a\u3067\u3001
+\u4f7f\u3063\u3066\u304a\u308a\u307e\u3059\u3002
+\u3054\u4e86\u627f\u304f\u3060\u3055\u3044\u3002
+\u305f\u307e\u306b\u545f\u304d\u307e\u3059\u3002","follow":0,"unfollow":0,"tweet":0,"favorite":0,"follow_queue_id":null,"unfollow_queue_id":0,"favorite_queue_id":null,"auto_followers_list":0,"auto_users_show":0,"auto_friendships_create":0,"auto_friendships_lookup":0,"auto_friendships_destroy":0,"auto_search_tweets":0,"auto_favorites_create":0,"followers_list":1,"users_show":1,"friendships_create":1,"friendships_lookup":1,"friendships_destroy":1,"search_tweets":1,"favorites_create":1,"statuses_update":1,"followers_list_counter":2,"users_show_counter":1,"friendships_create_counter":3,"friendships_lookup_counter":4,"friendships_destroy_counter":5,"search_tweets_counter":6,"favorites_create_counter":7,"statuses_update_create_counter":8,"suspended":0,"queue_name":null,"unfollow_flag":0,"created_at":"2020-03-16 16:17:50","updated_at":"2020-03-19 20:57:55","deleted_at":null}  
+[2020-03-19 21:08:01] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-19 21:08:01] local.DEBUG: Tw_Account  
+[2020-03-19 21:08:01] local.DEBUG:  id :1  
+[2020-03-19 21:08:08] local.DEBUG: {"tw_account_id":"1","favorite_key_pattern_id":"3","model_name":"Tw_Account"}  
+[2020-03-19 21:08:08] local.DEBUG: Tw_Account  
+[2020-03-19 21:08:08] local.DEBUG: {"tw_account_id":1,"app_id":1,"user_id":1053251462803779584,"key_pattern_id":0,"favorite_key_pattern_id":0,"screen_name":"TyrantAaa","oauth_token":"1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs","oauth_token_secret":"dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","name":"tyrant_aaA","description":"\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306fTwitterAPI\u81ea\u52d5\u64cd\u4f5c\u30a2\u30d7\u30ea\u958b\u767a\u3067\u3001
+\u4f7f\u3063\u3066\u304a\u308a\u307e\u3059\u3002
+\u3054\u4e86\u627f\u304f\u3060\u3055\u3044\u3002
+\u305f\u307e\u306b\u545f\u304d\u307e\u3059\u3002","follow":0,"unfollow":0,"tweet":0,"favorite":0,"follow_queue_id":null,"unfollow_queue_id":0,"favorite_queue_id":null,"auto_followers_list":0,"auto_users_show":0,"auto_friendships_create":0,"auto_friendships_lookup":0,"auto_friendships_destroy":0,"auto_search_tweets":0,"auto_favorites_create":0,"followers_list":1,"users_show":1,"friendships_create":1,"friendships_lookup":1,"friendships_destroy":1,"search_tweets":1,"favorites_create":1,"statuses_update":1,"followers_list_counter":2,"users_show_counter":1,"friendships_create_counter":3,"friendships_lookup_counter":4,"friendships_destroy_counter":5,"search_tweets_counter":6,"favorites_create_counter":7,"statuses_update_create_counter":8,"suspended":0,"queue_name":null,"unfollow_flag":0,"created_at":"2020-03-16 16:17:50","updated_at":"2020-03-19 21:08:00","deleted_at":null}  
+[2020-03-19 21:08:09] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-19 21:08:09] local.DEBUG: Tw_Account  
+[2020-03-19 21:08:10] local.DEBUG:  id :1  
+[2020-03-19 21:08:12] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-19 21:08:12] local.DEBUG: FavoriteStart start  
+[2020-03-19 21:08:12] local.DEBUG: アニメ   
+[2020-03-19 21:08:12] local.DEBUG: 遅延：1  
+[2020-03-19 21:08:12] local.DEBUG: destruct  
+[2020-03-19 21:08:12] local.DEBUG: 26  
+[2020-03-19 21:08:14] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-19 21:08:14] local.DEBUG: Tw_Account  
+[2020-03-19 21:08:14] local.DEBUG:  id :1  

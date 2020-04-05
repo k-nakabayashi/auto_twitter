@@ -1,0 +1,17 @@
+
+@import "./common";
+
+@import "./utility/general";//クリアフィックスなど
+@import "./utility/area-ch";// 子要素 >* で当てる
+@import "./utility/area";//padding, margin, width, height
+@import "./utility/construction";//フロート、横並び
+@import "./utility/centering";//flexによるセンタリング
+@import "./utility/img";//imgの高さ・幅をラッパーに合わせる
+@import "./utility/position";//
+@import "./utility/flex";//
+@import "./utility/text";//
+@import "./utility/mask";
+@import "./utility/media";
+@import "./utility/bg";
+
+

@@ -1,0 +1,58 @@
+
+// カラーアセット
+
+// $v_black:#333;
+$v_black: rgb(67,66,93);
+$v_black2: #E9E9F0;
+$v_black3: #9a9a9a;
+$v_white:#fff;
+$v_white2: #FFFFFFB3;
+$v_base_white: #F1F1F1;
+$v_main_blue: #48A2F1;
+$v_key_pink: #F78D8D;
+
+
+// ブレイクポイント
+
+//ブレイクポイントの基準 コンパイルの順序を設定している。
+//minかmaxを指定　
+//minなら
+//数値が高いクラスが優先度が高くなる（u-mt-10 u-mt-20と充てると、u-mt-20が適応される)
+//ブレイクポインもmin系統の優先度が高くなる (u-mt-10-sm u-mt-smx なら u-mt-10-smが適応される)
+//maxなら↑の優先度が逆転する
+$v_bp_std: "min";
+
+//min ブレイクポイント
+//bootstrap準拠
+$v_sm: 576;
+$v_md: 768;
+$v_lg: 992;
+$v_xl: 1025;
+//max　ブレイクポイント
+$v_xlx: 1024;
+$v_lgx: 991;
+$v_mdx: 767;
+$v_smx: 575;
+
+//ブレイクポイント設定
+$v_bp_min_map: ("sm":$v_sm, "md": $v_md, "lg":$v_lg, "xl":$v_xl,);
+$v_bp_max_map: ("xlx":$v_xlx, "lgx":$v_lgx, "mdx":$v_mdx, "smx":$v_smx,);
+
+//コンパイル順序に関係
+$v_bp_min: map-keys($v_bp_min_map);
+$v_bp_max: map-keys($v_bp_max_map);
+$v_media_list: ();
+@if ($v_bp_std == "min") {
+  $v_media_list: join($v_bp_max, $v_bp_min);
+} @else if ("max") {
+  $v_media_list: join($v_bp_min, $v_bp_max);
+}
+
+
+// areaユーティリティで使用
+
+$v_px: 8;//8の倍数でpxが指定される
+$v_px_max_roop:5;// 8*50pxまで作れる。
+
+$v_percent: 5;//5の倍数で%が指定される
+$v_percent_max_roop: (100 / $v_percent);//100%まで作れる

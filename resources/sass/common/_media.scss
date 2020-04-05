@@ -1,0 +1,255 @@
+/*================================================
+        ブレイクポイント
+================================================*/
+@mixin u-media-min($bp_p) {
+  @media screen and (min-width:#{$bp_p}px) {
+    @content;
+  }
+}
+@mixin u-media-max($bp_p) {
+  @media screen and (max-width:#{$bp_p}px) {
+    @content;
+  }
+}
+@mixin u-media($bp_p_min, $bp_p_max) {
+  @media screen and (min-width:#{$bp_p_min}px) and (max-width:#{$bp_p_max}px) {
+    @content;
+  }
+}
+
+//min
+@mixin u-media-sm {
+  @media screen and (min-width:#{$v_sm}px) {
+    @content;
+  }
+}
+@mixin u-media-md {
+  @media screen and (min-width:#{$v_md}px) {
+    @content;
+  }
+}
+@mixin u-media-lg {
+  @media screen and (min-width:#{$v_lg}px) {
+    @content;
+  }
+}
+@mixin u-media-xl {
+  @media screen and (min-width:#{$v_xl}px) {
+    @content;
+  }
+}
+
+//max
+@mixin u-media-xlx {
+  @media screen and (max-width:#{$v_xlx}px) {
+    @content;
+  }
+}
+@mixin u-media-lgx {
+  @media screen and (max-width:#{$v_lgx}px) {
+    @content;
+  }
+}
+@mixin u-media-mdx {
+  @media screen and (max-width:#{$v_mdx}px) {
+    @content;
+  }
+}
+@mixin u-media-smx {
+  @media screen and (max-width:#{$v_smx}px) {
+    @content;
+  }
+}
+/*================================================
+        レスポンシブスタイルのmixin
+================================================*/
+//レスポンシブ対応　スタイル一つだけ
+//$bpはブレイクポイント smとかの文字列
+@mixin u_rsp($bp, $style, $value) {
+  @each $bp_key in $v_bp_min {
+    @if ($bp == $bp_key) {
+      @media screen and (min-width:#{map-get($v_bp_min_map, $bp)}px) {
+        #{$style}: #{$value};
+      }
+    }
+  }
+  @each $bp_key in $v_bp_max {
+    @if ($bp == $bp_key) {
+      @media screen and (max-width:#{map-get($v_bp_max_map, $bp)}px) {
+        #{$style}: #{$value};
+      }
+    }
+  }
+}
+//レスポンシブ対応　スタイル複数　
+//$styles:(margin:10px, padding:20px, width:100px);という具合で渡すと使えます
+@mixin u_rsp_multi($bp, $styles) {
+
+  @each $bp_key in $v_bp_min {
+    @if ($bp == $bp_key) {
+      @media screen and (min-width:#{map-get($v_bp_min_map, $bp)}px) {
+        @each $key, $value in $styles {
+          #{$key}: #{$value};
+        }
+      }
+    }
+  }
+  @each $bp_key in $v_bp_max {
+    @if ($bp == $bp_key) {
+      @media screen and (max-width:#{map-get($v_bp_max_map, $bp)}px) {
+        @each $key, $value in $styles {
+          #{$key}: #{$value};
+        }
+      }
+    }
+  }
+}
+
+@mixin u_rsp__ch($bp, $style, $value) {
+  > * {
+    @each $bp_key in $v_bp_min {
+      @if ($bp == $bp_key) {
+        @media screen and (min-width:#{map-get($v_bp_min_map, $bp)}px) {
+          #{$style}: #{$value};
+        }
+      }
+    }
+    @each $bp_key in $v_bp_max {
+      @if ($bp == $bp_key) {
+        @media screen and (max-width:#{map-get($v_bp_max_map, $bp)}px) {
+          #{$style}: #{$value};
+        }
+      }
+    }
+  } 
+}
+@mixin u_rsp_multi__ch($bp, $styles) {
+  > * {
+    @each $bp_key in $v_bp_min {
+      @if ($bp == $bp_key) {
+        @media screen and (min-width:#{map-get($v_bp_min_map, $bp)}px) {
+          @each $key, $value in $styles {
+            #{$key}: #{$value};
+          }
+        }
+      }
+    }
+    @each $bp_key in $v_bp_max {
+      @if ($bp == $bp_key) {
+        @media screen and (max-width:#{map-get($v_bp_max_map, $bp)}px) {
+          @each $key, $value in $styles {
+            #{$key}: #{$value};
+          }
+        }
+      }
+    }    
+  }
+}
+/*================================================
+      ブレイクポイントの基準でコンパイル順を変える
+================================================*/
+//ブレイクポイントの基準を判定
+//基準がmin⇒数値は昇順
+//基準がmax⇒数値は降順
+//ループカウンター、倍数, カウンター最大値)
+@function set_Prop_by_Bp_Std ($i, $unit_value, $max_roop) {
+  
+  //$v_bp_stdはブレイクポイントの基準
+  @if ($v_bp_std == "min") {
+    @return $i * $unit_value;
+
+  } @else if ($v_bp_std == "max") {
+    @return  ($max_roop * $i - $i * $unit_value);
+  }
+}
+
+//レスポンシブ
+@function set_Prop_by_Bp_Std_and_Bp ($i, $unit_value, $max_roop, $bp) {
+  @each $bp_key in $v_bp_min {
+    @if ($bp == $bp_key) {
+      @return $i * $unit_value;
+    }
+  }
+  @each $bp_key in $v_bp_max {
+    @if ($bp == $bp_key) {
+      @return  ($max_roop * $unit_value - $i * $unit_value);
+    }
+  }
+}
+
+
+//%を充てるスタイルに使う
+@function set_PerProp_by_Bp_Std ($i, $max_roop) {
+  
+  //$v_bp_stdはブレイクポイントの基準
+  @if ($v_bp_std == "min") {
+    @return $i * $v_percent;
+
+  } @else if ($v_bp_std == "max") {
+    @return  $max_roop * $v_percent - ($i - 1) * $v_percent;
+  }
+}
+@function set_PerProp_by_Bp_Std_and_Bp ($i, $max_roop, $bp) {
+
+  //$v_bp_stdはブレイクポイントの基準
+  @each $bp_key in $v_bp_min {
+    @if ($bp == $bp_key) {
+      @return $i * $v_percent;
+    }
+  }
+  @each $bp_key in $v_bp_max {
+    @if ($bp == $bp_key) {
+      @return  $max_roop * $v_percent - ($i - 1) * $v_percent;
+    }
+  }
+}
+//%を充てるスタイルに使う
+@function set_Equal_PerProp_by_Bp_Std ($i) {
+  
+  //$v_bp_stdはブレイクポイントの基準
+  @if ($v_bp_std == "min") {
+    //@return ("name": $i, "value": (100.0000 / $i));
+    @return (100.0000 / $i);
+
+  } @else if ($v_bp_std == "max") {
+    @return  $max_child / $i * $v_percent;
+  }
+}
+@function set_Equal_PerProp_by_Bp_Std_and_Bp ($i, $max_child, $bp) {
+
+  //$v_bp_stdはブレイクポイントの基準
+  @each $bp_key in $v_bp_min {
+    @if ($bp == $bp_key) {
+      @return (100.0000 / $i);
+    }
+  }
+  @each $bp_key in $v_bp_max {
+    @if ($bp == $bp_key) {
+      @return (100.0000 / $i);
+    }
+  }
+}
+
+@function set_Counter_for_rsp ($value) {
+  @if ($v_bp_std == "min") {
+    @return $value;
+
+  } @else if ($v_bp_std == "max") {
+
+    @if ($value == 1) {
+      $value:5;
+
+    } @else if ($value == 2) {
+      $value:4;
+
+    } @else if ($value == 4) {
+
+      $value:2;
+    } @else if ($value == 5) {
+
+      $value:1;
+    }
+    @return $value;
+  }
+  
+}

@@ -1,0 +1,148 @@
+%a-Area {
+  display: inline-block!important;
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px 3px #00000029;
+  text-align: center;
+
+}
+%a-Area__inner {
+  display: inline-block!important;
+  text-align: center;
+}
+//large
+%prop1 {
+
+  width: 100px;
+  > * {
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  @include u-media-sm {
+    width: 200px;
+    > * {
+      font-size: 24px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+  }
+
+}
+
+%prop2 {
+
+  > * {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+  @include u-media-sm {
+    > * {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
+}
+
+//chip
+%prop3 {
+
+  > * {
+    padding: 4px 12px;
+  }
+  @include u-media-sm {
+    > * {
+      font-size: 16px;
+    }
+  }
+}
+
+.a-Btn--large {
+  @extend %a-Area;
+  @extend %prop1;
+  @extend .animated;
+  cursor: pointer;
+  background: $v_key_pink;
+ 
+  > * {
+    @extend %a-Area__inner;
+    color: $v_white;
+  }
+  &:hover {
+    > * {
+      color: $v_white;
+    }
+  }
+}
+
+
+.a-Btn--pink {
+  @extend %a-Area;
+  @extend %prop2;
+  cursor: pointer;
+  background: $v_key_pink;
+
+  &.api-restart{
+    box-shadow: none;
+  }
+
+  > * {
+    @extend %a-Area__inner;
+    color: $v_white;
+
+  }
+
+  &:hover {
+    > * {
+      color: $v_white;
+    }
+  }
+}
+
+.a-Btn--grey {
+  @extend %a-Area;
+  @extend %prop2;
+  background: #F1F1F1 0% 0% no-repeat padding-box;
+  // width: 120px;
+
+  &.api-restart{
+    box-shadow: none;
+  }
+
+  > * {
+    @extend %a-Area__inner;
+  }
+}
+
+.a-Btn--blue {
+  @extend %a-Area;
+  @extend %prop2;
+  cursor: pointer;
+  background: $v_main_blue 0% 0% no-repeat padding-box;
+
+  &.api-restart{
+    box-shadow: none;
+  }
+
+  > * {
+    @extend %a-Area__inner;
+    color: $v_white;
+  }
+}
+
+.a-Chip {
+  @extend %a-Area;
+  @extend %prop3;
+  background: #F1F1F1 0% 0% no-repeat padding-box;
+  box-shadow: none;
+ 
+  > * {
+    @extend %a-Area__inner;
+  }
+
+  &.is-pink {
+    background: $v_key_pink;
+    > * {
+      color: #fff;
+    }
+  }
+}

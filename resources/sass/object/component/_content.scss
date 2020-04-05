@@ -1,0 +1,183 @@
+
+
+.c-Items {
+  > *:not(:first-child) {
+    margin-top: 16px;
+  }
+  .icon-wrapper {
+    margin-top: 0;
+  }
+}
+
+.c-Contents {
+  @include  u-media-lg {
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .a-Img {
+    text-align: center;
+  }
+}
+.c-Account__friends {
+  text-align: left;
+  > * {
+    display: inline-block;
+  }
+}
+.c-Account {
+  > * {
+    overflow: hidden;
+    height: 100%;
+  }
+  .c-Wrapper {
+    > * {
+      margin-right: 16px;
+    }
+  }
+
+  .btn-wrapper  {
+    > * {
+      margin-right: 8px;
+    }
+  }
+  .a-Name {
+    word-break: break-all;
+  }
+  
+}
+
+.c-Account__img {
+  align-self: stretch;
+  display: flex;
+  > img {
+    border-radius: 10px;
+    object-fit: contain;
+    width: 100%;
+  }
+}
+
+.c-My-List {
+  margin-top: 64px;
+}
+
+.c-My-Tweet__time {
+  text-align: left;
+  > * {
+    display: inline-block;
+  }
+  > .txt{
+    font-weight: bold;
+  }
+}
+.c-My-Tweet {
+  > .txt {
+    word-break: break-all;
+  }
+}
+.m-Cards-Wrapper {
+  > * {
+
+    margin-bottom: 16px;
+    @include u-media-sm {
+      margin-bottom: 40px;
+    }
+  }
+  
+  > *:first-child {
+    @include u-media-smx {
+      margin-top: 0px;
+    }
+  }
+}
+
+.m-Cards-Wrapper2 {
+  > * {
+    margin-bottom: 24px;
+  }
+  
+  > *:first-child {
+    @include u-media-smx {
+      margin-top: 0px;
+    }
+  }
+}
+
+.c-Tweet {
+  .c-Items {
+    padding: 16px;
+  }
+  .a-Time {
+    font-size: .7rem;
+  }
+  .a-Txt {
+    word-break: break-word;
+    overflow: scroll;
+    height: 40px;
+  }
+  .c-Btn-Wrapper {
+    > * {
+      margin-right: 16px;
+    }
+  }
+}
+
+.c-Keywords {
+  text-align: left;
+  padding-bottom: 16px;
+  letter-spacing: -4rem;
+  > * {
+    display: inline-block;
+    margin-right: 16px;
+    margin-top: 16px;
+    letter-spacing: 0rem;
+  }
+}
+.c-Keywords__Inner {
+  .u-card-back {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  > * {
+    letter-spacing: -4rem;
+    > * {
+      letter-spacing: 0rem;
+    }
+  }
+}
+.c-Keywords-Inner {
+  text-align: left;
+  > * {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 24px;
+      position: relative;
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 30px;
+        display: inline-block;
+        background: #333;
+        right: -12px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+
+
+    }
+
+  }
+  .btn {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+
+}
+

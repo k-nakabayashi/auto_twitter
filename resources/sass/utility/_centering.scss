@@ -1,0 +1,81 @@
+
+/*============================================================
+                      中央寄せ
+============================================================*/
+@mixin u-flex--center {
+  -webkit-display: flex;
+  -ms-display: flex;
+  display: flex;
+
+  -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+  -ms-justify-content: center;
+  align-items: center; /* 縦方向中央揃え */
+
+  -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+  -ms-justify-content: center;
+  justify-content: center; /* 横方向中央揃え */
+}
+
+@mixin u-flex--y-center {
+  -webkit-display: flex;
+  -ms-display: flex;
+  display: flex;
+
+  -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+  -ms-justify-content: center;
+  align-items: center; /* 縦方向中央揃え */
+}
+
+@mixin u-flex--x-center {
+  -webkit-display: flex;
+  -ms-display: flex;
+  display: flex;
+  
+  -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+  -ms-justify-content: center;
+  justify-content: center; /* 横方向中央揃え */
+}
+
+//@include u-mx-auto;
+@mixin u-mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+//@include u-my-auto;
+@mixin u-my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+//疑似要素用
+%u-pseudo--center {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  //heightと高さの指定必要
+ }
+%u-pseudo--y-center {
+ content: "";
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ margin-top: auto;
+ margin-bottom: auto;
+ //heightと高さの指定必要
+}
+
+%u-pseudo--x-center {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  //heightと高さの指定必要
+ }
+ 

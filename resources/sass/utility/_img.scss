@@ -1,0 +1,94 @@
+/*画像のアスペクト比を維持して
+拡大・縮小をさせる
+IE対応してる
+<div class="Img-Wrapper">
+  <img>
+</div>
+
+.Img-Wrapper {
+  width: 200px;　　//状況による
+  height: 200px;　//heightは必要。
+  @include ---fit-Object-Cover;
+}
+
+*/
+.u-img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+@mixin u--fit-Object--cover {
+  position: relative;
+  overflow: hidden;
+  //widhtとheightを個別に
+  //設定する必要あり。
+
+  img { 
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  @supports ( object-fit: cover ) {
+  img {
+    position: static;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    top: 0;
+    -ms-transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+    transform: none;
+  }}
+}
+
+
+@mixin u--fit-Object--contain {
+  position: relative;
+  overflow: hidden;
+  //widhtとheightを個別に
+  //設定する必要あり。
+
+  img { 
+    position: absolute;
+    width: auto;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+
+    //img位置を中央寄せしてる
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  
+  @supports ( object-fit: contain ) {
+  img {
+    position: static;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    -o-object-fit: contain;
+    object-fit: contain;
+    top: 0;
+    -ms-transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+    transform: none;
+  }}
+  
+}

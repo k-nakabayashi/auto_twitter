@@ -1,0 +1,56 @@
+.loading {
+  z-index: 10;
+  position: absolute;
+  top: 20vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+.spinner {
+  background-color: $v_main_blue;
+  border-radius: 100%;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+.loaded {
+  opacity: 0;
+  animation: loaded_out .5s ease-in-out;
+  display: none;
+}
+/* ローディングアニメーション */
+@keyframes sk-scaleout {
+  0% {
+    transform: scale(0);
+  } 100% {
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+@keyframes sk-loaded_out {
+  0% {
+    opacity: 1;
+  } 100% {
+    opacity: 0;
+    visibility: hidden;
+
+  }
+}
+.c-Animated-Item {
+  @extend .animated;
+
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+  -webkit-animation-delay: .2s;
+  animation-delay: .2s;
+}
+
+.c-Animated-Item__inner{
+  @extend .animated;
+  -webkit-animation-duration: 1000ms;
+  animation-duration: 1000ms;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}

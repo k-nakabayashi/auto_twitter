@@ -1,0 +1,529 @@
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+検索結果
+
+[2020-03-18 19:57:34] local.DEBUG: FavoriteStart start  
+[2020-03-18 19:57:34] local.DEBUG: 細々 二階堂   
+[2020-03-18 19:57:34] local.DEBUG: 遅延：1  
+[2020-03-18 19:57:34] local.DEBUG: destruct  
+[2020-03-18 19:57:34] local.DEBUG: 9  
+[2020-03-18 19:57:35] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 19:57:35] local.DEBUG: Tw_Account  
+[2020-03-18 19:57:35] local.DEBUG:  id :1  
+[2020-03-18 19:58:42] local.DEBUG: roop  
+[2020-03-18 19:58:42] local.DEBUG: SearchTweetRoopJob  
+[2020-03-18 19:58:42] local.DEBUG: queu_id : 9  
+[2020-03-18 19:58:42] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-18 19:58:42] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-18 19:58:42] local.DEBUG: initDailyCounter  
+[2020-03-18 19:58:42] local.DEBUG:   
+[2020-03-18 19:58:42] local.DEBUG: 1  
+[2020-03-18 19:58:42] local.DEBUG: 2020-03-18 00:00:00  
+[2020-03-18 19:58:42] local.DEBUG: 2020/03/16  
+[2020-03-18 19:58:42] local.DEBUG: 1  
+[2020-03-18 19:58:42] local.DEBUG: haveRestricted  
+[2020-03-18 19:58:42] local.DEBUG: checkApi_counter  
+[2020-03-18 19:58:42] local.DEBUG: 日付判定確認 : 1  
+[2020-03-18 19:58:42] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-18 19:58:42] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-18 19:58:42] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-18 19:58:42] local.DEBUG: {"q":"\u7d30\u3005 \u4e8c\u968e\u5802 ","locale":"ja","lang":"ja","result_type":"recent","count":100,"max_id":"","include_entities":false}  
+[2020-03-18 19:58:43] local.DEBUG: checkApi  
+[2020-03-18 19:58:43] local.DEBUG: search_tweets  
+[2020-03-18 19:58:43] local.DEBUG: 制限状態：1  
+[2020-03-18 19:58:43] local.DEBUG: 使用状態：1  
+[2020-03-18 19:58:43] local.DEBUG: 自動機能完了：favorite  
+[2020-03-18 19:58:43] local.DEBUG: api status initialized  
+[2020-03-18 19:58:43] local.DEBUG: mail set  
+[2020-03-18 20:03:07] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 20:03:07] local.DEBUG: Tw_Account  
+[2020-03-18 20:03:08] local.DEBUG:  id :1  
+[2020-03-18 20:03:10] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-18 20:03:10] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-18 20:03:10] local.DEBUG: key name : id  
+
+
+------------------------------------------------------------------------
+[2020-03-18 20:06:04] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-18 20:06:04] local.DEBUG: FavoriteStart start  
+[2020-03-18 20:06:04] local.DEBUG: 二階堂 アニメ 怖い   
+[2020-03-18 20:06:04] local.DEBUG: 遅延：0  
+[2020-03-18 20:06:05] local.DEBUG: destruct  
+[2020-03-18 20:06:05] local.DEBUG: 11  
+[2020-03-18 20:06:06] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 20:06:06] local.DEBUG: Tw_Account  
+[2020-03-18 20:06:06] local.DEBUG:  id :1  
+[2020-03-18 20:06:14] local.DEBUG: roop  
+[2020-03-18 20:06:14] local.DEBUG: SearchTweetRoopJob  
+[2020-03-18 20:06:14] local.DEBUG: queu_id : 11  
+[2020-03-18 20:06:14] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-18 20:06:14] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-18 20:06:14] local.DEBUG: initDailyCounter  
+[2020-03-18 20:06:14] local.DEBUG:   
+[2020-03-18 20:06:14] local.DEBUG: 1  
+[2020-03-18 20:06:14] local.DEBUG: 2020-03-18 00:00:00  
+[2020-03-18 20:06:14] local.DEBUG: 2020/03/16  
+[2020-03-18 20:06:14] local.DEBUG: 1  
+[2020-03-18 20:06:14] local.DEBUG: haveRestricted  
+[2020-03-18 20:06:14] local.DEBUG: checkApi_counter  
+[2020-03-18 20:06:14] local.DEBUG: 日付判定確認 : 1  
+[2020-03-18 20:06:14] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-18 20:06:14] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-18 20:06:14] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-18 20:06:14] local.DEBUG: {"q":"\u4e8c\u968e\u5802 \u30a2\u30cb\u30e1 \u6016\u3044 ","locale":"ja","lang":"ja","result_type":"recent","count":"100","max_id":"","include_entities":false}  
+[2020-03-18 20:06:15] local.DEBUG: checkApi  
+[2020-03-18 20:06:15] local.DEBUG: search_tweets  
+[2020-03-18 20:06:15] local.DEBUG: 制限状態：1  
+[2020-03-18 20:06:15] local.DEBUG: 使用状態：1  
+[2020-03-18 20:06:15] local.DEBUG: ツイート数：1  
+[2020-03-18 20:06:15] local.DEBUG: next id：?max_id=1239336130102714367&q=%E4%BA%8C%E9%9A%8E%E5%A0%82%20%E3%82%A2%E3%83%8B%E3%83%A1%20%E6%80%96%E3%81%84&lang=ja&count=100&result_type=recent  
+[2020-03-18 20:06:15] local.DEBUG: next max_id : 1239336130102714367  
+[2020-03-18 20:06:15] local.DEBUG: destruct  
+[2020-03-18 20:06:15] local.DEBUG: 12  
+[2020-03-18 20:07:13] local.DEBUG: roop  
+[2020-03-18 20:07:13] local.DEBUG: FavoriteCreateRoopJob  
+[2020-03-18 20:07:13] local.DEBUG: queue_id : 12  
+[2020-03-18 20:07:13] local.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+[2020-03-18 20:07:13] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-18 20:07:13] local.DEBUG: initDailyCounter  
+[2020-03-18 20:07:13] local.DEBUG: 1  
+[2020-03-18 20:07:13] local.DEBUG: 1  
+[2020-03-18 20:07:13] local.DEBUG: 2020-03-18 00:00:00  
+[2020-03-18 20:07:13] local.DEBUG: 2020/03/16  
+[2020-03-18 20:07:13] local.DEBUG: 1  
+[2020-03-18 20:07:13] local.DEBUG: coutner 初期化します  
+[2020-03-18 20:07:13] local.DEBUG: haveRestricted  
+[2020-03-18 20:07:13] local.DEBUG: checkApi_counter  
+[2020-03-18 20:07:13] local.DEBUG: 日付判定確認 : 1  
+[2020-03-18 20:07:13] local.DEBUG: 2020-03-18 00:00:00  
+[2020-03-18 20:07:13] local.DEBUG: 2020-03-18 20:07:13  
+[2020-03-18 20:07:13] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-18 20:07:13] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-18 20:07:13] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-18 20:07:13] local.DEBUG: {"id":1239336130102714368}  
+[2020-03-18 20:07:14] local.DEBUG: checkApi  
+[2020-03-18 20:07:14] local.DEBUG: favorites_create  
+[2020-03-18 20:07:14] local.DEBUG: 制限状態：1  
+[2020-03-18 20:07:14] local.DEBUG: 使用状態：1  
+[2020-03-18 20:07:14] local.DEBUG: next いいね：  
+[2020-03-18 20:07:14] local.DEBUG: destruct  
+[2020-03-18 20:07:14] local.DEBUG: 13  
+[2020-03-18 20:07:41] local.DEBUG: roop  
+[2020-03-18 20:07:41] local.DEBUG: SearchTweetRoopJob  
+[2020-03-18 20:07:41] local.DEBUG: queu_id : 13  
+[2020-03-18 20:07:41] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-18 20:07:41] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-18 20:07:41] local.DEBUG: initDailyCounter  
+[2020-03-18 20:07:41] local.DEBUG:   
+[2020-03-18 20:07:41] local.DEBUG: 1  
+[2020-03-18 20:07:41] local.DEBUG: 2020-03-18 00:00:00  
+[2020-03-18 20:07:41] local.DEBUG: 2020/03/16  
+[2020-03-18 20:07:41] local.DEBUG: 1  
+[2020-03-18 20:07:41] local.DEBUG: haveRestricted  
+[2020-03-18 20:07:41] local.DEBUG: checkApi_counter  
+[2020-03-18 20:07:41] local.DEBUG: 日付判定確認 : 1  
+[2020-03-18 20:07:41] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-18 20:07:41] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-18 20:07:41] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-18 20:07:41] local.DEBUG: {"q":"\u4e8c\u968e\u5802 \u30a2\u30cb\u30e1 \u6016\u3044 ","locale":"ja","lang":"ja","result_type":"recent","count":"100","max_id":1239336130102714367,"include_entities":false}  
+[2020-03-18 20:07:41] local.DEBUG: checkApi  
+[2020-03-18 20:07:41] local.DEBUG: search_tweets  
+[2020-03-18 20:07:41] local.DEBUG: 制限状態：1  
+[2020-03-18 20:07:41] local.DEBUG: 使用状態：1  
+[2020-03-18 20:07:41] local.DEBUG: 自動機能完了：favorite  
+[2020-03-18 20:07:41] local.DEBUG: api status initialized  
+[2020-03-18 20:07:41] local.DEBUG: mail set  
+[2020-03-18 20:16:35] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 20:16:35] local.DEBUG: Tw_Account  
+[2020-03-18 20:16:35] local.DEBUG:  id :1  
+[2020-03-18 20:16:37] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-18 20:16:37] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-18 20:16:37] local.DEBUG: key name : id  
+[2020-03-18 20:16:55] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 20:16:55] local.DEBUG: Tw_Account  
+[2020-03-18 20:16:55] local.DEBUG:  id :1  
+[2020-03-18 20:16:55] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 20:16:55] local.DEBUG: Tw_Account  
+[2020-03-18 20:16:55] local.DEBUG:  id :1  
+[2020-03-18 20:16:56] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 20:16:56] local.DEBUG: Tw_Account  
+[2020-03-18 20:16:57] local.DEBUG:  id :1  
+[2020-03-18 20:16:59] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-18 20:16:59] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-18 20:16:59] local.DEBUG: key name : id  
+[2020-03-18 22:13:28] local.DEBUG:   
+[2020-03-18 22:13:29] local.DEBUG: 特にやることなし  
+[2020-03-18 22:13:31] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-18 22:13:31] local.DEBUG: Key_Pattern  
+[2020-03-18 22:13:31] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:13:31] local.DEBUG: Tw_Account  
+[2020-03-18 22:13:31] local.DEBUG:  id :1  
+[2020-03-18 22:13:31] local.DEBUG:  id :1  
+[2020-03-18 22:13:32] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-18 22:13:32] local.DEBUG: Tw_Target_Account  
+[2020-03-18 22:13:32] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-18 22:13:32] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-18 22:13:32] local.DEBUG:  id :1  
+[2020-03-18 22:13:33] local.DEBUG:  id :1  
+[2020-03-18 22:13:34] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:13:34] local.DEBUG: Tw_Account  
+[2020-03-18 22:13:34] local.DEBUG:  id :1  
+[2020-03-18 22:13:44] local.DEBUG: {"app_id":"1","keyword":["{\"opt\":\"and\",\"txt\":\"\u30c9\u30ed\u30d8\u30c9\u30ed\"}","{\"opt\":\"and\",\"txt\":\"\u30a2\u30cb\u30e1\"}"],"model_name":"Favorite_Key_Pattern"}  
+[2020-03-18 22:13:44] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-18 22:13:44] local.DEBUG: 11111  
+[2020-03-18 22:13:44] local.DEBUG: 3333  
+[2020-03-18 22:13:44] local.DEBUG: 4444  
+[2020-03-18 22:13:44] local.DEBUG: 5555  
+[2020-03-18 22:13:47] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-18 22:13:47] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-18 22:13:47] local.DEBUG:  id :1  
+[2020-03-18 22:13:47] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:13:47] local.DEBUG: Tw_Account  
+[2020-03-18 22:13:47] local.DEBUG:  id :1  
+[2020-03-18 22:13:48] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-18 22:13:48] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-18 22:13:49] local.DEBUG: key name : id  
+[2020-03-18 22:13:52] local.DEBUG: {"tw_account_id":"1","favorite_key_pattern_id":"0","model_name":"Tw_Account"}  
+[2020-03-18 22:13:52] local.DEBUG: Tw_Account  
+[2020-03-18 22:13:52] local.DEBUG: {"tw_account_id":1,"app_id":1,"user_id":1053251462803779584,"key_pattern_id":0,"favorite_key_pattern_id":5,"screen_name":"TyrantAaa","oauth_token":"1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs","oauth_token_secret":"dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","name":"tyrant_aaA","description":"\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306fTwitterAPI\u81ea\u52d5\u64cd\u4f5c\u30a2\u30d7\u30ea\u958b\u767a\u3067\u3001
+\u4f7f\u3063\u3066\u304a\u308a\u307e\u3059\u3002
+\u3054\u4e86\u627f\u304f\u3060\u3055\u3044\u3002
+\u305f\u307e\u306b\u545f\u304d\u307e\u3059\u3002","follow":0,"unfollow":0,"tweet":0,"favorite":0,"follow_queue_id":null,"unfollow_queue_id":0,"favorite_queue_id":null,"auto_followers_list":0,"auto_users_show":0,"auto_friendships_create":0,"auto_friendships_lookup":0,"auto_friendships_destroy":0,"auto_search_tweets":0,"auto_favorites_create":0,"followers_list":1,"users_show":1,"friendships_create":1,"friendships_lookup":1,"friendships_destroy":1,"search_tweets":1,"favorites_create":1,"statuses_update":1,"followers_list_counter":2,"users_show_counter":1,"friendships_create_counter":3,"friendships_lookup_counter":4,"friendships_destroy_counter":5,"search_tweets_counter":6,"favorites_create_counter":7,"statuses_update_create_counter":8,"suspended":0,"queue_name":null,"unfollow_flag":0,"created_at":"2020-03-16 16:17:50","updated_at":"2020-03-18 20:07:41","deleted_at":null}  
+[2020-03-18 22:13:53] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:13:53] local.DEBUG: Tw_Account  
+[2020-03-18 22:13:53] local.DEBUG:  id :1  
+[2020-03-18 22:13:57] local.DEBUG: {"tw_account_id":"1","favorite_key_pattern_id":"6","model_name":"Tw_Account"}  
+[2020-03-18 22:13:57] local.DEBUG: Tw_Account  
+[2020-03-18 22:13:57] local.DEBUG: {"tw_account_id":1,"app_id":1,"user_id":1053251462803779584,"key_pattern_id":0,"favorite_key_pattern_id":0,"screen_name":"TyrantAaa","oauth_token":"1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs","oauth_token_secret":"dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","name":"tyrant_aaA","description":"\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306fTwitterAPI\u81ea\u52d5\u64cd\u4f5c\u30a2\u30d7\u30ea\u958b\u767a\u3067\u3001
+\u4f7f\u3063\u3066\u304a\u308a\u307e\u3059\u3002
+\u3054\u4e86\u627f\u304f\u3060\u3055\u3044\u3002
+\u305f\u307e\u306b\u545f\u304d\u307e\u3059\u3002","follow":0,"unfollow":0,"tweet":0,"favorite":0,"follow_queue_id":null,"unfollow_queue_id":0,"favorite_queue_id":null,"auto_followers_list":0,"auto_users_show":0,"auto_friendships_create":0,"auto_friendships_lookup":0,"auto_friendships_destroy":0,"auto_search_tweets":0,"auto_favorites_create":0,"followers_list":1,"users_show":1,"friendships_create":1,"friendships_lookup":1,"friendships_destroy":1,"search_tweets":1,"favorites_create":1,"statuses_update":1,"followers_list_counter":2,"users_show_counter":1,"friendships_create_counter":3,"friendships_lookup_counter":4,"friendships_destroy_counter":5,"search_tweets_counter":6,"favorites_create_counter":7,"statuses_update_create_counter":8,"suspended":0,"queue_name":null,"unfollow_flag":0,"created_at":"2020-03-16 16:17:50","updated_at":"2020-03-18 22:13:52","deleted_at":null}  
+[2020-03-18 22:13:58] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:13:58] local.DEBUG: Tw_Account  
+[2020-03-18 22:13:58] local.DEBUG:  id :1  
+[2020-03-18 22:20:58] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-18 22:20:59] local.DEBUG: FavoriteStart start  
+[2020-03-18 22:20:59] local.DEBUG: ドロヘドロ アニメ   
+[2020-03-18 22:20:59] local.DEBUG: 遅延：0  
+[2020-03-18 22:20:59] local.DEBUG: destruct  
+[2020-03-18 22:20:59] local.DEBUG: 15  
+[2020-03-18 22:21:04] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:21:04] local.DEBUG: Tw_Account  
+[2020-03-18 22:21:06] local.DEBUG:  id :1  
+[2020-03-18 22:21:15] local.DEBUG: roop  
+[2020-03-18 22:21:15] local.DEBUG: SearchTweetRoopJob  
+[2020-03-18 22:21:15] local.DEBUG: queu_id : 15  
+[2020-03-18 22:21:15] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-18 22:21:15] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-18 22:21:15] local.DEBUG: initDailyCounter  
+[2020-03-18 22:21:15] local.DEBUG:   
+[2020-03-18 22:21:15] local.DEBUG: 1  
+[2020-03-18 22:21:15] local.DEBUG: 2020-03-18 00:00:00  
+[2020-03-18 22:21:15] local.DEBUG: 2020/03/16  
+[2020-03-18 22:21:15] local.DEBUG: 1  
+[2020-03-18 22:21:15] local.DEBUG: haveRestricted  
+[2020-03-18 22:21:15] local.DEBUG: checkApi_counter  
+[2020-03-18 22:21:15] local.DEBUG: 日付判定確認 : 1  
+[2020-03-18 22:21:15] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-18 22:21:15] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-18 22:21:15] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-18 22:21:15] local.DEBUG: {"q":"\u30c9\u30ed\u30d8\u30c9\u30ed \u30a2\u30cb\u30e1 ","locale":"ja","lang":"ja","result_type":"recent","count":"100","max_id":"","include_entities":false}  
+[2020-03-18 22:21:21] local.DEBUG: checkApi  
+[2020-03-18 22:21:21] local.DEBUG: search_tweets  
+[2020-03-18 22:21:21] local.DEBUG: 制限状態：1  
+[2020-03-18 22:21:21] local.DEBUG: 使用状態：1  
+[2020-03-18 22:21:21] local.DEBUG: 自動機能完了：favorite  
+[2020-03-18 22:21:21] local.DEBUG: api status initialized  
+[2020-03-18 22:21:21] local.DEBUG: mail set  
+[2020-03-18 22:35:30] local.DEBUG: 特にやることなし  
+[2020-03-18 22:35:34] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-18 22:35:34] local.DEBUG: Tw_Target_Account  
+[2020-03-18 22:35:34] local.DEBUG:  id :1  
+[2020-03-18 22:35:36] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-18 22:35:37] local.DEBUG: Key_Pattern  
+[2020-03-18 22:35:37] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:35:37] local.DEBUG: Tw_Account  
+[2020-03-18 22:35:37] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:35:37] local.DEBUG: Tw_Account  
+[2020-03-18 22:35:37] local.DEBUG:  id :1  
+[2020-03-18 22:35:38] local.DEBUG:  id :1  
+[2020-03-18 22:35:38] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:35:38] local.DEBUG: Tw_Account  
+[2020-03-18 22:35:38] local.DEBUG:  id :1  
+[2020-03-18 22:35:38] local.DEBUG:  id :1  
+[2020-03-18 22:35:38] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-18 22:35:38] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-18 22:35:38] local.DEBUG:  id :1  
+[2020-03-18 22:35:41] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-18 22:35:41] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-18 22:35:41] local.DEBUG: key name : id  
+[2020-03-18 22:36:01] local.DEBUG: {"tw_account_id":"1","favorite_key_pattern_id":"0","model_name":"Tw_Account"}  
+[2020-03-18 22:36:01] local.DEBUG: Tw_Account  
+[2020-03-18 22:36:01] local.DEBUG: {"tw_account_id":1,"app_id":1,"user_id":1053251462803779584,"key_pattern_id":0,"favorite_key_pattern_id":6,"screen_name":"TyrantAaa","oauth_token":"1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs","oauth_token_secret":"dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","name":"tyrant_aaA","description":"\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306fTwitterAPI\u81ea\u52d5\u64cd\u4f5c\u30a2\u30d7\u30ea\u958b\u767a\u3067\u3001
+\u4f7f\u3063\u3066\u304a\u308a\u307e\u3059\u3002
+\u3054\u4e86\u627f\u304f\u3060\u3055\u3044\u3002
+\u305f\u307e\u306b\u545f\u304d\u307e\u3059\u3002","follow":0,"unfollow":0,"tweet":0,"favorite":0,"follow_queue_id":null,"unfollow_queue_id":0,"favorite_queue_id":null,"auto_followers_list":0,"auto_users_show":0,"auto_friendships_create":0,"auto_friendships_lookup":0,"auto_friendships_destroy":0,"auto_search_tweets":0,"auto_favorites_create":0,"followers_list":1,"users_show":1,"friendships_create":1,"friendships_lookup":1,"friendships_destroy":1,"search_tweets":1,"favorites_create":1,"statuses_update":1,"followers_list_counter":2,"users_show_counter":1,"friendships_create_counter":3,"friendships_lookup_counter":4,"friendships_destroy_counter":5,"search_tweets_counter":6,"favorites_create_counter":7,"statuses_update_create_counter":8,"suspended":0,"queue_name":null,"unfollow_flag":0,"created_at":"2020-03-16 16:17:50","updated_at":"2020-03-18 22:21:21","deleted_at":null}  
+[2020-03-18 22:36:03] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:36:03] local.DEBUG: Tw_Account  
+[2020-03-18 22:36:03] local.DEBUG:  id :1  
+[2020-03-18 22:36:17] local.DEBUG: {"app_id":"1","keyword":["{\"opt\":\"and\",\"txt\":\"\u30a2\u30cb\u30e1\"}","{\"opt\":\"and\",\"txt\":\"\u53ef\u611b\u3044\"}"],"model_name":"Favorite_Key_Pattern"}  
+[2020-03-18 22:36:17] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-18 22:36:17] local.DEBUG: 11111  
+[2020-03-18 22:36:17] local.DEBUG: 3333  
+[2020-03-18 22:36:17] local.DEBUG: 4444  
+[2020-03-18 22:36:17] local.DEBUG: 5555  
+[2020-03-18 22:36:19] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-18 22:36:19] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-18 22:36:19] local.DEBUG:  id :1  
+[2020-03-18 22:36:19] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:36:19] local.DEBUG: Tw_Account  
+[2020-03-18 22:36:19] local.DEBUG:  id :1  
+[2020-03-18 22:36:21] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-18 22:36:21] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-18 22:36:21] local.DEBUG: key name : id  
+[2020-03-18 22:36:27] local.DEBUG: {"tw_account_id":"1","favorite_key_pattern_id":"7","model_name":"Tw_Account"}  
+[2020-03-18 22:36:27] local.DEBUG: Tw_Account  
+[2020-03-18 22:36:27] local.DEBUG: {"tw_account_id":1,"app_id":1,"user_id":1053251462803779584,"key_pattern_id":0,"favorite_key_pattern_id":0,"screen_name":"TyrantAaa","oauth_token":"1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs","oauth_token_secret":"dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","name":"tyrant_aaA","description":"\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306fTwitterAPI\u81ea\u52d5\u64cd\u4f5c\u30a2\u30d7\u30ea\u958b\u767a\u3067\u3001
+\u4f7f\u3063\u3066\u304a\u308a\u307e\u3059\u3002
+\u3054\u4e86\u627f\u304f\u3060\u3055\u3044\u3002
+\u305f\u307e\u306b\u545f\u304d\u307e\u3059\u3002","follow":0,"unfollow":0,"tweet":0,"favorite":0,"follow_queue_id":null,"unfollow_queue_id":0,"favorite_queue_id":null,"auto_followers_list":0,"auto_users_show":0,"auto_friendships_create":0,"auto_friendships_lookup":0,"auto_friendships_destroy":0,"auto_search_tweets":0,"auto_favorites_create":0,"followers_list":1,"users_show":1,"friendships_create":1,"friendships_lookup":1,"friendships_destroy":1,"search_tweets":1,"favorites_create":1,"statuses_update":1,"followers_list_counter":2,"users_show_counter":1,"friendships_create_counter":3,"friendships_lookup_counter":4,"friendships_destroy_counter":5,"search_tweets_counter":6,"favorites_create_counter":7,"statuses_update_create_counter":8,"suspended":0,"queue_name":null,"unfollow_flag":0,"created_at":"2020-03-16 16:17:50","updated_at":"2020-03-18 22:36:01","deleted_at":null}  
+[2020-03-18 22:36:28] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:36:28] local.DEBUG: Tw_Account  
+[2020-03-18 22:36:28] local.DEBUG:  id :1  
+[2020-03-18 22:36:31] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-18 22:36:31] local.DEBUG: FavoriteStart start  
+[2020-03-18 22:36:31] local.DEBUG: アニメ 可愛い   
+[2020-03-18 22:36:31] local.DEBUG: 遅延：0  
+[2020-03-18 22:36:31] local.DEBUG: destruct  
+[2020-03-18 22:36:31] local.DEBUG: 17  
+[2020-03-18 22:36:32] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:36:32] local.DEBUG: Tw_Account  
+[2020-03-18 22:36:32] local.DEBUG:  id :1  
+[2020-03-18 22:36:37] local.DEBUG: roop  
+[2020-03-18 22:36:37] local.DEBUG: SearchTweetRoopJob  
+[2020-03-18 22:36:37] local.DEBUG: queu_id : 17  
+[2020-03-18 22:36:37] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-18 22:36:37] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-18 22:36:37] local.DEBUG: initDailyCounter  
+[2020-03-18 22:36:37] local.DEBUG:   
+[2020-03-18 22:36:37] local.DEBUG: 1  
+[2020-03-18 22:36:37] local.DEBUG: 2020-03-18 00:00:00  
+[2020-03-18 22:36:37] local.DEBUG: 2020/03/16  
+[2020-03-18 22:36:37] local.DEBUG: 1  
+[2020-03-18 22:36:37] local.DEBUG: haveRestricted  
+[2020-03-18 22:36:37] local.DEBUG: checkApi_counter  
+[2020-03-18 22:36:37] local.DEBUG: 日付判定確認 : 1  
+[2020-03-18 22:36:37] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-18 22:36:37] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-18 22:36:37] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-18 22:36:37] local.DEBUG: {"q":"\u30a2\u30cb\u30e1 \u53ef\u611b\u3044 ","locale":"ja","lang":"ja","result_type":"recent","count":"100","max_id":"","include_entities":false}  
+[2020-03-18 22:36:38] local.DEBUG: checkApi  
+[2020-03-18 22:36:38] local.DEBUG: search_tweets  
+[2020-03-18 22:36:38] local.DEBUG: 制限状態：1  
+[2020-03-18 22:36:38] local.DEBUG: 使用状態：1  
+[2020-03-18 22:36:38] local.DEBUG: ツイート数：100  
+[2020-03-18 22:36:38] local.DEBUG: next id：?max_id=1240263871295676415&q=%E3%82%A2%E3%83%8B%E3%83%A1%20%E5%8F%AF%E6%84%9B%E3%81%84&lang=ja&count=100&result_type=recent  
+[2020-03-18 22:36:38] local.DEBUG: next max_id : 1240263871295676415  
+[2020-03-18 22:36:38] local.DEBUG: destruct  
+[2020-03-18 22:36:38] local.DEBUG: 18  
+[2020-03-18 22:40:40] local.DEBUG: roop  
+[2020-03-18 22:40:40] local.DEBUG: FavoriteCreateRoopJob  
+[2020-03-18 22:40:40] local.DEBUG: queue_id : 18  
+[2020-03-18 22:40:40] local.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+[2020-03-18 22:40:40] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-18 22:40:40] local.DEBUG: initDailyCounter  
+[2020-03-18 22:40:40] local.DEBUG: 1  
+[2020-03-18 22:40:40] local.DEBUG: 1  
+[2020-03-18 22:40:40] local.DEBUG: 2020-03-18 00:00:00  
+[2020-03-18 22:40:40] local.DEBUG: 2020/03/18  
+[2020-03-18 22:40:40] local.DEBUG:   
+[2020-03-18 22:40:40] local.DEBUG: haveRestricted  
+[2020-03-18 22:40:40] local.DEBUG: checkApi_counter  
+[2020-03-18 22:40:40] local.DEBUG: 日付判定確認 : 1  
+[2020-03-18 22:40:40] local.DEBUG: 2020-03-18 00:00:00  
+[2020-03-18 22:40:40] local.DEBUG: 2020-03-18 22:40:40  
+[2020-03-18 22:40:40] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-18 22:40:40] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-18 22:40:40] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-18 22:40:40] local.DEBUG: {"id":1240270814462636032}  
+[2020-03-18 22:40:41] local.DEBUG: checkApi  
+[2020-03-18 22:40:41] local.DEBUG: favorites_create  
+[2020-03-18 22:40:41] local.DEBUG: 制限状態：1  
+[2020-03-18 22:40:41] local.DEBUG: 使用状態：1  
+[2020-03-18 22:40:41] local.DEBUG: next いいね：  
+[2020-03-18 22:40:41] local.DEBUG: destruct  
+[2020-03-18 22:40:41] local.DEBUG: 19  
+[2020-03-18 22:40:41] local.DEBUG: いいねJob発行:ループ開始  
+[2020-03-18 22:44:49] local.DEBUG: roop  
+[2020-03-18 22:44:49] local.DEBUG: FavoriteCreateRoopJob  
+[2020-03-18 22:44:49] local.DEBUG: queue_id : 19  
+[2020-03-18 22:44:49] local.DEBUG: https://api.twitter.com/1.1/favorites/create.json  
+[2020-03-18 22:44:49] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-18 22:44:49] local.DEBUG: initDailyCounter  
+[2020-03-18 22:44:49] local.DEBUG: 1  
+[2020-03-18 22:44:49] local.DEBUG: 1  
+[2020-03-18 22:44:49] local.DEBUG: 2020-03-18 00:00:00  
+[2020-03-18 22:44:49] local.DEBUG: 2020/03/18  
+[2020-03-18 22:44:49] local.DEBUG:   
+[2020-03-18 22:44:49] local.DEBUG: haveRestricted  
+[2020-03-18 22:44:49] local.DEBUG: checkApi_counter  
+[2020-03-18 22:44:49] local.DEBUG: 日付判定確認 : 1  
+[2020-03-18 22:44:49] local.DEBUG: 2020-03-18 00:00:00  
+[2020-03-18 22:44:49] local.DEBUG: 2020-03-18 22:44:49  
+[2020-03-18 22:44:49] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-18 22:44:49] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-18 22:44:49] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-18 22:44:49] local.DEBUG: {"id":1240270813619617792}  
+[2020-03-18 22:44:50] local.DEBUG: checkApi  
+[2020-03-18 22:44:50] local.DEBUG: favorites_create  
+[2020-03-18 22:44:50] local.DEBUG: 制限状態：1  
+[2020-03-18 22:44:50] local.DEBUG: 使用状態：1  
+[2020-03-18 22:44:50] local.DEBUG: next いいね：  
+[2020-03-18 22:44:50] local.DEBUG: destruct  
+[2020-03-18 22:44:50] local.DEBUG: 20  
+[2020-03-18 22:44:50] local.DEBUG: いいねJob発行:ループ開始  
+[2020-03-18 22:47:17] local.DEBUG: direct acc  
+[2020-03-18 22:47:17] local.DEBUG: 1  
+[2020-03-18 22:47:23] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-18 22:47:23] local.DEBUG: Tw_Target_Account  
+[2020-03-18 22:47:24] local.DEBUG:  id :1  
+[2020-03-18 22:47:25] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-18 22:47:25] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-18 22:47:26] local.DEBUG: {"column":"tw_account_id","model_name":"Tw_Auto_Tweet"}  
+[2020-03-18 22:47:26] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-18 22:47:26] local.DEBUG: key name : id  
+[2020-03-18 22:47:26] local.DEBUG: ErrorException: Undefined index: value in /home/vagrant/code/laravel-mysql/app/domain/Repogitories/RESTfulDAO/CommonDAO.php:95
+Stack trace:
+#0 /home/vagrant/code/laravel-mysql/app/domain/Repogitories/RESTfulDAO/CommonDAO.php(95): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/vagrant/code/laravel-mysql/app/Http/Controllers/Actions/ApiRequest/RestApi.php(55): App\Domain\Repogitories\RESTfulDAO\CommonDAO->getDataBy()
+#2 [internal function]: App\Http\Controllers\Actions\ApiRequest\RestApi->index()
+#3 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array()
+#4 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction()
+#5 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Route.php(219): Illuminate\Routing\ControllerDispatcher->dispatch()
+#6 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Route.php(176): Illuminate\Routing\Route->runController()
+#7 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Router.php(680): Illuminate\Routing\Route->run()
+#8 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#9 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Auth/Middleware/EnsureEmailIsVerified.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#10 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Auth\Middleware\EnsureEmailIsVerified->handle()
+#11 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#12 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#13 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Routing\Middleware\SubstituteBindings->handle()
+#14 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#15 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(75): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#16 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle()
+#17 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#18 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#19 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\View\Middleware\ShareErrorsFromSession->handle()
+#20 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#21 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(56): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#22 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Session\Middleware\StartSession->handle()
+#23 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#24 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#25 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle()
+#26 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#27 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(66): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#28 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Cookie\Middleware\EncryptCookies->handle()
+#29 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#30 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#31 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Router.php(682): Illuminate\Pipeline\Pipeline->then()
+#32 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Router.php(657): Illuminate\Routing\Router->runRouteWithinStack()
+#33 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Router.php(623): Illuminate\Routing\Router->runRoute()
+#34 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Router.php(612): Illuminate\Routing\Router->dispatchToRoute()
+#35 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch()
+#36 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}()
+#37 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#38 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle()
+#39 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#40 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#41 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle()
+#42 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#43 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#44 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle()
+#45 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#46 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(62): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#47 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle()
+#48 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#49 /home/vagrant/code/laravel-mysql/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#50 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Fideloper\Proxy\TrustProxies->handle()
+#51 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#52 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#53 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then()
+#54 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#55 /home/vagrant/code/laravel-mysql/public/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#56 {main}  
+[2020-03-18 22:47:26] local.DEBUG: エラー発生：予期せぬエラーが起きました。  
+[2020-03-18 22:47:26] local.DEBUG:  id :1  
+[2020-03-18 22:47:26] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:47:26] local.DEBUG: Tw_Account  
+[2020-03-18 22:47:27] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-18 22:47:27] local.DEBUG: Key_Pattern  
+[2020-03-18 22:47:27] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:47:27] local.DEBUG: Tw_Account  
+[2020-03-18 22:47:27] local.DEBUG:  id :1  
+[2020-03-18 22:47:28] local.DEBUG:  id :1  
+[2020-03-18 22:47:28] local.DEBUG:  id :1  
+[2020-03-18 22:47:32] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:47:32] local.DEBUG: Tw_Account  
+[2020-03-18 22:47:33] local.DEBUG:  id :1  
+[2020-03-18 22:47:35] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-18 22:47:35] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-18 22:47:35] local.DEBUG: key name : id  
+[2020-03-18 22:47:44] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:47:44] local.DEBUG: Tw_Account  
+[2020-03-18 22:47:44] local.DEBUG:  id :1  
+[2020-03-18 22:47:46] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-18 22:47:46] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-18 22:47:46] local.DEBUG: key name : id  
+[2020-03-18 22:47:49] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:47:49] local.DEBUG: Tw_Account  
+[2020-03-18 22:47:49] local.DEBUG:  id :1  
+[2020-03-18 22:52:18] local.DEBUG: 特にやることなし  
+[2020-03-18 22:52:21] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:52:21] local.DEBUG: Tw_Account  
+[2020-03-18 22:52:21] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-18 22:52:21] local.DEBUG: Tw_Target_Account  
+[2020-03-18 22:52:21] local.DEBUG:  id :1  
+[2020-03-18 22:52:22] local.DEBUG:  id :1  
+[2020-03-18 22:52:22] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-18 22:52:22] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-18 22:52:23] local.DEBUG:  id :1  
+[2020-03-18 22:52:23] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-18 22:52:23] local.DEBUG: Key_Pattern  
+[2020-03-18 22:52:24] local.DEBUG:  id :1  
+[2020-03-18 22:52:24] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 22:52:24] local.DEBUG: Tw_Account  
+[2020-03-18 22:52:24] local.DEBUG:  id :1  
+[2020-03-18 23:02:34] local.DEBUG:   
+[2020-03-18 23:02:36] local.DEBUG: 特にやることなし  
+[2020-03-18 23:02:38] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-18 23:02:38] local.DEBUG: Tw_Target_Account  
+[2020-03-18 23:02:38] local.DEBUG:  id :1  
+[2020-03-18 23:02:40] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-18 23:02:40] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-18 23:02:40] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 23:02:40] local.DEBUG: Tw_Account  
+[2020-03-18 23:02:40] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-18 23:02:40] local.DEBUG: Key_Pattern  
+[2020-03-18 23:02:40] local.DEBUG:  id :1  
+[2020-03-18 23:02:41] local.DEBUG:  id :1  
+[2020-03-18 23:02:41] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-18 23:02:41] local.DEBUG: Tw_Account  
+[2020-03-18 23:02:41] local.DEBUG:  id :1  
+[2020-03-18 23:02:41] local.DEBUG:  id :1  
+[2020-03-18 23:03:17] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-18 23:03:17] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-18 23:03:17] local.DEBUG: key name : id  
+[2020-03-18 23:03:23] local.DEBUG: 22222  
+[2020-03-18 23:03:23] local.DEBUG: follow  

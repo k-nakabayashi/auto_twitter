@@ -1,0 +1,207 @@
+[2020-03-28 13:52:13] local.DEBUG:   
+[2020-03-28 13:52:14] local.DEBUG: 特にやることなし  
+[2020-03-28 13:52:14] local.DEBUG: ホームへ  
+[2020-03-28 13:52:15] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-28 13:52:15] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-28 13:52:16] local.DEBUG:  id :1  
+[2020-03-28 13:52:16] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-28 13:52:16] local.DEBUG: Tw_Target_Account  
+[2020-03-28 13:52:16] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 13:52:16] local.DEBUG: Tw_Account  
+[2020-03-28 13:52:16] local.DEBUG:  id :1  
+[2020-03-28 13:52:17] local.DEBUG:  id :1  
+[2020-03-28 13:52:17] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-28 13:52:17] local.DEBUG: Key_Pattern  
+[2020-03-28 13:52:17] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 13:52:17] local.DEBUG: Tw_Account  
+[2020-03-28 13:52:18] local.DEBUG:  id :1  
+[2020-03-28 13:52:18] local.DEBUG:  id :1  
+[2020-03-28 13:53:15] local.DEBUG: oauth_token=bEokfwAAAAABBs12AAABcR98ptI&oauth_token_secret=GJ6Ly3lSIA87zshJFFISBikju428jEjA&oauth_callback_confirmed=true  
+[2020-03-28 13:53:15] local.DEBUG: initial セッション  
+[2020-03-28 13:53:15] local.DEBUG: array (
+  'req_oauth_token' => 'bEokfwAAAAABBs12AAABcR98ptI',
+  'req_oauth_token_secret' => 'GJ6Ly3lSIA87zshJFFISBikju428jEjA',
+)  
+[2020-03-28 13:53:26] local.DEBUG: auth ok  
+[2020-03-28 13:53:26] local.DEBUG: auth ok reponse  
+[2020-03-28 13:53:26] local.DEBUG: oauth_token=1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs&oauth_token_secret=dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8&user_id=1053251462803779584&screen_name=TyrantAaa  
+[2020-03-28 13:53:26] local.DEBUG: home crtl , auth ok   
+[2020-03-28 13:53:26] local.DEBUG: array (
+  'oauth_token' => '1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs',
+  'oauth_token_secret' => 'dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8',
+  'user_id' => '1053251462803779584',
+  'screen_name' => 'TyrantAaa',
+)  
+[2020-03-28 13:53:26] local.DEBUG: https://api.twitter.com/1.1/users/show.json  
+[2020-03-28 13:53:26] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-28 13:53:26] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-28 13:53:26] local.DEBUG: {"user_id":"1053251462803779584","include_entities":"false"}  
+[2020-03-28 13:53:27] local.DEBUG: checkApi  
+[2020-03-28 13:53:27] local.DEBUG: api request create  
+[2020-03-28 13:53:27] local.DEBUG: カウンター作成開始  
+[2020-03-28 13:53:27] local.DEBUG: {"users_show":0,"followers_list":0,"friendships_create":400,"friendships_lookup":400,"friendships_destroy":1000,"search_tweets":0,"favorites_create":1000,"statuses_update":0}  
+[2020-03-28 13:53:27] local.DEBUG: users_show  id :  1  
+[2020-03-28 13:53:27] local.DEBUG: followers_list  id :  2  
+[2020-03-28 13:53:27] local.DEBUG: friendships_create  id :  3  
+[2020-03-28 13:53:27] local.DEBUG: friendships_lookup  id :  4  
+[2020-03-28 13:53:27] local.DEBUG: friendships_destroy  id :  5  
+[2020-03-28 13:53:27] local.DEBUG: search_tweets  id :  6  
+[2020-03-28 13:53:27] local.DEBUG: favorites_create  id :  7  
+[2020-03-28 13:53:27] local.DEBUG: statuses_update  id :  8  
+[2020-03-28 13:53:28] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 13:53:28] local.DEBUG: Tw_Account  
+[2020-03-28 13:53:28] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-28 13:53:28] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-28 13:53:28] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-28 13:53:28] local.DEBUG: Tw_Target_Account  
+[2020-03-28 13:53:28] local.DEBUG:  id :1  
+[2020-03-28 13:53:28] local.DEBUG:  id :1  
+[2020-03-28 13:53:28] local.DEBUG:  id :1  
+[2020-03-28 13:53:29] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-28 13:53:29] local.DEBUG: Key_Pattern  
+[2020-03-28 13:53:29] local.DEBUG:  id :1  
+[2020-03-28 13:53:29] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 13:53:29] local.DEBUG: Tw_Account  
+[2020-03-28 13:53:29] local.DEBUG:  id :1  
+[2020-03-28 13:53:30] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-28 13:53:30] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-28 13:53:31] local.DEBUG: key name : id  
+[2020-03-28 13:54:39] local.DEBUG: 特にやることなし  
+[2020-03-28 13:54:39] local.DEBUG: ホームへ  
+[2020-03-28 13:54:40] local.DEBUG: 特にやることなし  
+[2020-03-28 13:54:40] local.DEBUG: ホームへ  
+[2020-03-28 13:54:41] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-28 13:54:41] local.DEBUG: Key_Pattern  
+[2020-03-28 13:54:41] local.DEBUG:  id :1  
+[2020-03-28 13:54:41] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-28 13:54:41] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-28 13:54:41] local.DEBUG:  id :1  
+[2020-03-28 13:54:42] local.DEBUG: 特にやることなし  
+[2020-03-28 13:54:42] local.DEBUG: ホームへ  
+[2020-03-28 13:54:42] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 13:54:42] local.DEBUG: Tw_Account  
+[2020-03-28 13:54:43] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-28 13:54:43] local.DEBUG: Tw_Target_Account  
+[2020-03-28 13:54:43] local.DEBUG:  id :1  
+[2020-03-28 13:54:43] local.DEBUG:  id :1  
+[2020-03-28 13:54:44] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 13:54:44] local.DEBUG: Tw_Account  
+[2020-03-28 13:54:44] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-28 13:54:44] local.DEBUG: Key_Pattern  
+[2020-03-28 13:54:44] local.DEBUG:  id :1  
+[2020-03-28 13:54:44] local.DEBUG:  id :1  
+[2020-03-28 13:54:44] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-28 13:54:44] local.DEBUG: Tw_Target_Account  
+[2020-03-28 13:54:45] local.DEBUG:  id :1  
+[2020-03-28 13:54:45] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-28 13:54:45] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-28 13:54:45] local.DEBUG:  id :1  
+[2020-03-28 13:54:45] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 13:54:45] local.DEBUG: Tw_Account  
+[2020-03-28 13:54:45] local.DEBUG:  id :1  
+[2020-03-28 13:54:46] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 13:54:46] local.DEBUG: Tw_Account  
+[2020-03-28 13:54:46] local.DEBUG:  id :1  
+[2020-03-28 13:59:19] local.DEBUG: 特にやることなし  
+[2020-03-28 13:59:19] local.DEBUG: ホームへ  
+[2020-03-28 13:59:20] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-28 13:59:20] local.DEBUG: Key_Pattern  
+[2020-03-28 13:59:20] local.DEBUG:  id :1  
+[2020-03-28 13:59:21] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-28 13:59:21] local.DEBUG: Tw_Target_Account  
+[2020-03-28 13:59:22] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-28 13:59:22] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-28 13:59:22] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 13:59:22] local.DEBUG: Tw_Account  
+[2020-03-28 13:59:22] local.DEBUG:  id :1  
+[2020-03-28 13:59:22] local.DEBUG:  id :1  
+[2020-03-28 13:59:22] local.DEBUG:  id :1  
+[2020-03-28 14:03:40] local.DEBUG: 特にやることなし  
+[2020-03-28 14:03:40] local.DEBUG: ホームへ  
+[2020-03-28 14:03:41] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-28 14:03:41] local.DEBUG: Key_Pattern  
+[2020-03-28 14:03:42] local.DEBUG:  id :1  
+[2020-03-28 14:03:42] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-28 14:03:42] local.DEBUG: Tw_Target_Account  
+[2020-03-28 14:03:43] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 14:03:43] local.DEBUG: Tw_Account  
+[2020-03-28 14:03:43] local.DEBUG:  id :1  
+[2020-03-28 14:03:43] local.DEBUG:  id :1  
+[2020-03-28 14:03:43] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-28 14:03:43] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-28 14:03:43] local.DEBUG:  id :1  
+[2020-03-28 14:03:43] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 14:03:43] local.DEBUG: Tw_Account  
+[2020-03-28 14:03:44] local.DEBUG:  id :1  
+[2020-03-28 14:03:55] local.DEBUG:   
+[2020-03-28 14:03:55] local.DEBUG: 特にやることなし  
+[2020-03-28 14:03:55] local.DEBUG: ホームへ  
+[2020-03-28 14:03:57] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 14:03:57] local.DEBUG: Tw_Account  
+[2020-03-28 14:03:57] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-28 14:03:57] local.DEBUG: Key_Pattern  
+[2020-03-28 14:03:57] local.DEBUG:  id :1  
+[2020-03-28 14:03:57] local.DEBUG:  id :1  
+[2020-03-28 14:03:58] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-28 14:03:58] local.DEBUG: Tw_Target_Account  
+[2020-03-28 14:03:58] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-28 14:03:58] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-28 14:03:58] local.DEBUG:  id :1  
+[2020-03-28 14:03:58] local.DEBUG:  id :1  
+[2020-03-28 14:03:59] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 14:03:59] local.DEBUG: Tw_Account  
+[2020-03-28 14:03:59] local.DEBUG:  id :1  
+[2020-03-28 14:15:13] local.DEBUG: 特にやることなし  
+[2020-03-28 14:15:13] local.DEBUG: ホームへ  
+[2020-03-28 14:15:15] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-28 14:15:15] local.DEBUG: Key_Pattern  
+[2020-03-28 14:15:15] local.DEBUG:  id :1  
+[2020-03-28 14:15:16] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 14:15:16] local.DEBUG: Tw_Account  
+[2020-03-28 14:15:16] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-28 14:15:16] local.DEBUG: Tw_Target_Account  
+[2020-03-28 14:15:17] local.DEBUG:  id :1  
+[2020-03-28 14:15:17] local.DEBUG:  id :1  
+[2020-03-28 14:15:17] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 14:15:17] local.DEBUG: Tw_Account  
+[2020-03-28 14:15:17] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-28 14:15:17] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-28 14:15:17] local.DEBUG:  id :1  
+[2020-03-28 14:15:18] local.DEBUG:  id :1  
+[2020-03-28 14:19:28] local.DEBUG:   
+[2020-03-28 14:19:29] local.DEBUG: 特にやることなし  
+[2020-03-28 14:19:29] local.DEBUG: ホームへ  
+[2020-03-28 14:19:31] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 14:19:31] local.DEBUG: Tw_Account  
+[2020-03-28 14:19:31] local.DEBUG:  id :1  
+[2020-03-28 14:19:31] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 14:19:31] local.DEBUG: Tw_Account  
+[2020-03-28 14:19:32] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-28 14:19:32] local.DEBUG: Tw_Target_Account  
+[2020-03-28 14:19:32] local.DEBUG:  id :1  
+[2020-03-28 14:19:33] local.DEBUG:  id :1  
+[2020-03-28 14:19:33] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-28 14:19:33] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-28 14:19:33] local.DEBUG:  id :1  
+[2020-03-28 14:19:33] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-28 14:19:33] local.DEBUG: Key_Pattern  
+[2020-03-28 14:19:34] local.DEBUG:  id :1  
+[2020-03-28 14:20:55] local.DEBUG: 特にやることなし  
+[2020-03-28 14:20:55] local.DEBUG: ホームへ  
+[2020-03-28 14:20:55] local.DEBUG: 特にやることなし  
+[2020-03-28 14:20:55] local.DEBUG: ホームへ  
+[2020-03-28 14:20:57] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-28 14:20:57] local.DEBUG: Key_Pattern  
+[2020-03-28 14:20:57] local.DEBUG:  id :1  
+[2020-03-28 14:20:57] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 14:20:57] local.DEBUG: Tw_Account  
+[2020-03-28 14:20:58] local.DEBUG:  id :1  
+[2020-03-28 14:20:59] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-28 14:20:59] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-28 14:20:59] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-28 14:20:59] local.DEBUG: Tw_Target_Account  
+[2020-03-28 14:20:59] local.DEBUG:  id :1  
+[2020-03-28 14:20:59] local.DEBUG:  id :1  
+[2020-03-28 14:20:59] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-28 14:20:59] local.DEBUG: Tw_Account  
+[2020-03-28 14:21:00] local.DEBUG:  id :1  

@@ -1,0 +1,31 @@
+{
+    "errors": [
+        {
+            "message": "Rate limit exceeded",
+            "code": 88
+        }
+    ]
+}
+
+//ツイート検索失敗
+{"errors":[{"message":"Sorry, that page does not exist","code":34}]}  
+
+
+{
+    errors:[
+    0:{
+    code:139
+    message:You have already favorited this status.
+    }
+    ]
+    }
+
+
+    {
+        errors:[
+        0:{
+        code:144
+        message:No status found with that ID.
+        }
+        ]
+        }

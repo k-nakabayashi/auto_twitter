@@ -1,0 +1,518 @@
+[2020-03-17 21:23:38] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-17 21:23:38] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-17 21:23:38] local.DEBUG: key name : id  
+[2020-03-17 21:23:44] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-17 21:23:45] local.DEBUG: FavoriteStart start  
+[2020-03-17 21:23:45] local.DEBUG: retyuio   
+[2020-03-17 21:23:45] local.DEBUG: 遅延：1  
+[2020-03-17 21:23:45] local.DEBUG: destruct  
+[2020-03-17 21:23:45] local.DEBUG: 1  
+[2020-03-17 21:23:46] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:23:46] local.DEBUG: Tw_Account  
+[2020-03-17 21:23:46] local.DEBUG:  id :1  
+[2020-03-17 21:24:51] local.DEBUG: roop  
+[2020-03-17 21:24:51] local.DEBUG: SearchTweetRoopJob  
+[2020-03-17 21:24:51] local.DEBUG: queu_id : 1  
+[2020-03-17 21:24:51] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-17 21:24:51] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-17 21:24:51] local.DEBUG: initDailyCounter  
+[2020-03-17 21:24:51] local.DEBUG:   
+[2020-03-17 21:24:51] local.DEBUG: 1  
+[2020-03-17 21:24:51] local.DEBUG: 2020-03-17 00:00:00  
+[2020-03-17 21:24:51] local.DEBUG: 2020/03/16  
+[2020-03-17 21:24:51] local.DEBUG: 1  
+[2020-03-17 21:24:51] local.DEBUG: haveRestricted  
+[2020-03-17 21:24:51] local.DEBUG: checkApi_counter  
+[2020-03-17 21:24:51] local.DEBUG: 日付判定確認 : 1  
+[2020-03-17 21:24:51] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-17 21:24:51] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-17 21:24:51] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-17 21:24:51] local.DEBUG: {"q":"retyuio ","locale":"ja","lang":"ja","result_type":"recent","count":100,"max_id":"","include_entities":false}  
+[2020-03-17 21:24:56] local.DEBUG: checkApi  
+[2020-03-17 21:24:56] local.DEBUG: search_tweets  
+[2020-03-17 21:24:56] local.DEBUG: 制限状態：1  
+[2020-03-17 21:24:56] local.DEBUG: 使用状態：1  
+[2020-03-17 21:24:56] local.DEBUG: api status initialized  
+[2020-03-17 21:24:56] local.DEBUG: ErrorException: Trying to get property 'statuses' of non-object in /home/vagrant/code/laravel-mysql/app/Jobs/favorite/SearchTweetRoopJob.php:107
+Stack trace:
+#0 /home/vagrant/code/laravel-mysql/app/Jobs/favorite/SearchTweetRoopJob.php(107): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/vagrant/code/laravel-mysql/app/Providers/MyJobProvider.php(108): App\Jobs\favorite\SearchTweetRoopJob->handle()
+#2 [internal function]: App\Providers\MyJobProvider->App\Providers\{closure}()
+#3 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/Container.php(317): call_user_func()
+#4 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\Container\Container->callMethodBinding()
+#5 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod()
+#6 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/Container.php(576): Illuminate\Container\BoundMethod::call()
+#7 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php(95): Illuminate\Container\Container->call()
+#8 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\Bus\Dispatcher->Illuminate\Bus\{closure}()
+#9 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#10 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php(99): Illuminate\Pipeline\Pipeline->then()
+#11 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/CallQueuedHandler.php(49): Illuminate\Bus\Dispatcher->dispatchNow()
+#12 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Jobs/Job.php(88): Illuminate\Queue\CallQueuedHandler->call()
+#13 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Worker.php(337): Illuminate\Queue\Jobs\Job->fire()
+#14 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Worker.php(283): Illuminate\Queue\Worker->process()
+#15 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Worker.php(236): Illuminate\Queue\Worker->runJob()
+#16 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Console/WorkCommand.php(103): Illuminate\Queue\Worker->runNextJob()
+#17 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Console/WorkCommand.php(87): Illuminate\Queue\Console\WorkCommand->runWorker()
+#18 [internal function]: Illuminate\Queue\Console\WorkCommand->handle()
+#19 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#20 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#21 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod()
+#22 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/Container.php(576): Illuminate\Container\BoundMethod::call()
+#23 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\Container\Container->call()
+#24 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Command/Command.php(255): Illuminate\Console\Command->execute()
+#25 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\Component\Console\Command\Command->run()
+#26 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(1011): Illuminate\Console\Command->run()
+#27 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(272): Symfony\Component\Console\Application->doRunCommand()
+#28 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun()
+#29 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\Component\Console\Application->run()
+#30 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\Console\Application->run()
+#31 /home/vagrant/code/laravel-mysql/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#32 {main}  
+[2020-03-17 21:24:56] local.DEBUG: エラー発生：予期せぬエラーが起きました。  
+[2020-03-17 21:26:40] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:26:40] local.DEBUG: Tw_Account  
+[2020-03-17 21:26:40] local.DEBUG:  id :1  
+[2020-03-17 21:26:57] local.DEBUG: {"app_id":"1","keyword":["{\"opt\":\"and\",\"txt\":\"\u30c9\u30ed\u30d8\u30c9\u30ed\"}","{\"opt\":\"and\",\"txt\":\"\u30ef\u30cb\"}","{\"opt\":\"and\",\"txt\":\"\u53ef\u611b\u3044\"}"],"model_name":"Favorite_Key_Pattern"}  
+[2020-03-17 21:26:57] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-17 21:26:57] local.DEBUG: 11111  
+[2020-03-17 21:26:57] local.DEBUG: 3333  
+[2020-03-17 21:26:57] local.DEBUG: 4444  
+[2020-03-17 21:26:57] local.DEBUG: 5555  
+[2020-03-17 21:26:59] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-17 21:26:59] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-17 21:26:59] local.DEBUG:  id :1  
+[2020-03-17 21:27:00] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:27:00] local.DEBUG: Tw_Account  
+[2020-03-17 21:27:00] local.DEBUG:  id :1  
+[2020-03-17 21:27:04] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-17 21:27:04] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-17 21:27:04] local.DEBUG: key name : id  
+[2020-03-17 21:27:07] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-17 21:27:07] local.DEBUG: FavoriteStart start  
+[2020-03-17 21:27:07] local.DEBUG: retyuio   
+[2020-03-17 21:27:07] local.DEBUG: 遅延：1  
+[2020-03-17 21:27:07] local.DEBUG: destruct  
+[2020-03-17 21:27:07] local.DEBUG: 2  
+[2020-03-17 21:27:10] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:27:10] local.DEBUG: Tw_Account  
+[2020-03-17 21:27:10] local.DEBUG:  id :1  
+[2020-03-17 21:27:13] local.DEBUG: array (
+  'pattern' => 'delete',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+  'queue_name1' => 'search_tweets',
+  'auto_search_tweets' => 3,
+)  
+[2020-03-17 21:27:13] local.DEBUG: favorite：delete  
+[2020-03-17 21:27:14] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:27:14] local.DEBUG: Tw_Account  
+[2020-03-17 21:27:14] local.DEBUG:  id :1  
+[2020-03-17 21:28:13] local.DEBUG: roop  
+[2020-03-17 21:28:13] local.DEBUG: SearchTweetRoopJob  
+[2020-03-17 21:28:13] local.DEBUG: api status initialized  
+[2020-03-17 21:37:04] local.DEBUG: direct acc  
+[2020-03-17 21:37:04] local.DEBUG: 1  
+[2020-03-17 21:37:07] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-17 21:37:07] local.DEBUG: Key_Pattern  
+[2020-03-17 21:37:07] local.DEBUG:  id :1  
+[2020-03-17 21:37:08] local.DEBUG: {"column":"tw_account_id","model_name":"Tw_Auto_Tweet"}  
+[2020-03-17 21:37:08] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-17 21:37:08] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:37:08] local.DEBUG: Tw_Account  
+[2020-03-17 21:37:08] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-17 21:37:08] local.DEBUG: Tw_Target_Account  
+[2020-03-17 21:37:08] local.DEBUG: key name : id  
+[2020-03-17 21:37:08] local.DEBUG: ErrorException: Undefined index: value in /home/vagrant/code/laravel-mysql/app/domain/Repogitories/RESTfulDAO/CommonDAO.php:95
+Stack trace:
+#0 /home/vagrant/code/laravel-mysql/app/domain/Repogitories/RESTfulDAO/CommonDAO.php(95): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/vagrant/code/laravel-mysql/app/Http/Controllers/Actions/ApiRequest/RestApi.php(55): App\Domain\Repogitories\RESTfulDAO\CommonDAO->getDataBy()
+#2 [internal function]: App\Http\Controllers\Actions\ApiRequest\RestApi->index()
+#3 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array()
+#4 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction()
+#5 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Route.php(219): Illuminate\Routing\ControllerDispatcher->dispatch()
+#6 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Route.php(176): Illuminate\Routing\Route->runController()
+#7 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Router.php(680): Illuminate\Routing\Route->run()
+#8 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#9 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Auth/Middleware/EnsureEmailIsVerified.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#10 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Auth\Middleware\EnsureEmailIsVerified->handle()
+#11 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#12 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#13 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Routing\Middleware\SubstituteBindings->handle()
+#14 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#15 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(75): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#16 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle()
+#17 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#18 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#19 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\View\Middleware\ShareErrorsFromSession->handle()
+#20 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#21 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(56): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#22 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Session\Middleware\StartSession->handle()
+#23 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#24 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#25 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle()
+#26 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#27 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(66): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#28 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Cookie\Middleware\EncryptCookies->handle()
+#29 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#30 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#31 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Router.php(682): Illuminate\Pipeline\Pipeline->then()
+#32 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Router.php(657): Illuminate\Routing\Router->runRouteWithinStack()
+#33 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Router.php(623): Illuminate\Routing\Router->runRoute()
+#34 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Router.php(612): Illuminate\Routing\Router->dispatchToRoute()
+#35 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch()
+#36 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}()
+#37 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#38 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle()
+#39 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#40 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#41 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle()
+#42 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#43 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#44 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle()
+#45 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#46 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(62): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#47 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle()
+#48 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#49 /home/vagrant/code/laravel-mysql/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#50 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Fideloper\Proxy\TrustProxies->handle()
+#51 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#52 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#53 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then()
+#54 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#55 /home/vagrant/code/laravel-mysql/public/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#56 {main}  
+[2020-03-17 21:37:08] local.DEBUG: エラー発生：予期せぬエラーが起きました。  
+[2020-03-17 21:37:08] local.DEBUG:  id :1  
+[2020-03-17 21:37:09] local.DEBUG:  id :1  
+[2020-03-17 21:37:09] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-17 21:37:09] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-17 21:37:10] local.DEBUG:  id :1  
+[2020-03-17 21:37:10] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:37:10] local.DEBUG: Tw_Account  
+[2020-03-17 21:37:10] local.DEBUG:  id :1  
+[2020-03-17 21:37:12] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-17 21:37:12] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-17 21:37:12] local.DEBUG: key name : id  
+[2020-03-17 21:37:58] local.DEBUG: {"app_id":"1","keyword":["{\"opt\":\"and\",\"txt\":\"\u30a2\u30cb\u30e1\"}"],"model_name":"Favorite_Key_Pattern"}  
+[2020-03-17 21:37:58] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-17 21:37:58] local.DEBUG: 11111  
+[2020-03-17 21:37:58] local.DEBUG: 3333  
+[2020-03-17 21:37:58] local.DEBUG: 4444  
+[2020-03-17 21:37:58] local.DEBUG: 5555  
+[2020-03-17 21:38:00] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-17 21:38:00] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-17 21:38:00] local.DEBUG:  id :1  
+[2020-03-17 21:38:01] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:38:01] local.DEBUG: Tw_Account  
+[2020-03-17 21:38:01] local.DEBUG:  id :1  
+[2020-03-17 21:38:03] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-17 21:38:03] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-17 21:38:03] local.DEBUG: key name : id  
+[2020-03-17 21:38:31] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:38:31] local.DEBUG: Tw_Account  
+[2020-03-17 21:38:32] local.DEBUG:  id :1  
+[2020-03-17 21:38:34] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-17 21:38:34] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-17 21:38:34] local.DEBUG: key name : id  
+[2020-03-17 21:38:37] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-17 21:38:37] local.DEBUG: FavoriteStart start  
+[2020-03-17 21:38:37] local.DEBUG: retyuio   
+[2020-03-17 21:38:37] local.DEBUG: 遅延：1  
+[2020-03-17 21:38:37] local.DEBUG: destruct  
+[2020-03-17 21:38:37] local.DEBUG: 3  
+[2020-03-17 21:38:38] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:38:38] local.DEBUG: Tw_Account  
+[2020-03-17 21:38:39] local.DEBUG:  id :1  
+[2020-03-17 21:39:39] local.DEBUG: roop  
+[2020-03-17 21:39:39] local.DEBUG: SearchTweetRoopJob  
+[2020-03-17 21:39:39] local.DEBUG: queu_id : 3  
+[2020-03-17 21:39:39] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-17 21:39:39] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-17 21:39:39] local.DEBUG: initDailyCounter  
+[2020-03-17 21:39:39] local.DEBUG:   
+[2020-03-17 21:39:39] local.DEBUG: 1  
+[2020-03-17 21:39:39] local.DEBUG: 2020-03-17 00:00:00  
+[2020-03-17 21:39:39] local.DEBUG: 2020/03/16  
+[2020-03-17 21:39:39] local.DEBUG: 1  
+[2020-03-17 21:39:39] local.DEBUG: haveRestricted  
+[2020-03-17 21:39:39] local.DEBUG: checkApi_counter  
+[2020-03-17 21:39:39] local.DEBUG: 日付判定確認 : 1  
+[2020-03-17 21:39:39] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-17 21:39:39] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-17 21:39:39] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-17 21:39:39] local.DEBUG: {"q":"retyuio ","locale":"ja","lang":"ja","result_type":"recent","count":100,"max_id":"","include_entities":false}  
+[2020-03-17 21:39:39] local.DEBUG: checkApi  
+[2020-03-17 21:39:39] local.DEBUG: search_tweets  
+[2020-03-17 21:39:39] local.DEBUG: 制限状態：1  
+[2020-03-17 21:39:39] local.DEBUG: 使用状態：1  
+[2020-03-17 21:39:39] local.DEBUG: {"statuses":[],"search_metadata":{"completed_in":0.011,"max_id":0,"max_id_str":"0","query":"retyuio","count":100,"since_id":0,"since_id_str":"0"}}  
+[2020-03-17 21:39:39] local.DEBUG: api status initialized  
+[2020-03-17 21:43:50] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:43:50] local.DEBUG: Tw_Account  
+[2020-03-17 21:43:51] local.DEBUG:  id :1  
+[2020-03-17 21:43:53] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-17 21:43:53] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-17 21:43:53] local.DEBUG: key name : id  
+[2020-03-17 21:44:08] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:44:08] local.DEBUG: Tw_Account  
+[2020-03-17 21:44:08] local.DEBUG:  id :1  
+[2020-03-17 21:44:09] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:44:09] local.DEBUG: Tw_Account  
+[2020-03-17 21:44:09] local.DEBUG:  id :1  
+[2020-03-17 21:44:10] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-17 21:44:10] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-17 21:44:10] local.DEBUG: key name : id  
+[2020-03-17 21:45:30] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-17 21:45:30] local.DEBUG: FavoriteStart start  
+[2020-03-17 21:45:30] local.DEBUG: retyuio   
+[2020-03-17 21:45:30] local.DEBUG: 遅延：1  
+[2020-03-17 21:45:30] local.DEBUG: destruct  
+[2020-03-17 21:45:30] local.DEBUG: 4  
+[2020-03-17 21:45:32] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:45:32] local.DEBUG: Tw_Account  
+[2020-03-17 21:45:32] local.DEBUG:  id :1  
+[2020-03-17 21:46:31] local.DEBUG: roop  
+[2020-03-17 21:46:31] local.DEBUG: SearchTweetRoopJob  
+[2020-03-17 21:46:31] local.DEBUG: queu_id : 4  
+[2020-03-17 21:46:31] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-17 21:46:31] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-17 21:46:31] local.DEBUG: initDailyCounter  
+[2020-03-17 21:46:31] local.DEBUG:   
+[2020-03-17 21:46:31] local.DEBUG: 1  
+[2020-03-17 21:46:31] local.DEBUG: 2020-03-17 00:00:00  
+[2020-03-17 21:46:31] local.DEBUG: 2020/03/16  
+[2020-03-17 21:46:31] local.DEBUG: 1  
+[2020-03-17 21:46:31] local.DEBUG: haveRestricted  
+[2020-03-17 21:46:31] local.DEBUG: checkApi_counter  
+[2020-03-17 21:46:31] local.DEBUG: 日付判定確認 : 1  
+[2020-03-17 21:46:31] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-17 21:46:31] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-17 21:46:31] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-17 21:46:31] local.DEBUG: {"q":"retyuio ","locale":"ja","lang":"ja","result_type":"recent","count":100,"max_id":"","include_entities":false}  
+[2020-03-17 21:46:32] local.DEBUG: checkApi  
+[2020-03-17 21:46:32] local.DEBUG: search_tweets  
+[2020-03-17 21:46:32] local.DEBUG: 制限状態：1  
+[2020-03-17 21:46:32] local.DEBUG: 使用状態：1  
+[2020-03-17 21:46:32] local.DEBUG: {"statuses":[],"search_metadata":{"completed_in":0.01,"max_id":0,"max_id_str":"0","query":"retyuio","count":100,"since_id":0,"since_id_str":"0"}}  
+[2020-03-17 21:46:32] local.DEBUG: 0  
+[2020-03-17 21:46:32] local.DEBUG: api status initialized  
+[2020-03-17 21:53:55] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:53:55] local.DEBUG: Tw_Account  
+[2020-03-17 21:53:55] local.DEBUG:  id :1  
+[2020-03-17 21:53:56] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-17 21:53:56] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-17 21:53:56] local.DEBUG: key name : id  
+[2020-03-17 21:54:00] local.DEBUG: array (
+  'pattern' => 'stop',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+  'queue_name1' => 'search_tweets',
+  'auto_search_tweets' => 3,
+)  
+[2020-03-17 21:54:00] local.DEBUG: autofunction stop  
+[2020-03-17 21:54:00] local.DEBUG: 予期せぬエラー：「起動中」ではありません。  
+[2020-03-17 21:54:06] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:54:06] local.DEBUG: Tw_Account  
+[2020-03-17 21:54:06] local.DEBUG:  id :1  
+[2020-03-17 21:54:08] local.DEBUG: 特にやることなし  
+[2020-03-17 21:54:10] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-17 21:54:10] local.DEBUG: Key_Pattern  
+[2020-03-17 21:54:10] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-17 21:54:10] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-17 21:54:10] local.DEBUG:  id :1  
+[2020-03-17 21:54:10] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:54:10] local.DEBUG: Tw_Account  
+[2020-03-17 21:54:10] local.DEBUG:  id :1  
+[2020-03-17 21:54:11] local.DEBUG:  id :1  
+[2020-03-17 21:54:12] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-17 21:54:12] local.DEBUG: Tw_Target_Account  
+[2020-03-17 21:54:12] local.DEBUG:  id :1  
+[2020-03-17 21:54:12] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:54:12] local.DEBUG: Tw_Account  
+[2020-03-17 21:54:13] local.DEBUG:  id :1  
+[2020-03-17 21:54:18] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-17 21:54:18] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-17 21:54:18] local.DEBUG: key name : id  
+[2020-03-17 21:54:22] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-17 21:54:22] local.DEBUG: FavoriteStart start  
+[2020-03-17 21:54:22] local.DEBUG: retyuio   
+[2020-03-17 21:54:22] local.DEBUG: 遅延：1  
+[2020-03-17 21:54:22] local.DEBUG: destruct  
+[2020-03-17 21:54:22] local.DEBUG: 5  
+[2020-03-17 21:54:23] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:54:23] local.DEBUG: Tw_Account  
+[2020-03-17 21:54:23] local.DEBUG:  id :1  
+[2020-03-17 21:55:28] local.DEBUG: roop  
+[2020-03-17 21:55:28] local.DEBUG: SearchTweetRoopJob  
+[2020-03-17 21:55:28] local.DEBUG: queu_id : 5  
+[2020-03-17 21:55:28] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-17 21:55:28] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-17 21:55:28] local.DEBUG: initDailyCounter  
+[2020-03-17 21:55:28] local.DEBUG:   
+[2020-03-17 21:55:28] local.DEBUG: 1  
+[2020-03-17 21:55:28] local.DEBUG: 2020-03-17 00:00:00  
+[2020-03-17 21:55:28] local.DEBUG: 2020/03/16  
+[2020-03-17 21:55:28] local.DEBUG: 1  
+[2020-03-17 21:55:28] local.DEBUG: haveRestricted  
+[2020-03-17 21:55:28] local.DEBUG: checkApi_counter  
+[2020-03-17 21:55:28] local.DEBUG: 日付判定確認 : 1  
+[2020-03-17 21:55:28] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-17 21:55:28] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-17 21:55:28] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-17 21:55:28] local.DEBUG: {"q":"retyuio ","locale":"ja","lang":"ja","result_type":"recent","count":100,"max_id":"","include_entities":false}  
+[2020-03-17 21:55:28] local.DEBUG: checkApi  
+[2020-03-17 21:55:28] local.DEBUG: search_tweets  
+[2020-03-17 21:55:28] local.DEBUG: 制限状態：1  
+[2020-03-17 21:55:28] local.DEBUG: 使用状態：1  
+[2020-03-17 21:55:28] local.DEBUG: 自動機能完了：favorite  
+[2020-03-17 21:55:28] local.DEBUG: api status initialized  
+[2020-03-17 21:55:28] local.DEBUG: mail set  
+[2020-03-17 21:59:00] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:59:00] local.DEBUG: Tw_Account  
+[2020-03-17 21:59:00] local.DEBUG:  id :1  
+[2020-03-17 21:59:02] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:59:02] local.DEBUG: Tw_Account  
+[2020-03-17 21:59:02] local.DEBUG:  id :1  
+[2020-03-17 21:59:04] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-17 21:59:04] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-17 21:59:04] local.DEBUG: key name : id  
+[2020-03-17 21:59:08] local.DEBUG: {"tw_account_id":"1","favorite_key_pattern_id":"0","model_name":"Tw_Account"}  
+[2020-03-17 21:59:08] local.DEBUG: Tw_Account  
+[2020-03-17 21:59:08] local.DEBUG: {"tw_account_id":1,"app_id":1,"user_id":1053251462803779584,"key_pattern_id":1,"favorite_key_pattern_id":1,"screen_name":"TyrantAaa","oauth_token":"1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs","oauth_token_secret":"dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","name":"tyrant_aaA","description":"\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306fTwitterAPI\u81ea\u52d5\u64cd\u4f5c\u30a2\u30d7\u30ea\u958b\u767a\u3067\u3001
+\u4f7f\u3063\u3066\u304a\u308a\u307e\u3059\u3002
+\u3054\u4e86\u627f\u304f\u3060\u3055\u3044\u3002
+\u305f\u307e\u306b\u545f\u304d\u307e\u3059\u3002","follow":0,"unfollow":0,"tweet":0,"favorite":0,"follow_queue_id":null,"unfollow_queue_id":0,"favorite_queue_id":null,"auto_followers_list":0,"auto_users_show":0,"auto_friendships_create":0,"auto_friendships_lookup":0,"auto_friendships_destroy":0,"auto_search_tweets":0,"auto_favorites_create":0,"followers_list":1,"users_show":1,"friendships_create":1,"friendships_lookup":1,"friendships_destroy":1,"search_tweets":1,"favorites_create":1,"statuses_update":1,"followers_list_counter":2,"users_show_counter":1,"friendships_create_counter":3,"friendships_lookup_counter":4,"friendships_destroy_counter":5,"search_tweets_counter":6,"favorites_create_counter":7,"statuses_update_create_counter":8,"suspended":0,"queue_name":null,"unfollow_flag":0,"created_at":"2020-03-16 16:17:50","updated_at":"2020-03-17 21:55:28","deleted_at":null}  
+[2020-03-17 21:59:09] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:59:09] local.DEBUG: Tw_Account  
+[2020-03-17 21:59:09] local.DEBUG:  id :1  
+[2020-03-17 21:59:11] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:59:11] local.DEBUG: Tw_Account  
+[2020-03-17 21:59:11] local.DEBUG:  id :1  
+[2020-03-17 21:59:13] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-17 21:59:13] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-17 21:59:14] local.DEBUG: key name : id  
+[2020-03-17 21:59:20] local.DEBUG: {"tw_account_id":"1","favorite_key_pattern_id":"2","model_name":"Tw_Account"}  
+[2020-03-17 21:59:20] local.DEBUG: Tw_Account  
+[2020-03-17 21:59:20] local.DEBUG: {"tw_account_id":1,"app_id":1,"user_id":1053251462803779584,"key_pattern_id":1,"favorite_key_pattern_id":0,"screen_name":"TyrantAaa","oauth_token":"1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs","oauth_token_secret":"dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","name":"tyrant_aaA","description":"\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306fTwitterAPI\u81ea\u52d5\u64cd\u4f5c\u30a2\u30d7\u30ea\u958b\u767a\u3067\u3001
+\u4f7f\u3063\u3066\u304a\u308a\u307e\u3059\u3002
+\u3054\u4e86\u627f\u304f\u3060\u3055\u3044\u3002
+\u305f\u307e\u306b\u545f\u304d\u307e\u3059\u3002","follow":0,"unfollow":0,"tweet":0,"favorite":0,"follow_queue_id":null,"unfollow_queue_id":0,"favorite_queue_id":null,"auto_followers_list":0,"auto_users_show":0,"auto_friendships_create":0,"auto_friendships_lookup":0,"auto_friendships_destroy":0,"auto_search_tweets":0,"auto_favorites_create":0,"followers_list":1,"users_show":1,"friendships_create":1,"friendships_lookup":1,"friendships_destroy":1,"search_tweets":1,"favorites_create":1,"statuses_update":1,"followers_list_counter":2,"users_show_counter":1,"friendships_create_counter":3,"friendships_lookup_counter":4,"friendships_destroy_counter":5,"search_tweets_counter":6,"favorites_create_counter":7,"statuses_update_create_counter":8,"suspended":0,"queue_name":null,"unfollow_flag":0,"created_at":"2020-03-16 16:17:50","updated_at":"2020-03-17 21:59:08","deleted_at":null}  
+[2020-03-17 21:59:21] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:59:21] local.DEBUG: Tw_Account  
+[2020-03-17 21:59:21] local.DEBUG:  id :1  
+[2020-03-17 21:59:23] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-17 21:59:23] local.DEBUG: FavoriteStart start  
+[2020-03-17 21:59:23] local.DEBUG: ドロヘドロ ワニ 可愛い   
+[2020-03-17 21:59:23] local.DEBUG: 遅延：1  
+[2020-03-17 21:59:24] local.DEBUG: destruct  
+[2020-03-17 21:59:24] local.DEBUG: 7  
+[2020-03-17 21:59:24] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 21:59:24] local.DEBUG: Tw_Account  
+[2020-03-17 21:59:24] local.DEBUG:  id :1  
+[2020-03-17 22:00:24] local.DEBUG: roop  
+[2020-03-17 22:00:24] local.DEBUG: SearchTweetRoopJob  
+[2020-03-17 22:00:24] local.DEBUG: queu_id : 7  
+[2020-03-17 22:00:24] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-17 22:00:24] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-17 22:00:24] local.DEBUG: initDailyCounter  
+[2020-03-17 22:00:24] local.DEBUG:   
+[2020-03-17 22:00:24] local.DEBUG: 1  
+[2020-03-17 22:00:24] local.DEBUG: 2020-03-17 00:00:00  
+[2020-03-17 22:00:24] local.DEBUG: 2020/03/16  
+[2020-03-17 22:00:24] local.DEBUG: 1  
+[2020-03-17 22:00:24] local.DEBUG: haveRestricted  
+[2020-03-17 22:00:24] local.DEBUG: checkApi_counter  
+[2020-03-17 22:00:24] local.DEBUG: 日付判定確認 : 1  
+[2020-03-17 22:00:24] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-17 22:00:24] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-17 22:00:24] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-17 22:00:24] local.DEBUG: {"q":"\u30c9\u30ed\u30d8\u30c9\u30ed \u30ef\u30cb \u53ef\u611b\u3044 ","locale":"ja","lang":"ja","result_type":"recent","count":100,"max_id":"","include_entities":false}  
+[2020-03-17 22:00:24] local.DEBUG: checkApi  
+[2020-03-17 22:00:24] local.DEBUG: search_tweets  
+[2020-03-17 22:00:24] local.DEBUG: 制限状態：1  
+[2020-03-17 22:00:24] local.DEBUG: 使用状態：1  
+[2020-03-17 22:00:24] local.DEBUG: 自動機能完了：favorite  
+[2020-03-17 22:00:24] local.DEBUG: api status initialized  
+[2020-03-17 22:00:24] local.DEBUG: mail set  
+[2020-03-17 22:00:42] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 22:00:42] local.DEBUG: Tw_Account  
+[2020-03-17 22:00:42] local.DEBUG:  id :1  
+[2020-03-17 22:00:44] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-17 22:00:44] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-17 22:00:44] local.DEBUG: key name : id  
+[2020-03-17 22:06:54] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 22:06:54] local.DEBUG: Tw_Account  
+[2020-03-17 22:06:54] local.DEBUG:  id :1  
+[2020-03-17 22:06:55] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-17 22:06:55] local.DEBUG: Tw_Account  
+[2020-03-17 22:06:55] local.DEBUG:  id :1  
+[2020-03-17 23:00:15] local.ERROR: The process "'/usr/bin/php7.4' 'artisan' 'queue:work' '--once' '--queue==default,tweet,follow,' '--delay=0' '--memory=128' '--sleep=10' '--tries=1'" exceeded the timeout of 960 seconds. {"exception":"[object] (Symfony\\Component\\Process\\Exception\\ProcessTimedOutException(code: 0): The process \"'/usr/bin/php7.4' 'artisan' 'queue:work' '--once' '--queue==default,tweet,follow,' '--delay=0' '--memory=128' '--sleep=10' '--tries=1'\" exceeded the timeout of 960 seconds. at /home/vagrant/code/laravel-mysql/vendor/symfony/process/Process.php:1253)
+[stacktrace]
+#0 /home/vagrant/code/laravel-mysql/vendor/symfony/process/Process.php(417): Symfony\\Component\\Process\\Process->checkTimeout()
+#1 /home/vagrant/code/laravel-mysql/vendor/symfony/process/Process.php(238): Symfony\\Component\\Process\\Process->wait()
+#2 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Listener.php(175): Symfony\\Component\\Process\\Process->run()
+#3 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Listener.php(90): Illuminate\\Queue\\Listener->runProcess()
+#4 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Console/ListenCommand.php(68): Illuminate\\Queue\\Listener->listen()
+#5 [internal function]: Illuminate\\Queue\\Console\\ListenCommand->handle()
+#6 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#7 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#9 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/Container.php(576): Illuminate\\Container\\BoundMethod::call()
+#10 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call()
+#11 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#12 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run()
+#13 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(1011): Illuminate\\Console\\Command->run()
+#14 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+#15 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#16 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#17 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run()
+#18 /home/vagrant/code/laravel-mysql/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#19 {main}
+"} 
+[2020-03-17 23:00:15] local.ERROR: The process "'/usr/bin/php7.4' 'artisan' 'queue:work' '--once' '--queue==unfollow,favorite,' '--delay=0' '--memory=128' '--sleep=10' '--tries=1'" exceeded the timeout of 960 seconds. {"exception":"[object] (Symfony\\Component\\Process\\Exception\\ProcessTimedOutException(code: 0): The process \"'/usr/bin/php7.4' 'artisan' 'queue:work' '--once' '--queue==unfollow,favorite,' '--delay=0' '--memory=128' '--sleep=10' '--tries=1'\" exceeded the timeout of 960 seconds. at /home/vagrant/code/laravel-mysql/vendor/symfony/process/Process.php:1253)
+[stacktrace]
+#0 /home/vagrant/code/laravel-mysql/vendor/symfony/process/Process.php(417): Symfony\\Component\\Process\\Process->checkTimeout()
+#1 /home/vagrant/code/laravel-mysql/vendor/symfony/process/Process.php(238): Symfony\\Component\\Process\\Process->wait()
+#2 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Listener.php(175): Symfony\\Component\\Process\\Process->run()
+#3 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Listener.php(90): Illuminate\\Queue\\Listener->runProcess()
+#4 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Queue/Console/ListenCommand.php(68): Illuminate\\Queue\\Listener->listen()
+#5 [internal function]: Illuminate\\Queue\\Console\\ListenCommand->handle()
+#6 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#7 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#9 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Container/Container.php(576): Illuminate\\Container\\BoundMethod::call()
+#10 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call()
+#11 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#12 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run()
+#13 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(1011): Illuminate\\Console\\Command->run()
+#14 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand()
+#15 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#16 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#17 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run()
+#18 /home/vagrant/code/laravel-mysql/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#19 {main}
+"} 

@@ -1,0 +1,228 @@
+/*==================================================
+       　並び系
+==================================================*/
+//フロートレイアウト
+.u-fl {
+  @include u-clearfix;
+  > * {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.u-fr {
+  @include u-clearfix;
+  > * {
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+// @mixin u_l($i) {
+//   float: left;
+//   width: #{100.000 / $i + "%"};
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+// @mixin u_r($i) {
+//   float: right;
+//   width: #{100.000 / $i + "%"};
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+// @for $i from 1 through 10 {
+//   .u-fl#{$i} {
+//     @include u-clearfix;
+//     > * {
+//       @include u_l($i)
+//     }
+//   }
+
+//   .u-fr#{$i} {
+//     @include u-clearfix;
+//     > * {
+//       @include u_r($i);
+//     }
+//   }
+
+//   @each $bp in $v_media_list {
+
+//     .u-fl#{$i}-#{$bp} {
+//       @include u-clearfix;
+//       > * {
+//         @if ($bp == "sm") {
+//           @include u-media-sm {
+//             @include u_l($i);
+//           }
+//         } @else if ($bp == "md") {
+      
+//           @include u-media-md {
+//             @include u_l($i);
+//           }
+      
+//         } @else if ($bp == "lg") {
+      
+//           @include u-media-lg {
+//             @include u_l($i);
+//           }
+      
+//         } @else if ($bp == "xl") {
+      
+//           @include u-media-xl {
+//             @include u_l($i);
+//           }
+      
+//         } @else if ($bp == "smx") {
+      
+//           @include u-media-smx {
+//             @include u_l($i);
+//           }
+      
+//         } @else if ($bp == "mdx") {
+      
+//           @include u-media-mdx {
+//             @include u_l($i);
+//           }
+//         } @else if ($bp == "lgx") {
+//           @include u-media-lgx {
+//             @include u_l($i);
+//           }
+//         } @else if ($bp == "xlx") {
+//           @include u-media-xlx {
+//             @include u_l($i);
+//           }
+//         } 
+//       }
+//     }
+
+//     .u-fr#{$i}-#{$bp} {
+//       @include u-clearfix;
+//       > * {
+//         @if ($bp == "sm") {
+//           @include u-media-sm {
+//             @include u_r($i);
+//           }
+//         } @else if ($bp == "md") {
+      
+//           @include u-media-md {
+//             @include u_r($i);
+//           }
+      
+//         } @else if ($bp == "lg") {
+      
+//           @include u-media-lg {
+//             @include u_r($i);
+//           }
+      
+//         } @else if ($bp == "xl") {
+      
+//           @include u-media-xl {
+//             @include u_r($i);
+//           }
+      
+//         } @else if ($bp == "smx") {
+      
+//           @include u-media-smx {
+//             @include u_r($i);
+//           }
+      
+//         } @else if ($bp == "mdx") {
+      
+//           @include u-media-mdx {
+//             @include u_r($i);
+//           }
+//         } @else if ($bp == "lgx") {
+//           @include u-media-lgx {
+//             @include u_r($i);
+//           }
+//         } @else if ($bp == "xlx") {
+//           @include u-media-xlx {
+//             @include u_r($i);
+//           }
+//         } 
+//       }
+//     }
+    
+
+//   }  
+// }
+
+
+// //インラインブロック横並びレイアウト
+// .u-txt-center {
+//   text-align: center;
+//   > * {
+//     display: inline-block;
+//   }
+// }
+// .u-txt-l {
+//   text-align: left;
+//   > * {
+//     display: inline-block;
+//   }
+// }
+// .u-txt-r {
+//   text-align: right;
+//   > * {
+//     display: inline-block;
+//   }
+// }
+// @each $bp in $v_media_list {
+//   .u-txt-center-#{$bp} {
+//     @include u_rsp_multi__ch($bp, ("text-align":"center", "display":"inline-block"));
+//   }
+//   .u-txt-l-#{$bp} {
+//     @include u_rsp_multi__ch($bp, ("text-align":"left", "display":"inline-block"));
+//   }
+//   .u-txt-r-#{$bp} {
+//     @include u_rsp_multi__ch($bp, ("text-align":"right", "display":"inline-block"));
+//   }
+// }
+
+// //均等割り
+// @for $i from 1 through 10 {
+//   $prop: set_PerProp_by_Bp_Std($i, 10);
+//   @each $bp in $v_media_list {
+//     .u-txt-center#{$prop}-#{$bp} {
+//       @include u_rsp_multi__ch($bp, ("text-align":"center", "display":"inline-block", "width": #{u_equal($prop) + "%"}));
+//     }
+//     .u-txt-l#{$prop}-#{$bp} {
+//       @include u_rsp_multi__ch($bp, ("text-align":"left", "display":"inline-block", "width": #{u_equal($prop) + "%"} ));
+//     }
+//     .u-txt-r#{$prop}-#{$bp} {
+//       @include u_rsp_multi__ch($bp, ("text-align":"right", "display":"inline-block", "width": #{u_equal($prop) + "%"} ));
+//     }
+//   }
+// }
+// .u-f-l {
+//   float: left;  
+// }
+// .u-f-r {
+//   float: right;
+// }
+// @each $bp in $v_media_list {
+//   .u-f-l-#{$bp} {
+//     @include u_rsp($bp, "float", "left");
+//   }
+// }
+
+
+// @each $bp in $v_media_list {
+//   .u-f-r-#{$bp} {
+//     @include u_rsp($bp, "float", "right");
+//   }
+// }
+
+// .u-ch-block {
+//   > * {
+//     display: block;
+//   }
+// }
+// .u-ch-inline-block {
+//   > * {
+//     display: inline-block;
+//   }
+// }

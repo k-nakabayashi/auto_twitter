@@ -1,0 +1,28 @@
+<?php
+
+return [
+  "TW_API_KEY" => env("TW_API_KEY"),
+  "TW_API_SECRET" => env("TW_API_SECRET"),
+  "TW_ACCESS_KEY" => env("TW_ACCESS_KEY"),
+  "TW_ACCESS_SECRET" => env("TW_ACCESS_SECRET"),
+  "TW_ID"=> env("TW_ID"),
+  "TW_GET_COUNT" => env("TW_GET_COUNT"),
+
+  "TW_ENV" => env("TW_ENV"),
+  "TW_TARGET" => env("TW_TARGET"),
+  "APP_ENV" => env("APP_ENV"),
+
+  'TW_FOLLOW_TIMING' => env('TW_FOLLOW_TIMING'),
+  'REG_NO_LOGIN' => env('REG_NO_LOGIN'),
+
+  'RESTART_QUEUE' => env('RESTART_QUEUE'),
+  'RESTART_QUEUE2' => env('RESTART_QUEUE2'),
+  'DEFAULT_QUEUE' => env('DEFAULT_QUEUE'),
+  'DEFAULT_QUEUE2' => env('DEFAULT_QUEUE2'),
+  'DEFAULT_QUEUE3' => env('DEFAULT_QUEUE3'),
+    
+  'TW_RESTRINCION_CODE' => env('TW_RESTRINCION_CODE'),
+  'TW_RESTRINCION_CODE2' => env('TW_RESTRINCION_CODE2'),
+
+  'TW_PAGE' => env('TW_PAGE'),
+];

@@ -1,0 +1,58 @@
+#how_to_use {
+
+  .c-Content{
+    > * {
+      margin-bottom: 24px;
+      @include u-media-sm {
+        margin-bottom: 40px;
+      }
+    }
+    .a-Txt {
+      margin-top: 12px;
+      padding-left: 16px;
+    }
+    .a-Action-Title {
+      > * {
+        display: block;
+        width: 100%;
+        padding: 8px 16px;
+        background: $v_main_blue;
+        color:  white;
+        border-radius: 5px;
+
+        // @include u-media-sm {
+        //   width: 50%;
+        // }
+      }
+    }
+  }
+
+  .a-Title {
+    margin-top: 40px;
+  }
+
+  .c-List {
+    padding-left: 16px;
+    margin-top: 24px;
+    @include u-media-sm {
+      margin-top: 40px;
+    }
+    .u-indent:before {
+      height: 20px;
+    }
+    .a-Btn {
+      margin-left: 8px;
+      margin-right: 8px;
+      
+    }
+
+    li {
+      padding-left: 2em;
+      margin-top: 8px;
+    }
+    span.u-indent {
+      padding-left: 1.2em;
+    }
+  }
+}
+

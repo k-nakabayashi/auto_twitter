@@ -1,0 +1,68 @@
+停止からのボタン切り替えがおかしい。
+文字がなかった。
+再読み込みすると表示された。
+→フロントの問題かな
+
+[2020-03-09 14:32:17] local.DEBUG: array (
+  'tw_account_id' => 1,
+  'domain' => 'follow',
+  'pattern' => 'start',
+)  
+[2020-03-09 14:32:17] local.DEBUG: service FollowStart  
+[2020-03-09 14:32:17] local.DEBUG: 遅延：1  
+[2020-03-09 14:32:17] local.DEBUG: destruct  
+[2020-03-09 14:32:17] local.DEBUG: 8  
+[2020-03-09 14:32:41] local.DEBUG: array (
+  'tw_account_id' => 1,
+  'domain' => 'follow',
+  'pattern' => 'stop',
+  'queue_name1' => 'followers_list',
+  'queue_name2' => 'friendships_create',
+  'auto_followers_list' => 3,
+  'auto_friendships_create' => 3,
+)  
+[2020-03-09 14:32:41] local.DEBUG: VALUE 3  
+[2020-03-09 14:32:55] local.DEBUG: 特にやることなし  
+[2020-03-09 14:32:56] local.DEBUG: {"id":"1","model_name":"Tw_Tweet"}  
+[2020-03-09 14:32:56] local.DEBUG: Tw_Tweet  
+[2020-03-09 14:32:56] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-09 14:32:56] local.DEBUG: Key_Pattern  
+[2020-03-09 14:32:57] local.DEBUG:  id :1  
+[2020-03-09 14:32:57] local.DEBUG:  id :1  
+[2020-03-09 14:32:57] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-09 14:32:57] local.DEBUG: Tw_Target_Account  
+[2020-03-09 14:32:58] local.DEBUG:  id :1  
+[2020-03-09 14:32:58] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-09 14:32:58] local.DEBUG: Tw_Account  
+[2020-03-09 14:32:58] local.DEBUG:  id :1  
+[2020-03-09 14:32:58] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-09 14:32:58] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-09 14:32:58] local.DEBUG:  id :1  
+[2020-03-09 14:33:20] local.DEBUG: roop  
+[2020-03-09 14:33:20] local.DEBUG: TargetFollowerRoopJob  
+[2020-03-09 14:33:20] local.DEBUG: 対象のカーソル：-1  
+[2020-03-09 14:33:20] local.DEBUG: queu_id : 8  
+[2020-03-09 14:33:20] local.DEBUG: ターゲットリストのカウンター : 0  
+[2020-03-09 14:33:20] local.DEBUG: ターゲットアカウント名前：しゅんたろー@転職活動エンジニア  
+[2020-03-09 14:33:20] local.DEBUG: https://api.twitter.com/1.1/followers/list.json  
+[2020-03-09 14:33:20] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-09 14:33:20] local.DEBUG: initDailyCounter  
+[2020-03-09 14:33:20] local.DEBUG:   
+[2020-03-09 14:33:20] local.DEBUG: 1  
+[2020-03-09 14:33:20] local.DEBUG: 2020-03-09 00:00:00  
+[2020-03-09 14:33:20] local.DEBUG: 2020/03/08  
+[2020-03-09 14:33:20] local.DEBUG: 1  
+[2020-03-09 14:33:20] local.DEBUG: haveRestricted  
+[2020-03-09 14:33:20] local.DEBUG: checkApi_counter  
+[2020-03-09 14:33:20] local.DEBUG: 日付判定確認 : 1  
+[2020-03-09 14:33:20] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-09 14:33:20] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-09 14:33:20] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-09 14:33:20] local.DEBUG: {"user_id":1228110434135207936,"include_entities":false,"count":"100","skip_status":false,"cursor":"-1"}  
+[2020-03-09 14:33:21] local.DEBUG: checkApi  
+[2020-03-09 14:33:21] local.DEBUG: followers_list  
+[2020-03-09 14:33:21] local.DEBUG: 制限状態：1  
+[2020-03-09 14:33:21] local.DEBUG: 使用状態：3  
+[2020-03-09 14:33:21] local.DEBUG: 一時停止中  
+[2020-03-09 14:33:21] local.DEBUG: monckey  
+[2020-03-09 14:33:21] local.DEBUG: 8  

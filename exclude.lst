@@ -1,0 +1,6 @@
+*node_modules*
+*vendor*
+*storage/framwork*
+*storage/logs*
+*test_doc*
+*exclude.lst*

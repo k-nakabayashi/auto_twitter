@@ -1,0 +1,153 @@
+.c-modal-Form  {
+  max-width: 95vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin: auto;
+
+  z-index: 999999;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 60px;
+
+  @include u-media-smx {
+    &.inTop {
+      top: 10px;
+    }
+  }
+  @include u-media-sm {
+    max-width: 450px;
+    top: 12%;
+
+
+  }
+
+  > * {
+    padding: 24px;
+    background: $v_white;
+    border-radius: 30px;
+  }
+  .a-Title {
+    
+    @include u-media-sm {
+      margin-top: 16px;
+    }
+  }
+  .a-Exmple {
+    text-align: left;
+    margin-top: 0px;
+    color: $v_black3;
+    span {
+      color: $v_key_pink;
+    }
+  }
+  .c-Keywords {
+    padding-left: 16px;
+  }
+  .cancel {
+    position: absolute;
+    top: 24px;
+    right: 16px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    &:before {
+      font-size: 24px;
+    }
+  }
+  dl {
+    text-align: center;
+  }
+  dt {
+    display: block;
+  }
+
+  Form, .c-modal-Form-ch-block {
+    input {
+      border: none;
+      border-bottom: solid 1px $v_black2;
+    }
+    .remember {
+      text-align: left;
+    }
+    .Agree {
+      cursor: pointer;
+    }
+    .Agree > span {
+      position: relative;
+      &:before {
+        position: absolute;
+        content: "";
+        width: 16px;
+        height: 16px;
+        top: 0;
+        bottom: 0;
+        left: -32px;
+        margin-top: auto;
+        margin-bottom: auto;
+        border: 1px solid #808495;
+        border-radius: 4px;
+      }
+    }
+    .Agree__input {
+      display: none;
+    }
+    .Agree__input:checked + span:after {
+      position: absolute;
+      content: "";
+      width: 16px;
+      height: 8px;
+      top: -8px;
+      bottom: 0;
+      left: -32px;
+      margin-top: auto;
+      margin-bottom: auto;
+      border-left: 3px solid $v_key_pink;
+      border-bottom: 3px solid $v_key_pink;
+      transform: rotate(-45deg);
+
+    }
+
+  }
+
+  .Form__name {
+    input {
+      width: 100%;
+      margin-left: -30px;
+    }
+  }
+
+  .a-Policy {
+    margin-top: 16px;
+    font-size: 8px;
+  }
+}
+.c-modal-Form__links {
+  > * {
+    display: block;
+  }
+  span {
+    cursor: pointer;
+    padding-bottom: 4px;
+    border-bottom: solid 1px $v_black;
+  }
+}
+.c-modal-Form-ch-block {
+  > * {
+    display: block;
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+.c-modal-Form__inner {
+  padding: 24px 16px;
+}
+
+.c-Modal-Input {
+  > .a-Area {
+    height: 160px;
+    overflow-y: scroll;
+  }
+}

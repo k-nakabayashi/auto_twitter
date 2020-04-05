@@ -1,0 +1,44 @@
+各ApiRqeust起動状態と自動機能の判定は同じ動きをする。
+ただ
+
+①制限に対する反応：同期
+
+・リクエストjob発行
+・job実行
+・apiリクエスト送信
+・各ApiRqeust制限状態に推移
+・リスタートjob発行（ReleaseApiRestrictionJob）
+　各ApiRqeust制限状態「1」制限中にする　
+・リクエストjob内で、
+　制限エラーを補足(checkApiRestrictionAndStatus)
+　各ApiRqeust起動状態「2」再開中にする
+　　　
+
+
+②一時停止に対する反応：非同期
+・リクエストjob発行
+・各ApiRqeust起動状態に推移「1」
+〜〜
+　非同期
+・フロントから状態をstopリクエスト
+　各ApiRqeust起動状態「１」→「3」一時停止にする。
+　※各ApiRqeust制限状態「0」非制限の時のみ一時停止にできる
+ 〜〜
+・job実行
+・リクエストjob内で、一時停止状態を補足(checkApiRestrictionAndStatus)
+・job fail
+
+③一時停止から再開に対する反応：動的再開
+	・アクション側で各ApiRqeust起動状態「3」→「２」再開状態になる
+　　・遅延RestartApiJob発行
+　　・RestartApiJob内で、
+　　　各ApiRqeust起動状態「2」→「1」起動中状態になる
+　　　
+　　・failしたjobを即時実行
+----------------------------------
+内部ループjobのself::dispacthには
+back_dtoを使う
+
+
+※凍結すると、各ApiRqeust起動状態「3」一時停止中にする.再開すると起動中[1]になる
+制限判定の変化はなし。

@@ -1,0 +1,17 @@
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.mail.yahoo.co.jp
+MAIL_PORT=587
+MAIL_USERNAME=<Yahooのユーザー名>
+MAIL_PASSWORD=<Yahooのパスワード>
+MAIL_ENCRYPTION=
+MAIL_FROM_ADDRESS=<Yahooのユーザー名>@yahoo.co.jp
+MAIL_FROM_NAME=demo-laravel-crud
+
+
+MAIL_DRIVER=mailgun
+
+MAILGUN_DOMAIN=sandbox38f3b3f9d5374c60a94cc33e9b85fc7d.mailgun.org
+MAILGUN_SECRET=ae055f9a547d840763bbfd7d54650f37-713d4f73-80088378
+MAILGUN_ENDPOINT=api.mailgun.net
+MAIL_FROM_ADDRESS=123windam@gmail.com
+MAIL_FROM_NAME=AutoTwitter

@@ -1,0 +1,40 @@
+.u-rel {
+  position: relative;
+}
+.u-abs {
+  position: absolute;
+}
+
+.u-ra {
+  position: relative;
+  > * {
+    position: absolute;
+  }
+}
+
+.u-ra-all {
+  > * {
+    position: relative;
+    > * {
+      position: absolute;
+    }
+  }
+}
+@each $bp in $v_media_list {
+  .u-rel-#{$bp} {
+    @include u_rsp($bp, "position", "relative");
+  }
+  .u-abs-#{$bp} {
+    @include u_rsp($bp, "position", "absolute");
+  }
+  
+  .u-ra-all-#{$bp} {
+    > * {
+      @include u_rsp($bp, "position", "relative");
+
+      > * {
+        @include u_rsp($bp, "position", "absolute");
+      }
+    }
+  }
+}

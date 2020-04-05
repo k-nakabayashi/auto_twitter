@@ -1,0 +1,7 @@
+①trait InteractsWithQueue 
+ここに
+Illuminate\Contracts\Queue\Jobがインジェクション
+
+②Illuminate\Queue\Jobs\DatabaseJobが実装
+
+③DatabaseJobがIlluminate\Queue\Jobs\Jobを継承

@@ -1,0 +1,23 @@
+1177284272875311106	2020-03-19 13:14:25	2020-03-19 13:14:26	5235246442	test-d58	54.198.22.83	Local0	Info	heroku/web.1	Idling\n
+1177284272898105347	2020-03-19 13:14:25	2020-03-19 13:14:26	5235246442	test-d58	54.147.44.182	Local0	Info	heroku/web.1	State changed from up to down\n
+1177284279243132934	2020-03-19 13:14:27	2020-03-19 13:14:27	5235246442	test-d58	54.152.200.103	Syslog	Notice	heroku/web.1	Stopping all processes with SIGTERM\n
+1177284279564214277	2020-03-19 13:14:27	2020-03-19 13:14:27	5235246442	test-d58	54.173.159.73	Local7	Info	app/web.1	Stopping php-fpm...\n
+1177284279632609292	2020-03-19 13:14:27	2020-03-19 13:14:27	5235246442	test-d58	54.173.159.73	Local7	Info	app/web.1	SIGTERM received, attempting graceful shutdown...\n
+1177284279632609293	2020-03-19 13:14:27	2020-03-19 13:14:27	5235246442	test-d58	54.173.159.73	Local7	Info	app/web.1	Stopping httpd...\n
+1177284279632609294	2020-03-19 13:14:27	2020-03-19 13:14:27	5235246442	test-d58	54.173.159.73	Local7	Info	app/web.1	Shutdown complete.\n
+1177284280338800642	2020-03-19 13:14:27	2020-03-19 13:14:27	5235246442	test-d58	54.234.254.200	Syslog	Notice	heroku/web.1	Process exited with status 143\n
+1177287573176193028	2020-03-19 13:27:32	2020-03-19 13:27:32	5235246442	test-d58	54.81.165.2	Local0	Info	heroku/web.1	Unidling\n
+1177287573177462787	2020-03-19 13:27:32	2020-03-19 13:27:32	5235246442	test-d58	54.86.128.217	Local0	Info	heroku/web.1	State changed from down to starting\n
+1177287586194104329	2020-03-19 13:27:35	2020-03-19 13:27:36	5235246442	test-d58	184.72.72.127	Syslog	Notice	heroku/web.1	Starting process with command `vendor/bin/heroku-php-apache2 public/`\n
+1177287604462776329	2020-03-19 13:27:39	2020-03-19 13:27:40	5235246442	test-d58	100.26.206.241	Local7	Info	app/web.1	DOCUMENT_ROOT changed to 'public/'\n
+1177287604513107972	2020-03-19 13:27:39	2020-03-19 13:27:40	5235246442	test-d58	100.26.206.241	Local7	Info	app/web.1	Detected 536870912 Bytes of RAM\n
+1177287604513107973	2020-03-19 13:27:40	2020-03-19 13:27:40	5235246442	test-d58	100.26.206.241	Local7	Info	app/web.1	PHP memory_limit is 128M Bytes\n
+1177287604513107974	2020-03-19 13:27:40	2020-03-19 13:27:40	5235246442	test-d58	100.26.206.241	Local7	Info	app/web.1	Starting php-fpm with 4 workers...\n
+1177287605364551692	2020-03-19 13:27:40	2020-03-19 13:27:40	5235246442	test-d58	18.212.215.204	Local7	Info	app/web.1	Starting httpd...\n
+1177287607613005826	2020-03-19 13:27:41	2020-03-19 13:27:41	5235246442	test-d58	52.90.209.255	Local0	Info	heroku/web.1	State changed from starting to up\n
+1177287613001109555	2020-03-19 13:27:42	2020-03-19 13:27:42	5235246442	test-d58	54.161.199.238	Local3	Info	heroku/router	at=info method=HEAD path="/" host=test-d58.herokuapp.com request_id=9b72d6ee-9dc8-42da-9e3a-afac09968a4c fwd="216.245.221.84" dyno=web.1 connect=1ms service=278ms status=200 bytes=848 protocol=http\n
+1177287613458288650	2020-03-19 13:27:42	2020-03-19 13:27:42	5235246442	test-d58	3.92.200.209	Local7	Info	app/web.1	10.31.251.32 - - [19/Mar/2020:22:27:41 +0900] "HEAD / HTTP/1.1" 200 - "http://test-d58.herokuapp.com/" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)\n
+1177288659831070721	2020-03-19 13:31:51	2020-03-19 13:31:51	5235246442	test-d58	18.209.111.173	Local3	Info	heroku/router	at=info method=HEAD path="/" host=test-d58.herokuapp.com request_id=3663b486-d60d-4a90-93ed-38cded49b70b fwd="216.245.221.84" dyno=web.1 connect=0ms service=40ms status=200 bytes=844 protocol=http\n
+1177288660489576449	2020-03-19 13:31:51	2020-03-19 13:31:52	5235246442	test-d58	54.152.175.180	Local7	Info	app/web.1	10.31.72.133 - - [19/Mar/2020:22:31:51 +0900] "HEAD / HTTP/1.1" 200 - "http://test-d58.herokuapp.com/" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)\n
+1177293785524097024	2020-03-19 13:52:13	2020-03-19 13:52:14	5235246442	test-d58	3.81.50.20	Local7	Info	app/web.1	10.7.247.67 - - [19/Mar/2020:22:52:13 +0900] "HEAD / HTTP/1.1" 200 - "http://test-d58.herokuapp.com/" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)\n
+1177293785632477185	2020-03-19 13:52:13	2020-03-19 13:52:14	5235246442	test-d58	54.234.141.174	Local3	Info	heroku/router	at=info method=HEAD path="/" host=test-d58.herokuapp.com request_id=f7abe4eb-c426-446c-acb3-c6a5b2ec4fbb fwd="216.245.221.84" dyno=web.1 connect=0ms service=40ms status=200 bytes=846 protocol=http\n

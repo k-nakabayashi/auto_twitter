@@ -1,0 +1,209 @@
+[2020-03-09 14:43:22] local.DEBUG: array (
+  'tw_account_id' => 1,
+  'domain' => 'follow',
+  'pattern' => 'restart',
+  'queue_name1' => 'followers_list',
+  'queue_name2' => 'friendships_create',
+  'auto_followers_list' => 2,
+  'auto_friendships_create' => 2,
+)  
+[2020-03-09 14:43:23] local.DEBUG: 再開Job　発行  
+[2020-03-09 14:43:23] local.DEBUG: destruct  
+[2020-03-09 14:43:23] local.DEBUG: 9  
+[2020-03-09 14:43:23] local.DEBUG: VALUE 2  
+[2020-03-09 14:44:25] local.DEBUG: 再開Job　開始 : account_id : 1  
+[2020-03-09 14:44:25] local.DEBUG: 1  
+[2020-03-09 14:44:25] local.DEBUG: 1  
+[2020-03-09 14:44:25] local.DEBUG: cmd : /home/vagrant/code/laravel-mysql/artisan queue:retry 1  
+[2020-03-09 14:44:26] local.DEBUG: "The failed job [1] has been pushed back onto the queue!"  
+[2020-03-09 14:44:28] local.DEBUG: roop  
+[2020-03-09 14:44:28] local.DEBUG: TargetFollowerRoopJob  
+[2020-03-09 14:44:28] local.DEBUG: 対象のカーソル：-1  
+[2020-03-09 14:44:28] local.DEBUG: queu_id : 10  
+[2020-03-09 14:44:28] local.DEBUG: ターゲットリストのカウンター : 0  
+[2020-03-09 14:44:28] local.DEBUG: ターゲットアカウント名前：しゅんたろー@転職活動エンジニア  
+[2020-03-09 14:44:28] local.DEBUG: https://api.twitter.com/1.1/followers/list.json  
+[2020-03-09 14:44:28] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-09 14:44:28] local.DEBUG: initDailyCounter  
+[2020-03-09 14:44:28] local.DEBUG:   
+[2020-03-09 14:44:28] local.DEBUG: 1  
+[2020-03-09 14:44:28] local.DEBUG: 2020-03-09 00:00:00  
+[2020-03-09 14:44:28] local.DEBUG: 2020/03/08  
+[2020-03-09 14:44:28] local.DEBUG: 1  
+[2020-03-09 14:44:28] local.DEBUG: haveRestricted  
+[2020-03-09 14:44:28] local.DEBUG: checkApi_counter  
+[2020-03-09 14:44:28] local.DEBUG: 日付判定確認 : 1  
+[2020-03-09 14:44:28] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-09 14:44:28] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-09 14:44:28] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-09 14:44:28] local.DEBUG: {"user_id":1228110434135207936,"include_entities":false,"count":"100","skip_status":false,"cursor":"-1"}  
+[2020-03-09 14:44:29] local.DEBUG: checkApi  
+[2020-03-09 14:44:29] local.DEBUG: followers_list  
+[2020-03-09 14:44:29] local.DEBUG: 制限状態：1  
+[2020-03-09 14:44:29] local.DEBUG: 使用状態：2  
+[2020-03-09 14:44:29] local.DEBUG: 使用キーワード  
+[2020-03-09 14:44:29] local.DEBUG: array (
+  0 => 
+  (object) array(
+     'opt' => 'and',
+     'txt' => '基本',
+  ),
+)  
+[2020-03-09 14:44:29] local.DEBUG: ターゲットフレンドを 2 件　追加しました。  
+[2020-03-09 14:44:29] local.DEBUG: next : 1658796078882276859  
+[2020-03-09 14:44:29] local.DEBUG: next job  following  
+[2020-03-09 14:44:29] local.DEBUG: destruct  
+[2020-03-09 14:44:29] local.DEBUG: 11  
+[2020-03-09 14:44:30] local.DEBUG: roop  
+[2020-03-09 14:44:30] local.DEBUG: TargetFollowerRoopJob  
+[2020-03-09 14:44:30] local.DEBUG: 対象のカーソル：1658796078882276859  
+[2020-03-09 14:44:30] local.DEBUG: queu_id : 11  
+[2020-03-09 14:44:30] local.DEBUG: ターゲットリストのカウンター : 0  
+[2020-03-09 14:44:30] local.DEBUG: ターゲットアカウント名前：しゅんたろー@転職活動エンジニア  
+[2020-03-09 14:44:30] local.DEBUG: https://api.twitter.com/1.1/followers/list.json  
+[2020-03-09 14:44:30] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-09 14:44:30] local.DEBUG: initDailyCounter  
+[2020-03-09 14:44:30] local.DEBUG:   
+[2020-03-09 14:44:30] local.DEBUG: 1  
+[2020-03-09 14:44:30] local.DEBUG: 2020-03-09 00:00:00  
+[2020-03-09 14:44:30] local.DEBUG: 2020/03/08  
+[2020-03-09 14:44:30] local.DEBUG: 1  
+[2020-03-09 14:44:30] local.DEBUG: haveRestricted  
+[2020-03-09 14:44:30] local.DEBUG: checkApi_counter  
+[2020-03-09 14:44:30] local.DEBUG: 日付判定確認 : 1  
+[2020-03-09 14:44:30] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-09 14:44:30] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-09 14:44:30] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-09 14:44:30] local.DEBUG: {"user_id":1228110434135207936,"include_entities":false,"count":"100","skip_status":false,"cursor":1658796078882276859}  
+[2020-03-09 14:44:31] local.DEBUG: checkApi  
+[2020-03-09 14:44:31] local.DEBUG: followers_list  
+[2020-03-09 14:44:31] local.DEBUG: 制限状態：1  
+[2020-03-09 14:44:31] local.DEBUG: 使用状態：2  
+[2020-03-09 14:44:31] local.DEBUG: 使用キーワード  
+[2020-03-09 14:44:31] local.DEBUG: array (
+  0 => 
+  (object) array(
+     'opt' => 'and',
+     'txt' => '基本',
+  ),
+)  
+[2020-03-09 14:44:31] local.DEBUG: ターゲットフレンドを 1 件　追加しました。  
+[2020-03-09 14:44:31] local.DEBUG: next : 0  
+[2020-03-09 14:44:31] local.DEBUG: フォロワーターゲットリスト作成完了  
+[2020-03-09 14:44:31] local.DEBUG: VALUE 0  
+[2020-03-09 14:44:31] local.DEBUG: VALUE 1  
+[2020-03-09 14:44:31] local.DEBUG: フォロー開始  
+[2020-03-09 14:44:31] local.DEBUG: destruct  
+[2020-03-09 14:44:31] local.DEBUG: 12  
+[2020-03-09 14:44:33] local.DEBUG: イベント発行  
+[2020-03-09 14:44:33] local.DEBUG: 0  
+[2020-03-09 14:44:33] local.DEBUG: イベントリスナー起動：自動フォロー  
+[2020-03-09 14:44:33] local.DEBUG: フォロー対象1235179841613266946  
+[2020-03-09 14:44:33] local.DEBUG: https://api.twitter.com/1.1/friendships/create.json  
+[2020-03-09 14:44:33] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-09 14:44:33] local.DEBUG: initDailyCounter  
+[2020-03-09 14:44:33] local.DEBUG: 1  
+[2020-03-09 14:44:33] local.DEBUG: 1  
+[2020-03-09 14:44:33] local.DEBUG: 2020-03-09 00:00:00  
+[2020-03-09 14:44:33] local.DEBUG: 2020/03/09  
+[2020-03-09 14:44:33] local.DEBUG:   
+[2020-03-09 14:44:33] local.DEBUG: haveRestricted  
+[2020-03-09 14:44:33] local.DEBUG: checkApi_counter  
+[2020-03-09 14:44:33] local.DEBUG: 日付判定確認 : 1  
+[2020-03-09 14:44:33] local.DEBUG: 2020-03-09 00:00:00  
+[2020-03-09 14:44:33] local.DEBUG: 2020-03-09 14:44:33  
+[2020-03-09 14:44:33] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-09 14:44:33] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-09 14:44:33] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-09 14:44:33] local.DEBUG: {"0":"user_id","user_id":1235179841613266946}  
+[2020-03-09 14:44:34] local.DEBUG: checkApi  
+[2020-03-09 14:44:34] local.DEBUG: friendships_create  
+[2020-03-09 14:44:34] local.DEBUG: 制限状態：1  
+[2020-03-09 14:44:34] local.DEBUG: 使用状態：1  
+[2020-03-09 14:44:34] local.DEBUG: checkapi ok  
+[2020-03-09 14:44:34] local.DEBUG: フォロー数　：　1  
+[2020-03-09 14:44:34] local.DEBUG: delay  
+[2020-03-09 14:44:34] local.DEBUG: 2020-03-09 14:44:34  
+[2020-03-09 14:44:34] local.DEBUG: フォロー開始  
+[2020-03-09 14:44:34] local.DEBUG: destruct  
+[2020-03-09 14:44:34] local.DEBUG: 13  
+[2020-03-09 14:44:35] local.DEBUG: イベント発行  
+[2020-03-09 14:44:35] local.DEBUG: 1  
+[2020-03-09 14:44:35] local.DEBUG: イベントリスナー起動：自動フォロー  
+[2020-03-09 14:44:35] local.DEBUG: フォロー対象1235105774583476224  
+[2020-03-09 14:44:35] local.DEBUG: https://api.twitter.com/1.1/friendships/create.json  
+[2020-03-09 14:44:35] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-09 14:44:35] local.DEBUG: initDailyCounter  
+[2020-03-09 14:44:35] local.DEBUG: 1  
+[2020-03-09 14:44:35] local.DEBUG: 1  
+[2020-03-09 14:44:35] local.DEBUG: 2020-03-09 00:00:00  
+[2020-03-09 14:44:35] local.DEBUG: 2020/03/09  
+[2020-03-09 14:44:35] local.DEBUG:   
+[2020-03-09 14:44:35] local.DEBUG: haveRestricted  
+[2020-03-09 14:44:35] local.DEBUG: checkApi_counter  
+[2020-03-09 14:44:35] local.DEBUG: 日付判定確認 : 1  
+[2020-03-09 14:44:35] local.DEBUG: 2020-03-09 00:00:00  
+[2020-03-09 14:44:35] local.DEBUG: 2020-03-09 14:44:35  
+[2020-03-09 14:44:35] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-09 14:44:35] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-09 14:44:35] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-09 14:44:35] local.DEBUG: {"0":"user_id","user_id":1235105774583476224}  
+[2020-03-09 14:44:36] local.DEBUG: checkApi  
+[2020-03-09 14:44:36] local.DEBUG: friendships_create  
+[2020-03-09 14:44:36] local.DEBUG: 制限状態：1  
+[2020-03-09 14:44:36] local.DEBUG: 使用状態：1  
+[2020-03-09 14:44:36] local.DEBUG: checkapi ok  
+[2020-03-09 14:44:36] local.DEBUG: フォロー数　：　2  
+[2020-03-09 14:44:36] local.DEBUG: delay  
+[2020-03-09 14:44:36] local.DEBUG: 2020-03-09 14:44:36  
+[2020-03-09 14:44:36] local.DEBUG: フォロー開始  
+[2020-03-09 14:44:36] local.DEBUG: destruct  
+[2020-03-09 14:44:36] local.DEBUG: 14  
+[2020-03-09 14:44:38] local.DEBUG: イベント発行  
+[2020-03-09 14:44:38] local.DEBUG: 2  
+[2020-03-09 14:44:38] local.DEBUG: イベントリスナー起動：自動フォロー  
+[2020-03-09 14:44:38] local.DEBUG: フォロー対象1261967778  
+[2020-03-09 14:44:38] local.DEBUG: https://api.twitter.com/1.1/friendships/create.json  
+[2020-03-09 14:44:38] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-09 14:44:38] local.DEBUG: initDailyCounter  
+[2020-03-09 14:44:38] local.DEBUG: 1  
+[2020-03-09 14:44:38] local.DEBUG: 1  
+[2020-03-09 14:44:38] local.DEBUG: 2020-03-09 00:00:00  
+[2020-03-09 14:44:38] local.DEBUG: 2020/03/09  
+[2020-03-09 14:44:38] local.DEBUG:   
+[2020-03-09 14:44:38] local.DEBUG: haveRestricted  
+[2020-03-09 14:44:38] local.DEBUG: checkApi_counter  
+[2020-03-09 14:44:38] local.DEBUG: 日付判定確認 : 1  
+[2020-03-09 14:44:38] local.DEBUG: 2020-03-09 00:00:00  
+[2020-03-09 14:44:38] local.DEBUG: 2020-03-09 14:44:38  
+[2020-03-09 14:44:38] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-09 14:44:38] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-09 14:44:38] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-09 14:44:38] local.DEBUG: {"0":"user_id","user_id":1261967778}  
+[2020-03-09 14:44:38] local.DEBUG: checkApi  
+[2020-03-09 14:44:38] local.DEBUG: friendships_create  
+[2020-03-09 14:44:38] local.DEBUG: 制限状態：1  
+[2020-03-09 14:44:38] local.DEBUG: 使用状態：1  
+[2020-03-09 14:44:38] local.DEBUG: checkapi ok  
+[2020-03-09 14:44:38] local.DEBUG: フォロー数　：　3  
+[2020-03-09 14:44:38] local.DEBUG: api status initialized  
+[2020-03-09 14:44:38] local.DEBUG: VALUE 0  
+[2020-03-09 14:44:38] local.DEBUG: VALUE 0  
+[2020-03-09 14:44:38] local.DEBUG: mail set  
+[2020-03-09 14:44:39] local.DEBUG: 自動フォロー完了　job消化  
+[2020-03-09 14:46:11] local.DEBUG: 特にやることなし  
+[2020-03-09 14:46:12] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-09 14:46:12] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-09 14:46:12] local.DEBUG:  id :1  
+[2020-03-09 14:46:13] local.DEBUG: {"id":"1","model_name":"Tw_Tweet"}  
+[2020-03-09 14:46:13] local.DEBUG: Tw_Tweet  
+[2020-03-09 14:46:14] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-09 14:46:14] local.DEBUG: Key_Pattern  
+[2020-03-09 14:46:14] local.DEBUG:  id :1  
+[2020-03-09 14:46:14] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-09 14:46:14] local.DEBUG: Tw_Target_Account  
+[2020-03-09 14:46:14] local.DEBUG:  id :1  
+[2020-03-09 14:46:15] local.DEBUG:  id :1  
+[2020-03-09 14:46:15] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-09 14:46:15] local.DEBUG: Tw_Account  
+[2020-03-09 14:46:15] local.DEBUG:  id :1  

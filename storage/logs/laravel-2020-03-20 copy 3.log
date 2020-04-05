@@ -1,0 +1,541 @@
+[2020-03-20 20:39:34] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-20 20:39:34] local.DEBUG: FavoriteStart start  
+[2020-03-20 20:39:34] local.DEBUG: 虚構推理   
+[2020-03-20 20:39:34] local.DEBUG: 遅延：1  
+[2020-03-20 20:39:34] local.DEBUG: destruct  
+[2020-03-20 20:39:34] local.DEBUG: 314  
+[2020-03-20 20:39:35] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:39:35] local.DEBUG: Tw_Account  
+[2020-03-20 20:39:35] local.DEBUG:  id :1  
+[2020-03-20 20:40:36] local.DEBUG: roop  
+[2020-03-20 20:40:36] local.DEBUG: SearchTweetRoopJob  
+[2020-03-20 20:40:36] local.DEBUG: queu_id : 314  
+[2020-03-20 20:40:36] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-20 20:40:36] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 20:40:36] local.DEBUG: initDailyCounter  
+[2020-03-20 20:40:36] local.DEBUG:   
+[2020-03-20 20:40:36] local.DEBUG: 1  
+[2020-03-20 20:40:36] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 20:40:36] local.DEBUG: 2020/03/16  
+[2020-03-20 20:40:36] local.DEBUG: 1  
+[2020-03-20 20:40:36] local.DEBUG: haveRestricted  
+[2020-03-20 20:40:36] local.DEBUG: checkApi_counter  
+[2020-03-20 20:40:36] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 20:40:36] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 20:40:36] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-20 20:40:36] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-20 20:40:36] local.DEBUG: {"q":"\u865a\u69cb\u63a8\u7406 ","locale":"ja","lang":"ja","result_type":"mixed","count":"10","max_id":"","include_entities":false}  
+[2020-03-20 20:40:36] local.DEBUG: checkApi  
+[2020-03-20 20:40:36] local.DEBUG: search_tweets  
+[2020-03-20 20:40:36] local.DEBUG: 制限状態：1  
+[2020-03-20 20:40:36] local.DEBUG: 使用状態：1  
+[2020-03-20 20:40:36] local.DEBUG: ツイート数：10  
+[2020-03-20 20:40:36] local.DEBUG: next id：?max_id=1238027702029840383&q=%E8%99%9A%E6%A7%8B%E6%8E%A8%E7%90%86&lang=ja&count=10&result_type=mixed  
+[2020-03-20 20:40:36] local.DEBUG: [{"created_at":"Mon Mar 16 05:39:56 +0000 2020","id":1239426149781913600,"id_str":"1239426149781913600","text":"\u300c\u865a\u69cb\u63a8\u7406\u300d\u7b2c10\u8a71\u3000\u685c\u5ddd\u4e5d\u90ce\uff08CV\uff1a\u5bae\u91ce\u771f\u5b88\uff09\u306e\u7279\u6b8a\u80fd\u529b\u306b\u8996\u8074\u8005\u300c\u3084\u3063\u3071\u75db\u3044\u3088\uff01\uff01\u300d https:\/\/t.co\/dfrBmsED9W\n@kyokou_suiri #\u865a\u69cb\u63a8\u7406","truncated":false,"metadata":{"result_type":"popular","iso_language_code":"ja"},"source":"<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":737923441198825473,"id_str":"737923441198825473","name":"AbemaTIMES","screen_name":"AbemaTIMES","location":"\u6771\u4eac \u6e0b\u8c37\u533a","description":"AbemaTIMES\u3067\u306f\u4eca\u89b3\u305f\u304f\u306a\u308b\u30d0\u30e9\u30a8\u30c6\u30a3\u30fb\u30c9\u30e9\u30de\u30fb\u30cb\u30e5\u30fc\u30b9\u306e\u60c5\u5831\u3092\u6bce\u65e5\u914d\u4fe1\u4e2d\u2728 \u30cb\u30e5\u30fc\u30b9\u901f\u5831\u3084\u65ec\u306e\u8a71\u984c\u3092\u53b3\u9078\u3057\u3066\u304a\u4f1d\u3048\u3057\u307e\u3059\ud83d\ude0a \u8cb4\u91cd\u306a\u30d7\u30ec\u30bc\u30f3\u30c8\u60c5\u5831\u3082\u6642\u3005\u6d41\u308c\u307e\u3059\ud83c\udf81","url":"https:\/\/t.co\/Afp17k28p0","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/Afp17k28p0","expanded_url":"https:\/\/abematimes.com\/","display_url":"abematimes.com","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":111456,"friends_count":2066,"listed_count":384,"created_at":"Wed Jun 01 08:27:13 +0000 2016","favourites_count":320,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":true,"statuses_count":27933,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"000000","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/877446899791405056\/wwPfIDq0_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/877446899791405056\/wwPfIDq0_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/737923441198825473\/1494406679","profile_link_color":"E81C4F","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"000000","profile_text_color":"000000","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":62,"favorite_count":293,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"ja"},{"created_at":"Thu Mar 12 09:03:00 +0000 2020","id":1238027702029840384,"id_str":"1238027702029840384","text":"#\u30a2\u30cb\u30e1\u300c\u865a\u69cb\u63a8\u7406\u300d\u7b2c10\u8a71\u306e\u3042\u3089\u3059\u3058\uff06\u5148\u884c\u30ab\u30c3\u30c8\u516c\u958b\uff01\n\u3010\u753b\u50cf \u51687\u679a\uff08\u30e1\u30c7\u30a3\u30a2\u9650\u5b9a\u5148\u884c\u30ab\u30c3\u30c8\u3042\u308a\uff09\u3011\nhttps:\/\/t.co\/SdvsgM68yA\n\n\u63a8\u7406\u306f\u68c4\u5374\u3001\u7acb\u3061\u306f\u3060\u304b\u308b\u685c\u5ddd\u516d\u82b1\u3068\u92fc\u4eba\u4e03\u702c\u2026\u4ea1\u970a\u306f\u6253\u3061\u6d88\u305b\u308b\u306e\u304b\uff1f\n\n#\u865a\u69cb\u63a8\u7406 @kyokou_suiri","truncated":false,"metadata":{"result_type":"popular","iso_language_code":"ja"},"source":"<a href=\"https:\/\/ads-api.twitter.com\" rel=\"nofollow\">Twitter for Advertisers<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":737923441198825473,"id_str":"737923441198825473","name":"AbemaTIMES","screen_name":"AbemaTIMES","location":"\u6771\u4eac \u6e0b\u8c37\u533a","description":"AbemaTIMES\u3067\u306f\u4eca\u89b3\u305f\u304f\u306a\u308b\u30d0\u30e9\u30a8\u30c6\u30a3\u30fb\u30c9\u30e9\u30de\u30fb\u30cb\u30e5\u30fc\u30b9\u306e\u60c5\u5831\u3092\u6bce\u65e5\u914d\u4fe1\u4e2d\u2728 \u30cb\u30e5\u30fc\u30b9\u901f\u5831\u3084\u65ec\u306e\u8a71\u984c\u3092\u53b3\u9078\u3057\u3066\u304a\u4f1d\u3048\u3057\u307e\u3059\ud83d\ude0a \u8cb4\u91cd\u306a\u30d7\u30ec\u30bc\u30f3\u30c8\u60c5\u5831\u3082\u6642\u3005\u6d41\u308c\u307e\u3059\ud83c\udf81","url":"https:\/\/t.co\/Afp17k28p0","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/Afp17k28p0","expanded_url":"https:\/\/abematimes.com\/","display_url":"abematimes.com","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":111456,"friends_count":2066,"listed_count":384,"created_at":"Wed Jun 01 08:27:13 +0000 2016","favourites_count":320,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":true,"statuses_count":27933,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"000000","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/877446899791405056\/wwPfIDq0_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/877446899791405056\/wwPfIDq0_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/737923441198825473\/1494406679","profile_link_color":"E81C4F","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"000000","profile_text_color":"000000","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":31,"favorite_count":149,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"ja"},{"created_at":"Fri Mar 20 11:40:19 +0000 2020","id":1240966396546170882,"id_str":"1240966396546170882","text":"\u865a\u69cb\u63a8\u7406\u306f\u30a4\u30c9\u306e\u30c6\u30f3\u30dd\u306e\u826f\u3055\u898b\u7fd2\u3063\u3066\u304f\u308c","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"https:\/\/mobile.twitter.com\" rel=\"nofollow\">Twitter Web App<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1187620760644227073,"id_str":"1187620760644227073","name":"\u3084\u307e\u304d\u3087\u3080","screen_name":"yamakyomu","location":"","description":"\u4e2d\u5b66\u306e\u3068\u304d\u306e\u3042\u3060\u306a\u306f\u30ef\u30ab\u30e1","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":4,"friends_count":54,"listed_count":0,"created_at":"Fri Oct 25 06:43:57 +0000 2019","favourites_count":1240,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":326,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1187629574999302144\/jih3XWui_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1187629574999302144\/jih3XWui_normal.jpg","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"ja"},{"created_at":"Fri Mar 20 11:38:18 +0000 2020","id":1240965889656152065,"id_str":"1240965889656152065","text":"RT @Kaigoat: \u307e\u3068\u3081\u30b5\u30a4\u30c8\u3092\u602a\u6587\u66f8\u7206\u6483\u3067\u708e\u4e0a\u3055\u305b\u308b\u30d2\u30ed\u30a4\u30f3\u3053\u3068\u865a\u69cb\u63a8\u7406","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\">Twitter for iPhone<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2957329081,"id_str":"2957329081","name":"\u3086\u30fc\u3044\u3061","screen_name":"akatukisisyou","location":"\u7fa4\u99ac \u6cb3\u5cb8\u6bb5\u4e18\u304c\u7d50\u69cb\u6709\u540d\u3089\u3057\u3044\u3063\u3059\u3088","description":"\u5ddd\u4e0a\u7a14\u3068\u578b\u6708\u3068\u897f\u5c3e\u7dad\u65b0\u3068\u3086\u3086\u3086\u3068\u306a\u306e\u306f\u3068\u30e1\u30ae\u30c972\u3068\u8ecc\u8de1\u30b7\u30ea\u30fc\u30ba\u3068\u5929\u91ce\u660e\u3068\u8266\u3053\u308c\u3067\u5927\u90e8\u5206\u304c\u69cb\u6210\u3055\u308c\u3066\u308b\u3002\u4f53\u529b\u304c\u306a\u3044\u3002\u81ea\u5206\u306e\u5b9a\u7fa9\u4ed8\u3051\u306f\u4ed6\u8005\u4efb\u305b\u3002\u5272\u3068\u7a81\u62cd\u5b50\u3082\u306a\u3044","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":244,"friends_count":201,"listed_count":8,"created_at":"Sat Jan 03 13:21:46 +0000 2015","favourites_count":2610,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":312669,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1240567086566363136\/TvdM6GhA_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1240567086566363136\/TvdM6GhA_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2957329081\/1556199741","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri Mar 20 10:40:12 +0000 2020","id":1240951268249464832,"id_str":"1240951268249464832","text":"\u307e\u3068\u3081\u30b5\u30a4\u30c8\u3092\u602a\u6587\u66f8\u7206\u6483\u3067\u708e\u4e0a\u3055\u305b\u308b\u30d2\u30ed\u30a4\u30f3\u3053\u3068\u865a\u69cb\u63a8\u7406","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\">Twitter for Android<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1243357344,"id_str":"1243357344","name":"\u7070\u9244\u8778\uff08\u304b\u3044\u3066\u3063\u304b\uff09","screen_name":"Kaigoat","location":"\u5317\u65e5\u672c\u5c45\u4f4f\u533a","description":"\uff33\uff26\u30dc\u30fc\u30a4\u30df\u30fc\u30c4\u30ac\u30fc\u30eb\u300c\u5f53\u65b9\u3001\u89d2\u3042\u308a\u306e\u5ac1\u5fa1\u3092\u6c42\u3080\u300d https:\/\/t.co\/UPovYPZMRK \u7b49\u3092\u57f7\u7b46\u3059\u308b\u89d2\u3063\u5a18\u597d\u304d\u3067\u3059\u3002 \u30d8\u30c3\u30c0\u30fc\u306f@9289schmaisen \u69d8\u304b\u3089\u306e\u9802\u304d\u7269\u3002\u30ac\u30d6\u30ea\u30a8\u30e9\u306e\u5e78\u305b\u3092\u7948\u3063\u3066\u3044\u308b\uff08\u62e1\u5f35\u5c11\u5973\u7cfb\u30c8\u30e9\u30a4\u30ca\u30ea\u30fc\uff09\u3002\u30ce\u30af\u30bf\u30fc\u30f3\u3067\u306e\uff30\uff2e\u306f\u9244\u9306\u866b","url":"https:\/\/t.co\/bPe50assP7","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/bPe50assP7","expanded_url":"http:\/\/mypage.syosetu.com\/135537\/","display_url":"mypage.syosetu.com\/135537\/","indices":[0,23]}]},"description":{"urls":[{"url":"https:\/\/t.co\/UPovYPZMRK","expanded_url":"http:\/\/ncode.syosetu.com\/n6080bq\/","display_url":"ncode.syosetu.com\/n6080bq\/","indices":[26,49]}]}},"protected":false,"followers_count":2740,"friends_count":2124,"listed_count":124,"created_at":"Tue Mar 05 10:07:32 +0000 2013","favourites_count":19721,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":679278,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"66FF8A","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/949327802800615425\/fTh0JanG_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/949327802800615425\/fTh0JanG_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1243357344\/1409357230","profile_link_color":"1B95E0","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":7,"favorite_count":5,"favorited":false,"retweeted":false,"lang":"ja"},"is_quote_status":false,"retweet_count":7,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"ja"},{"created_at":"Fri Mar 20 11:38:15 +0000 2020","id":1240965874720235520,"id_str":"1240965874720235520","text":"RT @Jack_O_H_Nielse: \u865a\u69cb\u63a8\u7406\u898b\u3066\u308b\u3093\u3067\u3059\u3051\u3069\u9244\u9aa8\u4ea1\u970avs\u4e0d\u6b7b\u8eab\u306e\u672a\u6765\u6539\u5909\u8005\u306e\u30d0\u30c8\u30eb\u3068\u4e26\u884c\u3057\u3066\u63b2\u793a\u677f\u8352\u3089\u3057\u3066\u308b\u306e\u3058\u308f\u308b","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\">Twitter for iPhone<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2957329081,"id_str":"2957329081","name":"\u3086\u30fc\u3044\u3061","screen_name":"akatukisisyou","location":"\u7fa4\u99ac \u6cb3\u5cb8\u6bb5\u4e18\u304c\u7d50\u69cb\u6709\u540d\u3089\u3057\u3044\u3063\u3059\u3088","description":"\u5ddd\u4e0a\u7a14\u3068\u578b\u6708\u3068\u897f\u5c3e\u7dad\u65b0\u3068\u3086\u3086\u3086\u3068\u306a\u306e\u306f\u3068\u30e1\u30ae\u30c972\u3068\u8ecc\u8de1\u30b7\u30ea\u30fc\u30ba\u3068\u5929\u91ce\u660e\u3068\u8266\u3053\u308c\u3067\u5927\u90e8\u5206\u304c\u69cb\u6210\u3055\u308c\u3066\u308b\u3002\u4f53\u529b\u304c\u306a\u3044\u3002\u81ea\u5206\u306e\u5b9a\u7fa9\u4ed8\u3051\u306f\u4ed6\u8005\u4efb\u305b\u3002\u5272\u3068\u7a81\u62cd\u5b50\u3082\u306a\u3044","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":244,"friends_count":201,"listed_count":8,"created_at":"Sat Jan 03 13:21:46 +0000 2015","favourites_count":2610,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":312669,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1240567086566363136\/TvdM6GhA_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1240567086566363136\/TvdM6GhA_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2957329081\/1556199741","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri Mar 20 09:26:19 +0000 2020","id":1240932673868054529,"id_str":"1240932673868054529","text":"\u865a\u69cb\u63a8\u7406\u898b\u3066\u308b\u3093\u3067\u3059\u3051\u3069\u9244\u9aa8\u4ea1\u970avs\u4e0d\u6b7b\u8eab\u306e\u672a\u6765\u6539\u5909\u8005\u306e\u30d0\u30c8\u30eb\u3068\u4e26\u884c\u3057\u3066\u63b2\u793a\u677f\u8352\u3089\u3057\u3066\u308b\u306e\u3058\u308f\u308b","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\">Twitter for iPhone<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":3011235584,"id_str":"3011235584","name":"John@564\u611b\u30ab\u30bf\u30b9\u30c8\u30ed\u30d5\u30a3","screen_name":"Jack_O_H_Nielse","location":"\u55ab\u8336\uff96\uff7a\u4ec6","description":"\u30b5\u30d6\u30ab\u30eb\u6cbc\u306e\u6ce5\u306b\u6708\u304b\u3089\u306e\u03b3\u7dda\u304c\u5f53\u305f\u3063\u3066\u81ea\u6211\u3092\u6301\u3061\u751f\u307e\u308c\u305f\u30c0\u30a4\u30de\u91ce\u90ce\u3002\u6620\u753b\u898b\u305f\u308a\u97f3\u697d\u8074\u3044\u305f\u308aTRPG\u3057\u305f\u308a\u5e7b\u899a\u898b\u305f\u308a\u6599\u7406\u3057\u305f\u308a\u5c0f\u8aac\u66f8\u3044\u305f\u308a\u3057\u3066\u308b\u3068\u3044\u3046\u8aac\u304c\u6709\u529b\u3002\u3044\u3084\u9055\u3046\u5e7b\u899a\u3058\u3083\u306a\u3044\u79c1\u306b\u306f\u78ba\u304b\u306b\u898b\u3048\u305f\u3093\u3060\u3002\u5dfb\u304d\u8fbc\u307f\u30ea\u30d7\u30e9\u30a4\u306f\u6c7a\u65ad\u7684\u30d6\u30ed\u30c3\u30af \u304a\u984c\u7bb1\uff1ahttps:\/\/t.co\/9rOhEyzeud","url":null,"entities":{"description":{"urls":[{"url":"https:\/\/t.co\/9rOhEyzeud","expanded_url":"https:\/\/odaibako.net\/u\/Jack_O_H_Nielse","display_url":"odaibako.net\/u\/Jack_O_H_Nie\u2026","indices":[122,145]}]}},"protected":false,"followers_count":1437,"friends_count":610,"listed_count":39,"created_at":"Fri Feb 06 11:47:54 +0000 2015","favourites_count":113734,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":248228,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"8B542B","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme8\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme8\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1112731355870191616\/8LJ0RyNV_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1112731355870191616\/8LJ0RyNV_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/3011235584\/1554130804","profile_link_color":"4A913C","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":13,"favorite_count":15,"favorited":false,"retweeted":false,"lang":"ja"},"is_quote_status":false,"retweet_count":13,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"ja"},{"created_at":"Fri Mar 20 11:36:09 +0000 2020","id":1240965345763946503,"id_str":"1240965345763946503","text":"\u865a\u69cb\u63a8\u740612\u5dfb\u306e\u96ea\u5973\u53ef\u611b\u3059\u304e\u3066\u6b7b\u4ea1","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\">Twitter for iPhone<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1105823429796597761,"id_str":"1105823429796597761","name":"\u30b9\u30ce\u30fc","screen_name":"Yuki40Snow","location":"","description":"@Yuki40S\u306b\u30b9\u30d7\u30e9\u306e\u52d5\u753b\u4e57\u305b\u3066\u307e\u3059\u3002 3347-8153-1910","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":70,"friends_count":72,"listed_count":1,"created_at":"Wed Mar 13 13:30:25 +0000 2019","favourites_count":3091,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4050,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1231235421599698944\/ekShEhPL_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1231235421599698944\/ekShEhPL_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1105823429796597761\/1565044356","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"ja"},{"created_at":"Fri Mar 20 11:35:23 +0000 2020","id":1240965153190903808,"id_str":"1240965153190903808","text":"\u300c\u865a\u69cb\u63a8\u7406\u300d10\u8a71\u4e0a\u6620\u4f1a \/ \u30cb\u30b3\u751f\u8996\u8074\u4e2d https:\/\/t.co\/ALVn77jBaN #\u865a\u69cb\u63a8\u7406","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":393420161,"id_str":"393420161","name":"URANIUM","screen_name":"UraniumSulfate","location":"\u5fc3\u306f\u81ea\u5b85","description":"\u7a4d\u307fAmazon\u3092\u6574\u7406\u3057\u3066\u304f\u308c\u308b\u4eba\u52df\u96c6\u3002\u6642\u7d66100\u5186\u304f\u3089\u3044\u3067\u30027144\u52e2\u3002","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":97,"friends_count":113,"listed_count":6,"created_at":"Tue Oct 18 14:22:11 +0000 2011","favourites_count":25,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":114772,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"EDECE9","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme3\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme3\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1012357327574298626\/wv9L6PFx_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1012357327574298626\/wv9L6PFx_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/393420161\/1530199855","profile_link_color":"088253","profile_sidebar_border_color":"D3D2CF","profile_sidebar_fill_color":"E3E2DE","profile_text_color":"634047","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"ja"},{"created_at":"Fri Mar 20 11:34:52 +0000 2020","id":1240965025998618629,"id_str":"1240965025998618629","text":"RT @cho_animedia: \u300c\u92fc\u4eba\u4e03\u702c\u306e\u5b58\u5728\u3092\u6d88\u3059\u3079\u304f\u653e\u305f\u308c\u308b\u7434\u5b50\u306e\u7b2c4\u306e\u4e00\u6483\u3068\u306f\u2015\u2015TV\u30a2\u30cb\u30e1\u300e\u865a\u69cb\u63a8\u7406\u300f\u7b2c11\u8a71\u3042\u3089\u3059\u3058\u3092\u7d39\u4ecb\u300d \u8d85\uff01\u30a2\u30cb\u30e1\u30c7\u30a3\u30a2 - https:\/\/t.co\/3b7hNIGY8I #\u865a\u69cb\u63a8\u7406 https:\/\/t.co\/1JQXi8IUrv","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"https:\/\/mobile.twitter.com\" rel=\"nofollow\">Twitter Web App<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1218398136957161472,"id_str":"1218398136957161472","name":"\u540d\u3082\u306a\u304d\u3082\u306e","screen_name":"Madanamaeganai_","location":"","description":"\u30b5\u30d6\u30a2\u30ab\u30a6\u30f3\u30c8\n\u30a2\u30cb\u30e1\u3001\u5c0f\u8aac\u5c02\u7528\u30a2\u30ab","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":4,"friends_count":194,"listed_count":1,"created_at":"Sat Jan 18 05:02:21 +0000 2020","favourites_count":804,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":279,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1238129715010924544\/f00CgA_3_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1238129715010924544\/f00CgA_3_normal.jpg","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri Mar 20 11:30:54 +0000 2020","id":1240964028098170880,"id_str":"1240964028098170880","text":"\u300c\u92fc\u4eba\u4e03\u702c\u306e\u5b58\u5728\u3092\u6d88\u3059\u3079\u304f\u653e\u305f\u308c\u308b\u7434\u5b50\u306e\u7b2c4\u306e\u4e00\u6483\u3068\u306f\u2015\u2015TV\u30a2\u30cb\u30e1\u300e\u865a\u69cb\u63a8\u7406\u300f\u7b2c11\u8a71\u3042\u3089\u3059\u3058\u3092\u7d39\u4ecb\u300d \u8d85\uff01\u30a2\u30cb\u30e1\u30c7\u30a3\u30a2 - https:\/\/t.co\/3b7hNIGY8I #\u865a\u69cb\u63a8\u7406 https:\/\/t.co\/1JQXi8IUrv","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"https:\/\/cho-animedia.jp\/\" rel=\"nofollow\">wp_inform_updatings_post<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":518473614,"id_str":"518473614","name":"\u30a2\u30cb\u30e1\uff06\u58f0\u512a\u95a2\u9023\u30cb\u30e5\u30fc\u30b9\u30b5\u30a4\u30c8\u300c\u8d85\uff01\u30a2\u30cb\u30e1\u30c7\u30a3\u30a2\u300d\u516c\u5f0f\u30a2\u30ab\u30a6\u30f3\u30c8","screen_name":"cho_animedia","location":"\u7de8\u96c6\u90e8\u3068\u304b\u30cb\u30b3\u30cb\u30b3\u3068\u304b","description":"\u30a2\u30cb\u30e1\u4f5c\u54c1\u95a2\u9023\u306e\u30b9\u30bf\u30c3\u30d5\u30fb\u30ad\u30e3\u30b9\u30c8\u30a4\u30f3\u30bf\u30d3\u30e5\u30fc\uff06\u72ec\u81ea\u30cb\u30e5\u30fc\u30b9\u304c\u3044\u3063\u3071\u3044\u3002\u30a2\u30cb\u30bd\u30f3\uff06\u30ad\u30e3\u30e9\u30bd\u30f3\u95a2\u9023\u97f3\u697d\u30a4\u30f3\u30bf\u30d3\u30e5\u30fc\u3092\u6bce\u670810\u672c\u4ee5\u4e0a\u304a\u5c4a\u3051\u3002\u65b0\u756a\u7d44\u60c5\u5831\u3001\u58f0\u512a\u30a2\u30fc\u30c6\u30a3\u30b9\u30c8\u60c5\u5831\u3001\u30a2\u30cb\u30e1\u6700\u65b0\u5834\u9762\u30ab\u30c3\u30c8\uff06\u3042\u3089\u3059\u3058\u3001\u30e9\u30b8\u30aa\u30b3\u30f3\u30c6\u30f3\u30c4\u3001\u52d5\u753b\u30b3\u30f3\u30c6\u30f3\u30c4\u3001\u30d6\u30ed\u30b0\u3001\u901a\u8ca9\u60c5\u5831\u306a\u3069\u3002","url":"https:\/\/t.co\/imH0DdGgt7","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/imH0DdGgt7","expanded_url":"https:\/\/cho-animedia.jp\/","display_url":"cho-animedia.jp","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":25276,"friends_count":315,"listed_count":378,"created_at":"Thu Mar 08 13:04:17 +0000 2012","favourites_count":549,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":8695,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"FF42B3","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/967991461361868800\/2FhnEyLJ_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/967991461361868800\/2FhnEyLJ_normal.jpg","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":1,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"ja"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"ja"},{"created_at":"Fri Mar 20 11:34:03 +0000 2020","id":1240964818896474112,"id_str":"1240964818896474112","text":"RT @konnyak86392863: \u865a\u69cb\u63a8\u7406\u306e\u7434\u5b50\u3061\u3083\u3093\u63cf\u3044\u305f\u306e\u3067\u7f6e\u3044\u3066\u304a\u304d\u307e\u3059\u306d\u3002\n\u304a\u3072\u3044\u69d8\uff77\uff6c\uff9c https:\/\/t.co\/pTGrWFdVdL","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\">Twitter for iPhone<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":230058786,"id_str":"230058786","name":"e-Roth","screen_name":"rothelden","location":"","description":"\u3042\u3044\u30df\u30b9(\u30b3\u30c8,\u30e9\u30a6\u30e9,\u30d7\u30ea\u30b7\u30e9,\u30a8\u30eb\u30df\u30ca,\u30dd\u30ea\u30f3), \u30a8\u30ed\u30b2(\u3071\u308c\u3063\u3068,HULOTTE,\u3086\u305a,SMEE,\u516b\u6708,Lose,CUBE,\u9418,\u89d2\u7802\u7cd6,\u6e26\u5dfb) \u58f0\u512a(\u85e4\u54b2\u30a6\u30b5,\u5b89\u7396\u6df1\u97f3,\u6850\u8c37\u83ef,\u9065\u305d\u3089,\u4e0a\u539f\u3042\u304a\u3044,\u8eca\u306e\u4eba) \u6b4c\u624b(\u85ac\u5e2b\u308b\u308a,\u4e2d\u6075\u5149\u57ce,\u4f50\u54b2\u7d17\u82b1,Duca,TrySail) PC(Skylke,Lynnfield)","url":"https:\/\/t.co\/5eEuWEb0W2","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/5eEuWEb0W2","expanded_url":"http:\/\/xn--ai-283ai8d6b8f1d3cwiwa4p66az046adyvagsy6e0g9o6a.com","display_url":"\u30a2\u30a4\u30b3\u30f3\u306f\u516c\u5f0f\u7dda\u753b\u3092ai\u5857\u308a\u3057\u3066\u307e\u3059.com","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":322,"friends_count":682,"listed_count":12,"created_at":"Fri Dec 24 04:17:35 +0000 2010","favourites_count":17322,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":6496,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"709397","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme6\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme6\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1213730926707953667\/ROVvAhOI_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1213730926707953667\/ROVvAhOI_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/230058786\/1581327309","profile_link_color":"AF7AF5","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"A0C5C7","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Thu Mar 19 16:17:19 +0000 2020","id":1240673715521642498,"id_str":"1240673715521642498","text":"\u865a\u69cb\u63a8\u7406\u306e\u7434\u5b50\u3061\u3083\u3093\u63cf\u3044\u305f\u306e\u3067\u7f6e\u3044\u3066\u304a\u304d\u307e\u3059\u306d\u3002\n\u304a\u3072\u3044\u69d8\uff77\uff6c\uff9c https:\/\/t.co\/pTGrWFdVdL","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"https:\/\/mobile.twitter.com\" rel=\"nofollow\">Twitter Web App<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1025398292341915648,"id_str":"1025398292341915648","name":"konnyaku","screen_name":"konnyak86392863","location":"\u3061\u3085\u3046\u3054\u304f\u3061\u307b\u30fc","description":"\u7d75\u3092\u63cf\u304f\u3002\u672a\u6210\u5e74\uff8c\uff6b\uff9b\uff70NG\nKTM-DUKE390(\u30ce\u30fc\u30e9\u3061\u3083\u3093)\u3082\u4e57\u308a\u307e\u3059\u3002\nfanbox\uff1ahttps:\/\/t.co\/BVHe7oqGQw\nfantia\uff1ahttps:\/\/t.co\/l9cMXn7e4e\nnikoniko:https:\/\/t.co\/XJc2w9mGLh","url":"https:\/\/t.co\/ayHGbPn6Nv","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/ayHGbPn6Nv","expanded_url":"https:\/\/www.pixiv.net\/member.php?id=1391461","display_url":"pixiv.net\/member.php?id=\u2026","indices":[0,23]}]},"description":{"urls":[{"url":"https:\/\/t.co\/BVHe7oqGQw","expanded_url":"https:\/\/www.pixiv.net\/fanbox\/creator\/1391461","display_url":"pixiv.net\/fanbox\/creator\u2026","indices":[48,71]},{"url":"https:\/\/t.co\/l9cMXn7e4e","expanded_url":"http:\/\/fantia.jp\/fanclubs\/31038","display_url":"fantia.jp\/fanclubs\/31038","indices":[79,102]},{"url":"https:\/\/t.co\/XJc2w9mGLh","expanded_url":"http:\/\/nicovideo.jp\/user\/17752833","display_url":"nicovideo.jp\/user\/17752833","indices":[112,135]}]}},"protected":false,"followers_count":76117,"friends_count":542,"listed_count":1242,"created_at":"Fri Aug 03 15:09:38 +0000 2018","favourites_count":13199,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":13578,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1207321919885725703\/tkr-wdWb_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1207321919885725703\/tkr-wdWb_normal.jpg","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1507,"favorite_count":5829,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"ja"},"is_quote_status":false,"retweet_count":1507,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":true,"lang":"ja"},{"created_at":"Fri Mar 20 11:33:43 +0000 2020","id":1240964733080973312,"id_str":"1240964733080973312","text":"RT @konnyak86392863: \u865a\u69cb\u63a8\u7406\u306e\u7434\u5b50\u3061\u3083\u3093\u63cf\u3044\u305f\u306e\u3067\u7f6e\u3044\u3066\u304a\u304d\u307e\u3059\u306d\u3002\n\u304a\u3072\u3044\u69d8\uff77\uff6c\uff9c https:\/\/t.co\/pTGrWFdVdL","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\">Twitter for iPhone<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":10360412,"id_str":"10360412","name":"\u306a","screen_name":"wideangle","location":"Gunma ,Japan","description":"Splatoon2 \u30b9\u30af\u30a4\u30c3\u30af\u30ea\u30f3\u03b1\u3068H3\u30ea\u30fc\u30eb\u30ac\u30f3 SW-4750-5514-9125","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":3284,"friends_count":3451,"listed_count":231,"created_at":"Sun Nov 18 18:01:34 +0000 2007","favourites_count":369116,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":225314,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"709397","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme6\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme6\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1053509639411707904\/RSUBzyDa_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1053509639411707904\/RSUBzyDa_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/10360412\/1501391713","profile_link_color":"007F7F","profile_sidebar_border_color":"86A4A6","profile_sidebar_fill_color":"A0C5C7","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"regular"},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Thu Mar 19 16:17:19 +0000 2020","id":1240673715521642498,"id_str":"1240673715521642498","text":"\u865a\u69cb\u63a8\u7406\u306e\u7434\u5b50\u3061\u3083\u3093\u63cf\u3044\u305f\u306e\u3067\u7f6e\u3044\u3066\u304a\u304d\u307e\u3059\u306d\u3002\n\u304a\u3072\u3044\u69d8\uff77\uff6c\uff9c https:\/\/t.co\/pTGrWFdVdL","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"https:\/\/mobile.twitter.com\" rel=\"nofollow\">Twitter Web App<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1025398292341915648,"id_str":"1025398292341915648","name":"konnyaku","screen_name":"konnyak86392863","location":"\u3061\u3085\u3046\u3054\u304f\u3061\u307b\u30fc","description":"\u7d75\u3092\u63cf\u304f\u3002\u672a\u6210\u5e74\uff8c\uff6b\uff9b\uff70NG\nKTM-DUKE390(\u30ce\u30fc\u30e9\u3061\u3083\u3093)\u3082\u4e57\u308a\u307e\u3059\u3002\nfanbox\uff1ahttps:\/\/t.co\/BVHe7oqGQw\nfantia\uff1ahttps:\/\/t.co\/l9cMXn7e4e\nnikoniko:https:\/\/t.co\/XJc2w9mGLh","url":"https:\/\/t.co\/ayHGbPn6Nv","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/ayHGbPn6Nv","expanded_url":"https:\/\/www.pixiv.net\/member.php?id=1391461","display_url":"pixiv.net\/member.php?id=\u2026","indices":[0,23]}]},"description":{"urls":[{"url":"https:\/\/t.co\/BVHe7oqGQw","expanded_url":"https:\/\/www.pixiv.net\/fanbox\/creator\/1391461","display_url":"pixiv.net\/fanbox\/creator\u2026","indices":[48,71]},{"url":"https:\/\/t.co\/l9cMXn7e4e","expanded_url":"http:\/\/fantia.jp\/fanclubs\/31038","display_url":"fantia.jp\/fanclubs\/31038","indices":[79,102]},{"url":"https:\/\/t.co\/XJc2w9mGLh","expanded_url":"http:\/\/nicovideo.jp\/user\/17752833","display_url":"nicovideo.jp\/user\/17752833","indices":[112,135]}]}},"protected":false,"followers_count":76117,"friends_count":542,"listed_count":1242,"created_at":"Fri Aug 03 15:09:38 +0000 2018","favourites_count":13199,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":13578,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1207321919885725703\/tkr-wdWb_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1207321919885725703\/tkr-wdWb_normal.jpg","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1507,"favorite_count":5829,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"ja"},"is_quote_status":false,"retweet_count":1507,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":true,"lang":"ja"}]  
+[2020-03-20 20:43:35] local.DEBUG: direct acc  
+[2020-03-20 20:43:35] local.DEBUG: 1  
+[2020-03-20 20:43:37] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-20 20:43:37] local.DEBUG: Tw_Target_Account  
+[2020-03-20 20:43:37] local.DEBUG:  id :1  
+[2020-03-20 20:43:39] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:43:39] local.DEBUG: Tw_Account  
+[2020-03-20 20:43:39] local.DEBUG: {"column":"tw_account_id","model_name":"Tw_Auto_Tweet"}  
+[2020-03-20 20:43:39] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-20 20:43:39] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-20 20:43:39] local.DEBUG: Key_Pattern  
+[2020-03-20 20:43:39] local.DEBUG: key name : id  
+[2020-03-20 20:43:39] local.DEBUG: ErrorException: Undefined index: value in /home/vagrant/code/laravel-mysql/app/domain/Repogitories/RESTfulDAO/CommonDAO.php:95
+Stack trace:
+#0 /home/vagrant/code/laravel-mysql/app/domain/Repogitories/RESTfulDAO/CommonDAO.php(95): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/vagrant/code/laravel-mysql/app/Http/Controllers/Actions/ApiRequest/RestApi.php(55): App\Domain\Repogitories\RESTfulDAO\CommonDAO->getDataBy()
+#2 [internal function]: App\Http\Controllers\Actions\ApiRequest\RestApi->index()
+#3 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array()
+#4 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction()
+#5 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Route.php(219): Illuminate\Routing\ControllerDispatcher->dispatch()
+#6 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Route.php(176): Illuminate\Routing\Route->runController()
+#7 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Router.php(680): Illuminate\Routing\Route->run()
+#8 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#9 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Auth/Middleware/EnsureEmailIsVerified.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#10 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Auth\Middleware\EnsureEmailIsVerified->handle()
+#11 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#12 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#13 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Routing\Middleware\SubstituteBindings->handle()
+#14 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#15 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(75): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#16 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle()
+#17 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#18 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#19 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\View\Middleware\ShareErrorsFromSession->handle()
+#20 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#21 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(56): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#22 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Session\Middleware\StartSession->handle()
+#23 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#24 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#25 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle()
+#26 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#27 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(66): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#28 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Cookie\Middleware\EncryptCookies->handle()
+#29 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#30 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#31 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Router.php(682): Illuminate\Pipeline\Pipeline->then()
+#32 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Router.php(657): Illuminate\Routing\Router->runRouteWithinStack()
+#33 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Router.php(623): Illuminate\Routing\Router->runRoute()
+#34 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Router.php(612): Illuminate\Routing\Router->dispatchToRoute()
+#35 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch()
+#36 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}()
+#37 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#38 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle()
+#39 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#40 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#41 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle()
+#42 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#43 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#44 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle()
+#45 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#46 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(62): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#47 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle()
+#48 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#49 /home/vagrant/code/laravel-mysql/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#50 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Fideloper\Proxy\TrustProxies->handle()
+#51 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#52 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#53 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then()
+#54 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#55 /home/vagrant/code/laravel-mysql/public/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#56 {main}  
+[2020-03-20 20:43:39] local.DEBUG: エラー発生：予期せぬエラーが起きました。  
+[2020-03-20 20:43:39] local.DEBUG:  id :1  
+[2020-03-20 20:43:40] local.DEBUG:  id :1  
+[2020-03-20 20:43:40] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-20 20:43:40] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-20 20:43:40] local.DEBUG:  id :1  
+[2020-03-20 20:43:41] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:43:41] local.DEBUG: Tw_Account  
+[2020-03-20 20:43:42] local.DEBUG:  id :1  
+[2020-03-20 20:43:42] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-20 20:43:42] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-20 20:43:42] local.DEBUG: key name : id  
+[2020-03-20 20:44:12] local.ERROR: Command "config:cleaar" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    config:cache
+    config:clear
+    event:clear
+    optimize:clear
+    route:clear
+    view:clear {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"config:cleaar\" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    config:cache
+    config:clear
+    event:clear
+    optimize:clear
+    route:clear
+    view:clear at /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php:670)
+[stacktrace]
+#0 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(236): Symfony\\Component\\Console\\Application->find()
+#1 /home/vagrant/code/laravel-mysql/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#3 /home/vagrant/code/laravel-mysql/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run()
+#4 /home/vagrant/code/laravel-mysql/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2020-03-20 20:44:30] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-20 20:44:30] local.DEBUG: FavoriteStart start  
+[2020-03-20 20:44:30] local.DEBUG: 虚構推理   
+[2020-03-20 20:44:30] local.DEBUG: 遅延：0  
+[2020-03-20 20:44:30] local.DEBUG: destruct  
+[2020-03-20 20:44:30] local.DEBUG: 315  
+[2020-03-20 20:44:31] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:44:31] local.DEBUG: Tw_Account  
+[2020-03-20 20:44:31] local.DEBUG:  id :1  
+[2020-03-20 20:44:41] local.DEBUG: roop  
+[2020-03-20 20:44:41] local.DEBUG: SearchTweetRoopJob  
+[2020-03-20 20:44:41] local.DEBUG: queu_id : 315  
+[2020-03-20 20:44:41] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-20 20:44:41] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 20:44:41] local.DEBUG: initDailyCounter  
+[2020-03-20 20:44:41] local.DEBUG:   
+[2020-03-20 20:44:41] local.DEBUG: 1  
+[2020-03-20 20:44:41] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 20:44:41] local.DEBUG: 2020/03/16  
+[2020-03-20 20:44:41] local.DEBUG: 1  
+[2020-03-20 20:44:41] local.DEBUG: haveRestricted  
+[2020-03-20 20:44:41] local.DEBUG: checkApi_counter  
+[2020-03-20 20:44:41] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 20:44:41] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 20:44:41] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-20 20:44:41] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-20 20:44:41] local.DEBUG: {"q":"\u865a\u69cb\u63a8\u7406 ","locale":"ja","lang":"ja","result_type":"recent","count":"10","max_id":"","include_entities":false}  
+[2020-03-20 20:44:42] local.DEBUG: checkApi  
+[2020-03-20 20:44:42] local.DEBUG: search_tweets  
+[2020-03-20 20:44:42] local.DEBUG: 制限状態：1  
+[2020-03-20 20:44:42] local.DEBUG: 使用状態：1  
+[2020-03-20 20:44:42] local.DEBUG: ツイート数：6  
+[2020-03-20 20:44:42] local.DEBUG: next id：?max_id=1240966396546170881&q=%E8%99%9A%E6%A7%8B%E6%8E%A8%E7%90%86&lang=ja&count=10&result_type=recent  
+[2020-03-20 20:44:42] local.DEBUG: api status initialized  
+[2020-03-20 20:44:42] local.DEBUG: [{"created_at":"Fri Mar 20 11:44:12 +0000 2020","id":1240967373114359808,"id_str":"1240967373114359808","text":"@yuamachi_ \u308f\u305f\u3057\u306f\u865a\u69cb\u63a8\u7406\u30a2\u30cb\u30e1\u3067\u3057\u304b\u898b\u3066\u306a\u3044\u304b\u3089\u4eca\u306e\u3068\u3053\u96e3\u3057\u304f\u306a\u3044\u3051\u3069\u6700\u65b0\u520a\u3042\u305f\u308a\u306f\u3080\u305a\u304b\u3057\u3044\u306e\u304b\u3001\u3001\u3001","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\">Twitter for iPhone<\/a>","in_reply_to_status_id":1240558168347799552,"in_reply_to_status_id_str":"1240558168347799552","in_reply_to_user_id":1201799531731439617,"in_reply_to_user_id_str":"1201799531731439617","in_reply_to_screen_name":"yuamachi_","user":{"id":1220251223275663361,"id_str":"1220251223275663361","name":"\u84bc\u53f6@\u30ab\u30e9\u30aa\u30b1\u4e88\u7d04\u3057\u3066\u304f\u3060\u3055\u3044","screen_name":"Blue_leaf_0518","location":"\u306d\u304f\u3059\u3068\u3044\u305a  \u3072\u304d\u30e9\u30a4","description":"\u307e\u3075\u307e\u3075\u2016Sou\u2016Eve\u2016After the Rain\u2016\u6b4c\u2016\u30ae\u30bf\u30fc\u2016\u548c\u7269\u2016\u971e\u67f1\u2016\u30ab\u30d5\u30a7\u30aa\u30ec\u2016\u30c4\u30a3\u30d5\u30a3\u898b\u3066\u306d","url":"https:\/\/t.co\/eRhFQWftM0","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/eRhFQWftM0","expanded_url":"https:\/\/twpf.jp\/Blue_leaf_0518","display_url":"twpf.jp\/Blue_leaf_0518","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":133,"friends_count":225,"listed_count":13,"created_at":"Thu Jan 23 07:45:47 +0000 2020","favourites_count":8387,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":3607,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1240768789001564160\/7eZwFVq1_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1240768789001564160\/7eZwFVq1_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1220251223275663361\/1584552591","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"ja"},{"created_at":"Fri Mar 20 11:42:28 +0000 2020","id":1240966939020627969,"id_str":"1240966939020627969","text":"\u865a\u69cb\u63a8\u7406\u898b\u3066\u3066\u92fc\u4eba\u4e03\u702c\u304c\u4f55\u304b\u306b\u4f3c\u3066\u3093\u306a\u3068\u601d\u3063\u305f\u3089\u30c9\u30c6\u30c3\u30b3\u30c4\u3060\u3063\u305f\u306e\u3067\u8ab0\u304b\u4f3c\u305f\u3088\u3046\u306a\u306e\u63cf\u3044\u3066\u3093\u3060\u308d\u3068\u601d\u3063\u305f\u3089\u8ab0\u3082\u63cf\u3044\u3066\u306a\u304b\u3063\u305f\u306e\u3067\u63cf\u3044\u305f","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\">Twitter for iPhone<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1239758149625643008,"id_str":"1239758149625643008","name":"\uff81\uff6c\uff9d\uff87","screen_name":"8n0k0r0","location":"","description":"\uff1c\u56fd\u7523\uff1e\u3048\u306e\u3053\u308d\u6b7b\u3093\u3060\u3063\u3066\u3088\uff1c\u6bdb\u7389\u30b1\u30a2\uff1e\u30c6\u30b3\u30f3\u30c0\u30fc\u30d1\u30af\u8a9e\u9332\u30fb\u95a2\u9023\u753b\u50cf\u306f\u6c38\u4e45\u51cd\u7d50\u5bfe\u8c61\u306b\u3064\u304d\u6ce8\u610f\uff1c\u4e73\u9178\u83cc\u914d\u5408\uff1e","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":137,"friends_count":166,"listed_count":4,"created_at":"Tue Mar 17 03:40:27 +0000 2020","favourites_count":26,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":122,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1240501848114475013\/Xl8vBZUX_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1240501848114475013\/Xl8vBZUX_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1239758149625643008\/1584588850","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":2,"favorited":false,"retweeted":false,"lang":"ja"},{"created_at":"Fri Mar 20 11:42:21 +0000 2020","id":1240966905847930880,"id_str":"1240966905847930880","text":"\u30e4\u30d0\u30a4\u306a\u3041\n\u6b66\u88c5\u932c\u91d1\u3067\u50b7\u75d5\u304c\u826f\u3044\u3068\u601d\u3046\u3088\u3046\u306b\u306a\u3063\u305f\u3051\u3069\u865a\u69cb\u63a8\u7406\u3067\u7fa9\u8db3\u304c\u597d\u304d\u306b\u306a\u308a\u305d\u3046\u306b\u306a\u308b\u3068\u306f\u306a\u3041","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\">Twitter for Android<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1005367847659294725,"id_str":"1005367847659294725","name":"\u73c8\u5c71 \u7432\u8c46","screen_name":"instant_78","location":"","description":"\u305f\u307e\u306b\u7d75\u4e0a\u3052\u308b","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":48,"friends_count":324,"listed_count":0,"created_at":"Sat Jun 09 08:35:48 +0000 2018","favourites_count":2285,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":1416,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1173571758282067969\/pByQHbJH_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1173571758282067969\/pByQHbJH_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1005367847659294725\/1582228868","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"ja"},{"created_at":"Fri Mar 20 11:41:51 +0000 2020","id":1240966783642652675,"id_str":"1240966783642652675","text":"\u865a\u69cb\u63a8\u7406\u3064\u307e\u3089\u306a\u3044\u3068\u304b\u8a00\u308f\u308c\u3066\u308b\u3051\u3069\u3001\u305d\u3082\u305d\u3082\u92fc\u4eba\u4e03\u702c\u7de8\u304c\u30a2\u30cb\u30e1\u306b\u306f\u3080\u3044\u3066\u306a\u3044\u3060\u3051\u306a\u306e\u3067\u306f\uff1f","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\">Twitter for iPhone<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1105823429796597761,"id_str":"1105823429796597761","name":"\u30b9\u30ce\u30fc","screen_name":"Yuki40Snow","location":"","description":"@Yuki40S\u306b\u30b9\u30d7\u30e9\u306e\u52d5\u753b\u4e57\u305b\u3066\u307e\u3059\u3002 3347-8153-1910","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":70,"friends_count":72,"listed_count":1,"created_at":"Wed Mar 13 13:30:25 +0000 2019","favourites_count":3091,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4051,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1231235421599698944\/ekShEhPL_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1231235421599698944\/ekShEhPL_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1105823429796597761\/1565044356","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"ja"},{"created_at":"Fri Mar 20 11:41:28 +0000 2020","id":1240966683948281856,"id_str":"1240966683948281856","text":"\u865a\u69cb\u63a8\u7406\n\u7b2c\u516d\u8a71\n\u5408\u7406\u7684\u306a\u865a\u69cb","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"https:\/\/mobile.twitter.com\" rel=\"nofollow\">Twitter Web App<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":238239291,"id_str":"238239291","name":"\u3068\u3063\u304f\u21c8\u30a2\u30cb\u30b2\u30fcHONDA\ud83c\udf7b\ud83c\udf7a","screen_name":"tocda","location":"","description":"\u6700\u8fd1\u306f\u30a2\u30cb\u30e1\u3068\u30b2\u30fc\u30e0\u3068HONDA\u304c\u304a\u6c17\u306b\u5165\u308a #\u4eca\u65e5\u306e\u4ffa\u30e9\u30fc #\u4ffa\u306d\u3093\u3069\u308d #\u4ffa\u30e1\u30e2\u30e1\u30e2\u3000\n \u5199\u771f\u52d5\u753b\u5c02\u7528\u57a2 \u3068\u3063\u304f\u21c8\u5199\u771f\u57a2\u306a\u306e\u3060\uff01\u3082\u3088\u308d\u3057\u304f (@tocda2) \u30a4\u30f3\u30b9\u30bfhttps:\/\/t.co\/boycrqdHU4  I AM THE NIKON","url":"https:\/\/t.co\/tmimqfrPOP","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/tmimqfrPOP","expanded_url":"https:\/\/www.youtube.com\/user\/tocda100","display_url":"youtube.com\/user\/tocda100","indices":[0,23]}]},"description":{"urls":[{"url":"https:\/\/t.co\/boycrqdHU4","expanded_url":"http:\/\/instagram.com\/tocda1234","display_url":"instagram.com\/tocda1234","indices":[86,109]}]}},"protected":false,"followers_count":458,"friends_count":655,"listed_count":7,"created_at":"Fri Jan 14 18:04:56 +0000 2011","favourites_count":27553,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":39965,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1149286307065057280\/AC6dHrNZ_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1149286307065057280\/AC6dHrNZ_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/238239291\/1582554266","profile_link_color":"FAB81E","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"ja"},{"created_at":"Fri Mar 20 11:40:19 +0000 2020","id":1240966396546170882,"id_str":"1240966396546170882","text":"\u865a\u69cb\u63a8\u7406\u306f\u30a4\u30c9\u306e\u30c6\u30f3\u30dd\u306e\u826f\u3055\u898b\u7fd2\u3063\u3066\u304f\u308c","truncated":false,"metadata":{"iso_language_code":"ja","result_type":"recent"},"source":"<a href=\"https:\/\/mobile.twitter.com\" rel=\"nofollow\">Twitter Web App<\/a>","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1187620760644227073,"id_str":"1187620760644227073","name":"\u3084\u307e\u304d\u3087\u3080","screen_name":"yamakyomu","location":"","description":"\u4e2d\u5b66\u306e\u3068\u304d\u306e\u3042\u3060\u306a\u306f\u30ef\u30ab\u30e1","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":4,"friends_count":54,"listed_count":0,"created_at":"Fri Oct 25 06:43:57 +0000 2019","favourites_count":1240,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":326,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1187629574999302144\/jih3XWui_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1187629574999302144\/jih3XWui_normal.jpg","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"ja"}]  
+[2020-03-20 20:51:53] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:51:53] local.DEBUG: Tw_Account  
+[2020-03-20 20:51:54] local.DEBUG:  id :1  
+[2020-03-20 20:51:54] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-20 20:51:54] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-20 20:51:55] local.DEBUG: key name : id  
+[2020-03-20 20:52:01] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:52:01] local.DEBUG: Tw_Account  
+[2020-03-20 20:52:02] local.DEBUG: 特にやることなし  
+[2020-03-20 20:52:02] local.DEBUG:  id :1  
+[2020-03-20 20:52:04] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-20 20:52:04] local.DEBUG: Key_Pattern  
+[2020-03-20 20:52:04] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-20 20:52:04] local.DEBUG: Tw_Target_Account  
+[2020-03-20 20:52:04] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:52:04] local.DEBUG: Tw_Account  
+[2020-03-20 20:52:05] local.DEBUG:  id :1  
+[2020-03-20 20:52:05] local.DEBUG:  id :1  
+[2020-03-20 20:52:05] local.DEBUG:  id :1  
+[2020-03-20 20:52:05] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-20 20:52:05] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-20 20:52:06] local.DEBUG:  id :1  
+[2020-03-20 20:52:06] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-20 20:52:06] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-20 20:52:07] local.DEBUG: key name : id  
+[2020-03-20 20:52:07] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:52:07] local.DEBUG: Tw_Account  
+[2020-03-20 20:52:07] local.DEBUG:  id :1  
+[2020-03-20 20:52:10] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-20 20:52:10] local.DEBUG: FavoriteStart start  
+[2020-03-20 20:52:10] local.DEBUG: 虚構推理   
+[2020-03-20 20:52:10] local.DEBUG: 遅延：0  
+[2020-03-20 20:52:10] local.DEBUG: destruct  
+[2020-03-20 20:52:10] local.DEBUG: 316  
+[2020-03-20 20:52:12] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:52:12] local.DEBUG: Tw_Account  
+[2020-03-20 20:52:12] local.DEBUG:  id :1  
+[2020-03-20 20:52:18] local.DEBUG: roop  
+[2020-03-20 20:52:18] local.DEBUG: SearchTweetRoopJob  
+[2020-03-20 20:52:18] local.DEBUG: queu_id : 316  
+[2020-03-20 20:52:18] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-20 20:52:18] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 20:52:18] local.DEBUG: initDailyCounter  
+[2020-03-20 20:52:18] local.DEBUG:   
+[2020-03-20 20:52:18] local.DEBUG: 1  
+[2020-03-20 20:52:18] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 20:52:18] local.DEBUG: 2020/03/16  
+[2020-03-20 20:52:18] local.DEBUG: 1  
+[2020-03-20 20:52:18] local.DEBUG: haveRestricted  
+[2020-03-20 20:52:18] local.DEBUG: checkApi_counter  
+[2020-03-20 20:52:18] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 20:52:18] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 20:52:18] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-20 20:52:18] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-20 20:52:18] local.DEBUG: {"q":"\u865a\u69cb\u63a8\u7406 ","locale":"ja","lang":"ja","result_type":"recent","count":"10","max_id":"","include_entities":false}  
+[2020-03-20 20:52:18] local.DEBUG: checkApi  
+[2020-03-20 20:52:18] local.DEBUG: search_tweets  
+[2020-03-20 20:52:18] local.DEBUG: 制限状態：1  
+[2020-03-20 20:52:18] local.DEBUG: 使用状態：1  
+[2020-03-20 20:52:18] local.DEBUG: ツイート数：7  
+[2020-03-20 20:52:18] local.DEBUG: next id：?max_id=1240968309719232512&q=%E8%99%9A%E6%A7%8B%E6%8E%A8%E7%90%86&lang=ja&count=10&result_type=recent  
+[2020-03-20 20:52:18] local.DEBUG: api status initialized  
+[2020-03-20 20:52:18] local.DEBUG: 次のサーチはあり  
+[2020-03-20 20:52:18] local.DEBUG: next max_id : 1240968309719232512  
+[2020-03-20 20:52:18] local.DEBUG: before create  
+[2020-03-20 20:52:18] local.DEBUG: [1240969301340745728,1240969085929701376,1240968837027119104,1240968583334645760,1240968555782213632,1240968550010859520,1240968309719232513]  
+[2020-03-20 20:53:59] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:53:59] local.DEBUG: Tw_Account  
+[2020-03-20 20:53:59] local.DEBUG:  id :1  
+[2020-03-20 20:54:00] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-20 20:54:00] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-20 20:54:00] local.DEBUG: key name : id  
+
+
+
+
+
+
+
+[2020-03-20 20:55:23] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-20 20:55:23] local.DEBUG: FavoriteStart start  
+[2020-03-20 20:55:24] local.DEBUG: 虚構推理   
+[2020-03-20 20:55:24] local.DEBUG: 遅延：0  
+[2020-03-20 20:55:24] local.DEBUG: destruct  
+[2020-03-20 20:55:24] local.DEBUG: 317  
+[2020-03-20 20:55:25] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:55:25] local.DEBUG: Tw_Account  
+[2020-03-20 20:55:25] local.DEBUG:  id :1  
+[2020-03-20 20:55:36] local.DEBUG: roop  
+[2020-03-20 20:55:36] local.DEBUG: SearchTweetRoopJob  
+[2020-03-20 20:55:36] local.DEBUG: queu_id : 317  
+[2020-03-20 20:55:36] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-20 20:55:36] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 20:55:36] local.DEBUG: initDailyCounter  
+[2020-03-20 20:55:36] local.DEBUG:   
+[2020-03-20 20:55:36] local.DEBUG: 1  
+[2020-03-20 20:55:36] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 20:55:36] local.DEBUG: 2020/03/16  
+[2020-03-20 20:55:36] local.DEBUG: 1  
+[2020-03-20 20:55:36] local.DEBUG: haveRestricted  
+[2020-03-20 20:55:36] local.DEBUG: checkApi_counter  
+[2020-03-20 20:55:36] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 20:55:36] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 20:55:36] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-20 20:55:36] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-20 20:55:36] local.DEBUG: {"q":"\u865a\u69cb\u63a8\u7406 ","locale":"ja","lang":"ja","result_type":"recent","count":"10","max_id":"","include_entities":false}  
+[2020-03-20 20:55:36] local.DEBUG: checkApi  
+[2020-03-20 20:55:36] local.DEBUG: search_tweets  
+[2020-03-20 20:55:36] local.DEBUG: 制限状態：1  
+[2020-03-20 20:55:36] local.DEBUG: 使用状態：1  
+[2020-03-20 20:55:36] local.DEBUG: ツイート数：9  
+[2020-03-20 20:55:36] local.DEBUG: next id：?max_id=1240968837027119103&q=%E8%99%9A%E6%A7%8B%E6%8E%A8%E7%90%86&lang=ja&count=10&result_type=recent  
+[2020-03-20 20:55:36] local.DEBUG: api status initialized  
+[2020-03-20 20:55:36] local.DEBUG: env : 10  
+[2020-03-20 20:55:36] local.DEBUG: 次のサーチはあり  
+[2020-03-20 20:55:36] local.DEBUG: next max_id : 1240968837027119103  
+[2020-03-20 20:55:36] local.DEBUG: before create  
+[2020-03-20 20:55:36] local.DEBUG: [1240970108123508736,1240970032160612355,1240970001709817856,1240969639611338752,1240969494584950789,1240969440293879809,1240969301340745728,1240969085929701376,1240968837027119104]  
+[2020-03-20 20:56:38] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:56:38] local.DEBUG: Tw_Account  
+[2020-03-20 20:56:38] local.DEBUG:  id :1  
+[2020-03-20 20:56:39] local.DEBUG: 特にやることなし  
+[2020-03-20 20:56:41] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:56:41] local.DEBUG: Tw_Account  
+[2020-03-20 20:56:41] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-20 20:56:41] local.DEBUG: Key_Pattern  
+[2020-03-20 20:56:41] local.DEBUG:  id :1  
+[2020-03-20 20:56:41] local.DEBUG:  id :1  
+[2020-03-20 20:56:41] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-20 20:56:41] local.DEBUG: Tw_Target_Account  
+[2020-03-20 20:56:41] local.DEBUG:  id :1  
+[2020-03-20 20:56:41] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:56:41] local.DEBUG: Tw_Account  
+[2020-03-20 20:56:42] local.DEBUG:  id :1  
+[2020-03-20 20:56:42] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-20 20:56:42] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-20 20:56:42] local.DEBUG:  id :1  
+[2020-03-20 20:56:42] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-20 20:56:42] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-20 20:56:42] local.DEBUG: key name : id  
+[2020-03-20 20:56:45] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-20 20:56:45] local.DEBUG: FavoriteStart start  
+[2020-03-20 20:56:45] local.DEBUG: 虚構推理   
+[2020-03-20 20:56:45] local.DEBUG: 遅延：0  
+[2020-03-20 20:56:45] local.DEBUG: destruct  
+[2020-03-20 20:56:45] local.DEBUG: 318  
+[2020-03-20 20:56:47] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:56:47] local.DEBUG: Tw_Account  
+[2020-03-20 20:56:47] local.DEBUG:  id :1  
+[2020-03-20 20:56:48] local.DEBUG: roop  
+[2020-03-20 20:56:48] local.DEBUG: SearchTweetRoopJob  
+[2020-03-20 20:56:48] local.DEBUG: queu_id : 318  
+[2020-03-20 20:56:48] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-20 20:56:48] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 20:56:48] local.DEBUG: initDailyCounter  
+[2020-03-20 20:56:48] local.DEBUG:   
+[2020-03-20 20:56:48] local.DEBUG: 1  
+[2020-03-20 20:56:48] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 20:56:48] local.DEBUG: 2020/03/16  
+[2020-03-20 20:56:48] local.DEBUG: 1  
+[2020-03-20 20:56:48] local.DEBUG: haveRestricted  
+[2020-03-20 20:56:48] local.DEBUG: checkApi_counter  
+[2020-03-20 20:56:48] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 20:56:48] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 20:56:48] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-20 20:56:48] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-20 20:56:48] local.DEBUG: {"q":"\u865a\u69cb\u63a8\u7406 ","locale":"ja","lang":"ja","result_type":"recent","count":"10","max_id":"","include_entities":false}  
+[2020-03-20 20:56:48] local.DEBUG: checkApi  
+[2020-03-20 20:56:48] local.DEBUG: search_tweets  
+[2020-03-20 20:56:48] local.DEBUG: 制限状態：1  
+[2020-03-20 20:56:48] local.DEBUG: 使用状態：1  
+[2020-03-20 20:56:48] local.DEBUG: ツイート数：10  
+[2020-03-20 20:56:48] local.DEBUG: next id：?max_id=1240969085929701375&q=%E8%99%9A%E6%A7%8B%E6%8E%A8%E7%90%86&lang=ja&count=10&result_type=recent  
+[2020-03-20 20:56:48] local.DEBUG: api status initialized  
+[2020-03-20 20:56:48] local.DEBUG: env : 10  
+[2020-03-20 20:56:48] local.DEBUG: 次のサーチはあり  
+[2020-03-20 20:56:48] local.DEBUG: next max_id : 1240969085929701375  
+[2020-03-20 20:56:48] local.DEBUG: before create  
+[2020-03-20 20:56:48] local.DEBUG: [1240970501243060229,1240970403746476033,1240970108123508736,1240970032160612355,1240970001709817856,1240969639611338752,1240969494584950789,1240969440293879809,1240969301340745728,1240969085929701376]  
+[2020-03-20 20:58:02] local.DEBUG: {"app_id":"1","keyword":["{\"opt\":\"and\",\"txt\":\"\u30c9\u30ed\u30d8\u30c9\u30ed\"}","{\"opt\":\"and\",\"txt\":\"\u5353\u7403\"}","{\"opt\":\"and\",\"txt\":\"\u53ef\u611b\u3044\"}"],"model_name":"Favorite_Key_Pattern"}  
+[2020-03-20 20:58:02] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-20 20:58:02] local.DEBUG: 11111  
+[2020-03-20 20:58:02] local.DEBUG: 3333  
+[2020-03-20 20:58:02] local.DEBUG: 4444  
+[2020-03-20 20:58:02] local.DEBUG: 5555  
+[2020-03-20 20:58:04] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-20 20:58:04] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-20 20:58:04] local.DEBUG:  id :1  
+[2020-03-20 20:58:05] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:58:05] local.DEBUG: Tw_Account  
+[2020-03-20 20:58:05] local.DEBUG:  id :1  
+[2020-03-20 20:58:06] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-20 20:58:06] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-20 20:58:06] local.DEBUG: key name : id  
+[2020-03-20 20:58:10] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:58:10] local.DEBUG: Tw_Account  
+[2020-03-20 20:58:10] local.DEBUG:  id :1  
+[2020-03-20 20:58:11] local.DEBUG: 特にやることなし  
+[2020-03-20 20:58:12] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-20 20:58:12] local.DEBUG: Key_Pattern  
+[2020-03-20 20:58:12] local.DEBUG:  id :1  
+[2020-03-20 20:58:12] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:58:12] local.DEBUG: Tw_Account  
+[2020-03-20 20:58:12] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-20 20:58:12] local.DEBUG: Tw_Target_Account  
+[2020-03-20 20:58:12] local.DEBUG:  id :1  
+[2020-03-20 20:58:12] local.DEBUG:  id :1  
+[2020-03-20 20:58:13] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:58:13] local.DEBUG: Tw_Account  
+[2020-03-20 20:58:13] local.DEBUG:  id :1  
+[2020-03-20 20:58:14] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-20 20:58:14] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-20 20:58:14] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-20 20:58:14] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-20 20:58:14] local.DEBUG: key name : id  
+[2020-03-20 20:58:14] local.DEBUG:  id :1  
+
+
+
+
+
+
+[2020-03-20 20:58:23] local.DEBUG: {"tw_account_id":"1","favorite_key_pattern_id":"0","model_name":"Tw_Account"}  
+[2020-03-20 20:58:23] local.DEBUG: Tw_Account  
+[2020-03-20 20:58:23] local.DEBUG: {"tw_account_id":1,"app_id":1,"user_id":1053251462803779584,"key_pattern_id":14,"favorite_key_pattern_id":10,"screen_name":"TyrantAaa","oauth_token":"1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs","oauth_token_secret":"dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","name":"tyrant_aaA","description":"\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306fTwitterAPI\u81ea\u52d5\u64cd\u4f5c\u30a2\u30d7\u30ea\u958b\u767a\u3067\u3001
+\u4f7f\u3063\u3066\u304a\u308a\u307e\u3059\u3002
+\u3054\u4e86\u627f\u304f\u3060\u3055\u3044\u3002
+\u305f\u307e\u306b\u545f\u304d\u307e\u3059\u3002","follow":0,"unfollow":0,"tweet":0,"favorite":0,"follow_queue_id":null,"unfollow_queue_id":0,"favorite_queue_id":null,"auto_followers_list":0,"auto_users_show":0,"auto_friendships_create":0,"auto_friendships_lookup":0,"auto_friendships_destroy":0,"auto_search_tweets":0,"auto_favorites_create":1,"followers_list":1,"users_show":1,"friendships_create":1,"friendships_lookup":1,"friendships_destroy":1,"search_tweets":1,"favorites_create":1,"statuses_update":1,"followers_list_counter":2,"users_show_counter":1,"friendships_create_counter":3,"friendships_lookup_counter":4,"friendships_destroy_counter":5,"search_tweets_counter":6,"favorites_create_counter":7,"statuses_update_create_counter":8,"suspended":0,"queue_name":null,"unfollow_flag":0,"created_at":"2020-03-16 16:17:50","updated_at":"2020-03-20 20:56:48","deleted_at":null}  
+[2020-03-20 20:58:23] local.DEBUG: {"tw_account_id":"1","favorite_key_pattern_id":"0","model_name":"Tw_Account"}  
+[2020-03-20 20:58:23] local.DEBUG: Tw_Account  
+[2020-03-20 20:58:23] local.DEBUG: {"tw_account_id":1,"app_id":1,"user_id":1053251462803779584,"key_pattern_id":14,"favorite_key_pattern_id":0,"screen_name":"TyrantAaa","oauth_token":"1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs","oauth_token_secret":"dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","name":"tyrant_aaA","description":"\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306fTwitterAPI\u81ea\u52d5\u64cd\u4f5c\u30a2\u30d7\u30ea\u958b\u767a\u3067\u3001
+\u4f7f\u3063\u3066\u304a\u308a\u307e\u3059\u3002
+\u3054\u4e86\u627f\u304f\u3060\u3055\u3044\u3002
+\u305f\u307e\u306b\u545f\u304d\u307e\u3059\u3002","follow":0,"unfollow":0,"tweet":0,"favorite":0,"follow_queue_id":null,"unfollow_queue_id":0,"favorite_queue_id":null,"auto_followers_list":0,"auto_users_show":0,"auto_friendships_create":0,"auto_friendships_lookup":0,"auto_friendships_destroy":0,"auto_search_tweets":0,"auto_favorites_create":1,"followers_list":1,"users_show":1,"friendships_create":1,"friendships_lookup":1,"friendships_destroy":1,"search_tweets":1,"favorites_create":1,"statuses_update":1,"followers_list_counter":2,"users_show_counter":1,"friendships_create_counter":3,"friendships_lookup_counter":4,"friendships_destroy_counter":5,"search_tweets_counter":6,"favorites_create_counter":7,"statuses_update_create_counter":8,"suspended":0,"queue_name":null,"unfollow_flag":0,"created_at":"2020-03-16 16:17:50","updated_at":"2020-03-20 20:58:23","deleted_at":null}  
+[2020-03-20 20:58:23] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:58:23] local.DEBUG: Tw_Account  
+[2020-03-20 20:58:24] local.DEBUG:  id :1  
+[2020-03-20 20:58:30] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:58:30] local.DEBUG: Tw_Account  
+[2020-03-20 20:58:30] local.DEBUG:  id :1  
+[2020-03-20 20:58:39] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:58:39] local.DEBUG: Tw_Account  
+[2020-03-20 20:58:39] local.DEBUG:  id :1  
+[2020-03-20 20:58:52] local.DEBUG: {"app_id":"1","keyword":["{\"opt\":\"and\",\"txt\":\"\u30c9\u30ed\u30d8\u30c9\u30ed\"}","{\"opt\":\"and\",\"txt\":\"\u30ef\u30cb\"}","{\"opt\":\"and\",\"txt\":\"\u53ef\u611b\u3044\"}","{\"opt\":\"and\",\"txt\":\"\u30d0\u30ab\"}"],"model_name":"Key_Pattern"}  
+[2020-03-20 20:58:52] local.DEBUG: Key_Pattern  
+[2020-03-20 20:58:52] local.DEBUG: 11111  
+[2020-03-20 20:58:52] local.DEBUG: 3333  
+[2020-03-20 20:58:52] local.DEBUG: 4444  
+[2020-03-20 20:58:52] local.DEBUG: 5555  
+[2020-03-20 20:58:55] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-20 20:58:55] local.DEBUG: Key_Pattern  
+[2020-03-20 20:58:55] local.DEBUG:  id :1  
+[2020-03-20 20:59:03] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:59:03] local.DEBUG: Tw_Account  
+[2020-03-20 20:59:03] local.DEBUG:  id :1  
+[2020-03-20 20:59:04] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-20 20:59:04] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-20 20:59:04] local.DEBUG: key name : id  
+[2020-03-20 20:59:08] local.DEBUG: {"tw_account_id":"1","favorite_key_pattern_id":"11","model_name":"Tw_Account"}  
+[2020-03-20 20:59:08] local.DEBUG: Tw_Account  
+[2020-03-20 20:59:08] local.DEBUG: {"tw_account_id":1,"app_id":1,"user_id":1053251462803779584,"key_pattern_id":14,"favorite_key_pattern_id":0,"screen_name":"TyrantAaa","oauth_token":"1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs","oauth_token_secret":"dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","name":"tyrant_aaA","description":"\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306fTwitterAPI\u81ea\u52d5\u64cd\u4f5c\u30a2\u30d7\u30ea\u958b\u767a\u3067\u3001
+\u4f7f\u3063\u3066\u304a\u308a\u307e\u3059\u3002
+\u3054\u4e86\u627f\u304f\u3060\u3055\u3044\u3002
+\u305f\u307e\u306b\u545f\u304d\u307e\u3059\u3002","follow":0,"unfollow":0,"tweet":0,"favorite":0,"follow_queue_id":null,"unfollow_queue_id":0,"favorite_queue_id":null,"auto_followers_list":0,"auto_users_show":0,"auto_friendships_create":0,"auto_friendships_lookup":0,"auto_friendships_destroy":0,"auto_search_tweets":0,"auto_favorites_create":1,"followers_list":1,"users_show":1,"friendships_create":1,"friendships_lookup":1,"friendships_destroy":1,"search_tweets":1,"favorites_create":1,"statuses_update":1,"followers_list_counter":2,"users_show_counter":1,"friendships_create_counter":3,"friendships_lookup_counter":4,"friendships_destroy_counter":5,"search_tweets_counter":6,"favorites_create_counter":7,"statuses_update_create_counter":8,"suspended":0,"queue_name":null,"unfollow_flag":0,"created_at":"2020-03-16 16:17:50","updated_at":"2020-03-20 20:58:23","deleted_at":null}  
+[2020-03-20 20:59:09] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:59:09] local.DEBUG: Tw_Account  
+[2020-03-20 20:59:09] local.DEBUG:  id :1  
+[2020-03-20 20:59:23] local.DEBUG: array (
+  'pattern' => 'start',
+  'domain2' => 'favorite',
+  'tw_account_id' => 1,
+)  
+[2020-03-20 20:59:23] local.DEBUG: FavoriteStart start  
+[2020-03-20 20:59:23] local.DEBUG: ドロヘドロ 卓球 可愛い   
+[2020-03-20 20:59:23] local.DEBUG: 遅延：0  
+[2020-03-20 20:59:23] local.DEBUG: destruct  
+[2020-03-20 20:59:23] local.DEBUG: 319  
+[2020-03-20 20:59:24] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 20:59:24] local.DEBUG: Tw_Account  
+[2020-03-20 20:59:24] local.DEBUG:  id :1  
+[2020-03-20 20:59:26] local.DEBUG: roop  
+[2020-03-20 20:59:26] local.DEBUG: SearchTweetRoopJob  
+[2020-03-20 20:59:26] local.DEBUG: queu_id : 319  
+[2020-03-20 20:59:26] local.DEBUG: https://api.twitter.com/1.1/search/tweets.json  
+[2020-03-20 20:59:26] local.DEBUG: リクエスト前にAPI制限・状態判定を開始します。  
+[2020-03-20 20:59:26] local.DEBUG: initDailyCounter  
+[2020-03-20 20:59:26] local.DEBUG:   
+[2020-03-20 20:59:26] local.DEBUG: 1  
+[2020-03-20 20:59:26] local.DEBUG: 2020-03-20 00:00:00  
+[2020-03-20 20:59:26] local.DEBUG: 2020/03/16  
+[2020-03-20 20:59:26] local.DEBUG: 1  
+[2020-03-20 20:59:26] local.DEBUG: haveRestricted  
+[2020-03-20 20:59:26] local.DEBUG: checkApi_counter  
+[2020-03-20 20:59:26] local.DEBUG: 日付判定確認 : 1  
+[2020-03-20 20:59:26] local.DEBUG: accese: 制限判定を通過しました。  
+[2020-03-20 20:59:26] local.DEBUG: 1053251462803779584-eo1YvxgskM0zGCuuFT3vIimi5g99qs  
+[2020-03-20 20:59:26] local.DEBUG: dzSdCCWxNogd1Zl4FB9Wi9GVh0OeTwil9XuPuYfgeuJx8  
+[2020-03-20 20:59:26] local.DEBUG: {"q":"\u30c9\u30ed\u30d8\u30c9\u30ed \u5353\u7403 \u53ef\u611b\u3044 ","locale":"ja","lang":"ja","result_type":"mixed","count":"10","max_id":"","include_entities":false}  
+[2020-03-20 20:59:26] local.DEBUG: checkApi  
+[2020-03-20 20:59:26] local.DEBUG: search_tweets  
+[2020-03-20 20:59:26] local.DEBUG: 制限状態：1  
+[2020-03-20 20:59:26] local.DEBUG: 使用状態：1  
+[2020-03-20 20:59:26] local.DEBUG: 自動機能完了：favorite  
+[2020-03-20 20:59:26] local.DEBUG: api status initialized  
+[2020-03-20 20:59:26] local.DEBUG: mail set  
+[2020-03-20 21:05:32] local.DEBUG: {"app_id":"1","keyword":["{\"opt\":\"and\",\"txt\":\"\u30c9\u30ed\u30d8\u30c9\u30ed\"}","{\"opt\":\"and\",\"txt\":\"\u30ef\u30cb\"}","{\"opt\":\"and\",\"txt\":\"\u660e\u65e5\"}"],"model_name":"Favorite_Key_Pattern"}  
+[2020-03-20 21:05:32] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-20 21:05:32] local.DEBUG: 11111  
+[2020-03-20 21:05:32] local.DEBUG: 3333  
+[2020-03-20 21:05:32] local.DEBUG: 4444  
+[2020-03-20 21:05:32] local.DEBUG: 5555  
+[2020-03-20 21:05:35] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-20 21:05:35] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-20 21:05:35] local.DEBUG:  id :1  
+[2020-03-20 21:05:36] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-20 21:05:36] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-20 21:05:36] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 21:05:36] local.DEBUG: Tw_Account  
+[2020-03-20 21:05:36] local.DEBUG: key name : id  
+[2020-03-20 21:05:36] local.DEBUG:  id :1  
+[2020-03-20 21:05:39] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 21:05:39] local.DEBUG: Tw_Account  
+[2020-03-20 21:05:39] local.DEBUG:  id :1  
+[2020-03-20 21:05:40] local.DEBUG: 特にやることなし  
+[2020-03-20 21:05:41] local.DEBUG: {"id":"1","model_name":"Favorite_Key_Pattern"}  
+[2020-03-20 21:05:41] local.DEBUG: Favorite_Key_Pattern  
+[2020-03-20 21:05:41] local.DEBUG: {"id":"1","model_name":"Key_Pattern"}  
+[2020-03-20 21:05:41] local.DEBUG: Key_Pattern  
+[2020-03-20 21:05:41] local.DEBUG:  id :1  
+[2020-03-20 21:05:41] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 21:05:41] local.DEBUG: Tw_Account  
+[2020-03-20 21:05:41] local.DEBUG:  id :1  
+[2020-03-20 21:05:41] local.DEBUG:  id :1  
+[2020-03-20 21:05:42] local.DEBUG: {"id":"1","model_name":"Tw_Account"}  
+[2020-03-20 21:05:42] local.DEBUG: Tw_Account  
+[2020-03-20 21:05:42] local.DEBUG:  id :1  
+[2020-03-20 21:05:43] local.DEBUG: {"id":"1","model_name":"Tw_Target_Account"}  
+[2020-03-20 21:05:43] local.DEBUG: Tw_Target_Account  
+[2020-03-20 21:05:43] local.DEBUG:  id :1  
+[2020-03-20 21:05:43] local.DEBUG: {"column":"tw_account_id","value":"1","model_name":"Tw_Auto_Tweet"}  
+[2020-03-20 21:05:43] local.DEBUG: Tw_Auto_Tweet  
+[2020-03-20 21:05:44] local.DEBUG: key name : id  
