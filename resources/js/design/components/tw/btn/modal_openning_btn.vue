@@ -9,7 +9,7 @@
     
     <p class="a-Btn--pink follow-btn api-stop2" 
       v-on:click="openModal_For_auto(account, 'follow', index, 'follow')"
-      v-bind:class="{ isHidden:  !(account.follow == 0) || (account.key_pattern_id == null || account.key_pattern_id == '')}"
+      v-bind:class="{ isHidden: (Object.keys(target_account_data).length == 0) || (!(account.follow == 0) || (account.key_pattern_id == null || account.key_pattern_id == ''))}"
     >
       <span>フォロー可能</span>
     </p> 
