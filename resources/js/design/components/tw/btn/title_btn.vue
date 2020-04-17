@@ -6,7 +6,9 @@
         <span v-if="req_token == undefined && req_token_secret == undefined" v-on:click="getRequestToken()">まずトークンを取得</span>
         <a v-if="req_token !== undefined && req_token_secret !== undefined" v-bind:href="url_auth_api+req_token">アカウント登録</a>
       </p>
-
+      <p class="u-mt-16 f-txt-4"
+      v-bind:class="{ isHidden: (Object.keys(target_account_data).length != 0)}"
+      >ターゲットアカウントを登録してください。</p>
 	</div>
 
   <div v-if="page_data === '/target_list'" class="l-main-app__btn">
