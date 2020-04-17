@@ -1,7 +1,7 @@
 # Auto Twitter
 Auto Twitter makes you able to follow, unfollow, tweet and make favarites to tweet on Twitter Automatically.
 
-## Functional
+## Function
 1. Auto Following
 2. Auto Unfollowing
 3. Auto Tweet
