@@ -1,5 +1,6 @@
 <template>
   <dt class="c-Btn-Wrapper">
+
     <p class="a-Btn--grey follow-btn api-stop1" 
       v-on:click="openModal_For_Key(account, 'follow_key', index, 'follow')"
       v-bind:class="{ isHidden: !(account.key_pattern_id == null || account.key_pattern_id == '')}"
@@ -15,31 +16,31 @@
     </p> 
     <p class="a-Btn--pink follow-btn api-doing" 
       v-on:click="openModal_For_auto(account, 'follow_stop', index, 'follow')"
-      v-bind:class="{ isHidden: !(account.follow == 1) || (account.key_pattern_id == null || account.key_pattern_id == '')}"
+      v-bind:class="{ isHidden: (Object.keys(target_account_data).length == 0) || !(account.follow == 1) || (account.key_pattern_id == null || account.key_pattern_id == '')}"
     >
     <span>フォロー中</span>
     </p>
 
     <p class="a-Btn--grey follow-btn api-restart" 
-      v-bind:class="{ isHidden: !(account.follow == 2) || (account.key_pattern_id == null || account.key_pattern_id == '') }"
+      v-bind:class="{ isHidden: (Object.keys(target_account_data).length == 0) || !(account.follow == 2) || (account.key_pattern_id == null || account.key_pattern_id == '') }"
     ><span>フォロー再開中</span>
     </p>
 
     <p class="a-Chip follow-btn api-delete" 
-      v-bind:class="{ isHidden: !(account.follow == 5)}"
+      v-bind:class="{ isHidden: (Object.keys(target_account_data).length == 0) || !(account.follow == 5)}"
     ><span>フォロー削除中</span>
     </p>
 
     <p class="a-Btn--pink follow-btn api-tmp_stop" 
       v-on:click="openModal_For_auto(account, 'follow_restart', index, 'follow')"
-      v-bind:class="{ isHidden: !(account.follow == 3) || (account.key_pattern_id == null || account.key_pattern_id == '')}"
+      v-bind:class="{ isHidden: (Object.keys(target_account_data).length == 0) || !(account.follow == 3) || (account.key_pattern_id == null || account.key_pattern_id == '')}"
     >
     <span v-bind:class="{ isHidden: !(account.follow == 3)}">フォロー 一時停止中</span>
     </p>
 
     <p class="a-Btn--pink follow-btn api-release" 
       v-on:click="openModal_For_auto(account, 'follow_release', index, 'follow')"
-      v-bind:class="{ isHidden: !(account.follow == 4) || (account.key_pattern_id == null || account.key_pattern_id == '')}"
+      v-bind:class="{ isHidden: (Object.keys(target_account_data).length == 0) ||  !(account.follow == 4) || (account.key_pattern_id == null || account.key_pattern_id == '')}"
     >
     <span v-bind:class="{ isHidden: !(account.follow == 4)}">フォロー 凍結中</span>
     </p>
