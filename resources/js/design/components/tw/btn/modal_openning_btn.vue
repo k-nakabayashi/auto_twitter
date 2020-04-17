@@ -3,7 +3,7 @@
 
     <p class="a-Btn--grey follow-btn api-stop1" 
       v-on:click="openModal_For_Key(account, 'follow_key', index, 'follow')"
-      v-bind:class="{ isHidden: !(account.key_pattern_id == null || account.key_pattern_id == '')}"
+      v-bind:class="{ isHidden: (Object.keys(target_account_data).length == 0) || !(account.key_pattern_id == null || account.key_pattern_id == '')}"
     >
     <span>フォロー</span>
     </p>
